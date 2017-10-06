@@ -1,0 +1,2267 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix g4data: <http://data.krw.d2s.labs.vu.nl/resource/> .
+@prefix g4vocab: <http://data.krw.d2s.labs.vu.nl/group4/vocab/> .
+@prefix ns1: <http://data.krw.d2s.labs.vu.nl/resource/example/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix prl: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix snmd: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:examplegraph {
+    g4data:set1_1 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Anacardiaceae ;
+        g4vocab:fidelityLevel "27.0"^^xsd:int ;
+        g4vocab:genusType dbr:Sorindeia ;
+        g4vocab:localName "Voasirindrina"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1334"^^xsd:string .
+
+    g4data:set1_10 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Cocos%20nucifera%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Arecaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Cocos ;
+        g4vocab:localName "Coco"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_100 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Solanum%20mauritianum%C2%A0Scop.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Solanaceae ;
+        g4vocab:fidelityLevel "40.0"^^xsd:int ;
+        g4vocab:genusType dbr:Solanum ;
+        g4vocab:localName "Bakobako"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush and press"@en ;
+        g4vocab:voucherNo "Schlieben 8097"^^xsd:string .
+
+    g4data:set1_101 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Ravenala%20madagascariensis%C2%A0Sonn.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Strelitziaceae ;
+        g4vocab:fidelityLevel "67.0"^^xsd:int ;
+        g4vocab:genusType dbr:Ravenala ;
+        g4vocab:localName "Fontsy"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Young leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "CR 5205"^^xsd:string .
+
+    g4data:set1_102 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Lantana%20camara%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Verbenaceae ;
+        g4vocab:fidelityLevel "7.0"^^xsd:int ;
+        g4vocab:genusType dbr:Lantana ;
+        g4vocab:localName "Radriaka"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "GES 1601"^^xsd:string .
+
+    g4data:set1_103 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Lantana%20camara%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Verbenaceae ;
+        g4vocab:fidelityLevel "21.0"^^xsd:int ;
+        g4vocab:genusType dbr:Lantana ;
+        g4vocab:localName "Radriaka"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_104 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Aframomum%20angustifolium%C2%A0%28Sonn.%29%20K.%20Schum.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Zingiberaceae ;
+        g4vocab:fidelityLevel "25.0"^^xsd:int ;
+        g4vocab:genusType dbr:Aframomum ;
+        g4vocab:localName "Lingoza"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Fruit"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "GES 1624"^^xsd:string .
+
+    g4data:set1_105 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Curcuma%20longa%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Zingiberaceae ;
+        g4vocab:fidelityLevel "40.0"^^xsd:int ;
+        g4vocab:genusType dbr:Curcuma ;
+        g4vocab:localName "Tamotamo"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Tuber"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "Geay 8277"^^xsd:string .
+
+    g4data:set1_106 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Zingiber%20zerumbet%C2%A0%28L.%29%20Roscoe%20ex%20Sm.> ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Zingiberaceae ;
+        g4vocab:fidelityLevel "40.0"^^xsd:int ;
+        g4vocab:genusType dbr:Zingiber ;
+        g4vocab:localName "Sakarivondambo"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Tuber"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 443"^^xsd:string .
+
+    g4data:set1_11 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Raphia%20farinifera%C2%A0%28Gaertn.%29%20Hyl.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Arecaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Raphia ;
+        g4vocab:localName "Rafia"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Fruit"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_12 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Cyanthillium%20cinereum%C2%A0%28L.%29%20H.%20Rob.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Cyanthillium ;
+        g4vocab:localName "Ramitsiry"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "AP 4968"^^xsd:string .
+
+    g4data:set1_13 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Elephantopus%20scaber%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "14.0"^^xsd:int ;
+        g4vocab:genusType dbr:Elephantopus ;
+        g4vocab:localName "Angadoha"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush and heat"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_14 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Elephantopus%20scaber%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "29.0"^^xsd:int ;
+        g4vocab:genusType dbr:Elephantopus ;
+        g4vocab:localName "Angadoha"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_15 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Emilia%20citrina%C2%A0DC.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "22.0"^^xsd:int ;
+        g4vocab:genusType dbr:Emilia ;
+        g4vocab:localName "Tsihontsihona"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 448"^^xsd:string .
+
+    g4data:set1_16 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Emilia%20citrina%C2%A0DC.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "22.0"^^xsd:int ;
+        g4vocab:genusType dbr:Emilia ;
+        g4vocab:localName "Tsihontsihona"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_17 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Helianthus%20annuus%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "38.0"^^xsd:int ;
+        g4vocab:genusType dbr:Helianthus ;
+        g4vocab:localName "Tanatanamasoandro"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Infusion, decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_18 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Helichrysum%20flagellare%C2%A0Baker> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "11.0"^^xsd:int ;
+        g4vocab:genusType dbr:Helichrysum ;
+        g4vocab:localName "Ahidroranga"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 548"^^xsd:string .
+
+    g4data:set1_19 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Psiadia%20altissima%C2%A0%28DC.%29%20Drake> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Asteraceae ;
+        g4vocab:fidelityLevel "8.0"^^xsd:int ;
+        g4vocab:genusType dbr:Psiadia ;
+        g4vocab:localName "Dingadingana"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "FRB 194"^^xsd:string .
+
+    g4data:set1_2 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Anacardiaceae ;
+        g4vocab:fidelityLevel "9.0"^^xsd:int ;
+        g4vocab:genusType dbr:Sorindeia ;
+        g4vocab:localName "Voasirindrina"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_20 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Canarium%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Burseraceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Canarium L.> ;
+        g4vocab:localName "Ramy"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RZA 1186"^^xsd:string .
+
+    g4data:set1_21 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Garcinia%20chapelieri%C2%A0%28Planch.%20%26%20Triana%29%20H.%20Perrier> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Clusiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Garcinia ;
+        g4vocab:localName "Takasina"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 473"^^xsd:string .
+
+    g4data:set1_22 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Symphonia%20fasciculata%C2%A0%28Noronha%20ex%20Thouars%29%20Vesque> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Clusiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Symphonia ;
+        g4vocab:localName "Kijy"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RAB 66"^^xsd:string .
+
+    g4data:set1_23 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Combretum%C2%A0Loefl.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Combretaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Combretum Loefl.> ;
+        g4vocab:localName "Vahinaletra"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1323"^^xsd:string .
+
+    g4data:set1_24 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Cnestis%20polyphylla%C2%A0Lam.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Connaraceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Cnestis ;
+        g4vocab:localName "Sefana"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Stem"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 511"^^xsd:string .
+
+    g4data:set1_25 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Crassulaceae ;
+        g4vocab:fidelityLevel "31.0"^^xsd:int ;
+        g4vocab:genusType dbr:Kalanchoe ;
+        g4vocab:localName "Sodifafana"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 512"^^xsd:string .
+
+    g4data:set1_26 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Crassulaceae ;
+        g4vocab:fidelityLevel "54.0"^^xsd:int ;
+        g4vocab:genusType dbr:Kalanchoe ;
+        g4vocab:localName "Sodifafana"^^xsd:string ;
+        g4vocab:numberCitations "7.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_27 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Momordica%20charantia%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Cucurbitaceae ;
+        g4vocab:fidelityLevel "67.0"^^xsd:int ;
+        g4vocab:genusType dbr:Momordica ;
+        g4vocab:localName "Margôzy"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RZK 3096"^^xsd:string .
+
+    g4data:set1_28 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Momordica%20charantia%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Cucurbitaceae ;
+        g4vocab:fidelityLevel "67.0"^^xsd:int ;
+        g4vocab:genusType dbr:Momordica ;
+        g4vocab:localName "Margôzy"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_29 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName g4data:Unidentified ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Cucurbitaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Unidentified ;
+        g4vocab:localName "Voatangolehy"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_3 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Annona%20muricata%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Annonaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Annona ;
+        g4vocab:localName "Voatsokina, goronoa"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "CR 4242"^^xsd:string .
+
+    g4data:set1_30 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Weinmannia%20bojeriana%C2%A0Tul.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Cunoniaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Weinmannia ;
+        g4vocab:localName "Sokia"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RZA 533"^^xsd:string .
+
+    g4data:set1_31 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Macaranga%20obovata%C2%A0Boivin%20ex%20Baill.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Euphorbiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Macaranga ;
+        g4vocab:localName "Mankaranana"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1051"^^xsd:string .
+
+    g4data:set1_32 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Manihot%20esculenta%C2%A0Crantz> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Euphorbiaceae ;
+        g4vocab:fidelityLevel "80.0"^^xsd:int ;
+        g4vocab:genusType dbr:Manihot ;
+        g4vocab:localName "Mangahazo"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_33 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Aeschynomene%20sensitiva%C2%A0Sw.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "83.0"^^xsd:int ;
+        g4vocab:genusType dbr:Aeschynomene ;
+        g4vocab:localName "Fanombo tintina"^^xsd:string ;
+        g4vocab:numberCitations "5.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 523"^^xsd:string .
+
+    g4data:set1_34 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Dalbergia%20monticola%C2%A0Bosser%20%26%20R.%20Rabev%3F.> ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Dalbergia ;
+        g4vocab:localName "Hitsika"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Wood-heart"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "Perrier 4830"^^xsd:string .
+
+    g4data:set1_35 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "60.0"^^xsd:int ;
+        g4vocab:genusType dbr:Desmodium ;
+        g4vocab:localName "Tsilavondrivotra"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and"@en ;
+        g4vocab:voucherNo "RKN 516"^^xsd:string .
+
+    g4data:set1_36 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "20.0"^^xsd:int ;
+        g4vocab:genusType dbr:Desmodium ;
+        g4vocab:localName "Tsilavondrivotra"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_37 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Entada%20gigas%C2%A0%28L.%29%20Fawc.%20%26%20Rendle> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "13.0"^^xsd:int ;
+        g4vocab:genusType dbr:Entada ;
+        g4vocab:localName "Vahinkarabo"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves, stem"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "13-Mar"^^xsd:string .
+
+    g4data:set1_38 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Senna%20alata%C2%A0%28L.%29%20Roxb.> ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Fabaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Senna ;
+        g4vocab:localName "4 épingles"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 490"^^xsd:string .
+
+    g4data:set1_39 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Exacum%20quinquenervium%C2%A0Griseb.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Gentianaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Exacum ;
+        g4vocab:localName "Mamoahely"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "ROR 842"^^xsd:string .
+
+    g4data:set1_4 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Aphloia%20theiformis%C2%A0%28Vahl%29%20Benn.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Aphloiaceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Aphloia ;
+        g4vocab:localName "Fandramanana"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1335"^^xsd:string .
+
+    g4data:set1_40 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Ornichia%20madagascariensis%C2%A0%28Baker%29%20Klack.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Gentianaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Ornichia ;
+        g4vocab:localName "Aferotaniala"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 496"^^xsd:string .
+
+    g4data:set1_41 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Sticherus%20flagellaris%C2%A0%28Bory%20ex%20Willd.%29%20Ching> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Gleicheniaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Sticherus ;
+        g4vocab:localName "Rangontohitra"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RZK 6632"^^xsd:string .
+
+    g4data:set1_42 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Harungana%20madagascariensis%C2%A0Lam.%20ex%20Poir.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Hypericaceae ;
+        g4vocab:fidelityLevel "27.0"^^xsd:int ;
+        g4vocab:genusType dbr:Harungana ;
+        g4vocab:localName "Harongana"^^xsd:string ;
+        g4vocab:numberCitations "6.0"^^xsd:int ;
+        g4vocab:plantParts "Bark, leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1325"^^xsd:string .
+
+    g4data:set1_43 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Plectranthus%20perrieri%C2%A0Hedge> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Lamiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Plectranthus ;
+        g4vocab:localName "Amparimaso"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo "Descoings 3703"^^xsd:string .
+
+    g4data:set1_44 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Lygodium%20lanceolatum%C2%A0Desv.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Lygodiaceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Lygodium ;
+        g4vocab:localName "Famalotrakanga"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 446"^^xsd:string .
+
+    g4data:set1_45 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Melastomataceae ;
+        g4vocab:fidelityLevel "22.0"^^xsd:int ;
+        g4vocab:genusType dbr:Clidemia ;
+        g4vocab:localName "Sompatra"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 513"^^xsd:string .
+
+    g4data:set1_46 g4vocab:administration "Inhalation, oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Melastomataceae ;
+        g4vocab:fidelityLevel "6.0"^^xsd:int ;
+        g4vocab:genusType dbr:Clidemia ;
+        g4vocab:localName "Sompatra"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_47 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Melastomataceae ;
+        g4vocab:fidelityLevel "6.0"^^xsd:int ;
+        g4vocab:genusType dbr:Clidemia ;
+        g4vocab:localName "Sompatra"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Roots"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_48 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Dichaetanthera%20oblongifolia%C2%A0Baker> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Melastomataceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Dichaetanthera ;
+        g4vocab:localName "Tsitrotroka"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1339"^^xsd:string .
+
+    g4data:set1_49 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Melia%20azedarach%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Meliaceae ;
+        g4vocab:fidelityLevel "11.0"^^xsd:int ;
+        g4vocab:genusType dbr:Melia ;
+        g4vocab:localName "Voandelaka"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 447"^^xsd:string .
+
+    g4data:set1_5 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Centella%20asiatica%C2%A0%28L.%29%20Urb.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Apiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Centella ;
+        g4vocab:localName "Talapetraka"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RNH 545"^^xsd:string .
+
+    g4data:set1_50 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Mollugo%20nudicaulis%C2%A0Lam.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Molluginaceae ;
+        g4vocab:fidelityLevel "66.0"^^xsd:int ;
+        g4vocab:genusType dbr:Mollugo ;
+        g4vocab:localName "Aferotany"^^xsd:string ;
+        g4vocab:numberCitations "19.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 485"^^xsd:string .
+
+    g4data:set1_51 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Mollugo%20nudicaulis%C2%A0Lam.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Molluginaceae ;
+        g4vocab:fidelityLevel "3.0"^^xsd:int ;
+        g4vocab:genusType dbr:Mollugo ;
+        g4vocab:localName "Aferotany"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Infusion"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_52 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Artocarpus%20heterophyllus%C2%A0Lam.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Moraceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Artocarpus ;
+        g4vocab:localName "Ampalibe"^^xsd:string ;
+        g4vocab:numberCitations "4.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush"@en ;
+        g4vocab:voucherNo "LRZ 1838"^^xsd:string .
+
+    g4data:set1_53 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Ficus%20polita%C2%A0Vahl> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Moraceae ;
+        g4vocab:fidelityLevel "7.0"^^xsd:int ;
+        g4vocab:genusType dbr:Ficus ;
+        g4vocab:localName "Mandresy"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 449"^^xsd:string .
+
+    g4data:set1_54 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Ficus%20reflexa%C2%A0Thunb.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Moraceae ;
+        g4vocab:fidelityLevel "25.0"^^xsd:int ;
+        g4vocab:genusType dbr:Ficus ;
+        g4vocab:localName "Nonoka madinika"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 455"^^xsd:string .
+
+    g4data:set1_55 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Streblus%20dimepate%C2%A0%28Bureau%29%20C.C.%20Berg> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Moraceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Streblus ;
+        g4vocab:localName "Manasavelona"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 552"^^xsd:string .
+
+    g4data:set1_56 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Musa%20paradisiaca%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Musaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Musa ;
+        g4vocab:localName "Akondro"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Fruit"^^xsd:string ;
+        g4vocab:preparation "Paste"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_57 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Musa%20paradisiaca%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Musaceae ;
+        g4vocab:fidelityLevel ""^^xsd:int ;
+        g4vocab:genusType dbr:Musa ;
+        g4vocab:localName "Akondro"^^xsd:string ;
+        g4vocab:numberCitations ""^^xsd:int ;
+        g4vocab:plantParts "Inflorescence"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_58 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Musa%20paradisiaca%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Musaceae ;
+        g4vocab:fidelityLevel ""^^xsd:int ;
+        g4vocab:genusType dbr:Musa ;
+        g4vocab:localName "Akondro"^^xsd:string ;
+        g4vocab:numberCitations ""^^xsd:int ;
+        g4vocab:plantParts "Resin"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_59 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Musa%20paradisiaca%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Musaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Musa ;
+        g4vocab:localName "Akondro"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Inflorescence"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_6 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Catharanthus%20roseus%C2%A0%28L.%29%20G.%20Don> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Apocynaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Catharanthus ;
+        g4vocab:localName "Arivotaombelona"^^xsd:string ;
+        g4vocab:numberCitations "7.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 503, 504"^^xsd:string .
+
+    g4data:set1_60 g4vocab:administration "Topical"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Mauloutchia%20humblotii%C2%A0%28H.%20Perrier%29%20Capuron> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Myristicaceae ;
+        g4vocab:fidelityLevel "20.0"^^xsd:int ;
+        g4vocab:genusType dbr:Mauloutchia ;
+        g4vocab:localName "Ilon-draharaha"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Seeds"^^xsd:string ;
+        g4vocab:preparation "Oil"@en ;
+        g4vocab:voucherNo "RA 972"^^xsd:string .
+
+    g4data:set1_61 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Eucalyptus camaldulensis> ;
+        g4vocab:localName "Kininina"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Young leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_62 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Eucalyptus camaldulensis> ;
+        g4vocab:localName "Kininina"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_63 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Psidium%20cattleyanum%C2%A0Sabine> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Psidium ;
+        g4vocab:localName "Gavo tsinahy"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "Gentry 11251"^^xsd:string .
+
+    g4data:set1_64 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Psidium%20guajava%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "35.0"^^xsd:int ;
+        g4vocab:genusType dbr:Psidium ;
+        g4vocab:localName "Gavo, gavombazaha, gavobe"^^xsd:string ;
+        g4vocab:numberCitations "6.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RCS 456"^^xsd:string .
+
+    g4data:set1_65 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Psidium%20guajava%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "6.0"^^xsd:int ;
+        g4vocab:genusType dbr:Psidium ;
+        g4vocab:localName "Gavo, gavombazaha, gavobe"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_66 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Syzygium%20malaccense%C2%A0%28L.%29%20Merr.%20%26%20L.M.%20Perry> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Myrtaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Syzygium ;
+        g4vocab:localName "Makoba"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Roots"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "D'Arcy 15233"^^xsd:string .
+
+    g4data:set1_67 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Aerangis%20hyaloides%C2%A0%28Rchb.%20f.%29%20Schltr.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Orchidaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Aerangis ;
+        g4vocab:localName "Tsiakondroakondro"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo "AP 7155"^^xsd:string .
+
+    g4data:set1_68 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Oxalis%20corniculata%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Oxalidaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Oxalis ;
+        g4vocab:localName "Takasintany"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "AP 5034"^^xsd:string .
+
+    g4data:set1_69 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Oxalis%20corniculata%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Oxalidaceae ;
+        g4vocab:fidelityLevel ""^^xsd:int ;
+        g4vocab:genusType dbr:Oxalis ;
+        g4vocab:localName "Takasintany"^^xsd:string ;
+        g4vocab:numberCitations ""^^xsd:int ;
+        g4vocab:plantParts "Whole plant"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_7 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Apocynaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Petchia ;
+        g4vocab:localName "Hintona"^^xsd:string ;
+        g4vocab:numberCitations "6.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 453"^^xsd:string .
+
+    g4data:set1_70 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Pandanus%C2%A0sp.%20Parkinson> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Pandanaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Pandanus sp.> ;
+        g4vocab:localName "Manasa ala"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_71 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Passiflora%20edulis%C2%A0Sims> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Passifloraceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Passiflora ;
+        g4vocab:localName "Garana madinika"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush and press"@en ;
+        g4vocab:voucherNo "RKN 456"^^xsd:string .
+
+    g4data:set1_72 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Phyllanthus%20nummulariifolius%C2%A0Poir.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Phyllanthaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Phyllanthus ;
+        g4vocab:localName "Mandrihariva"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 542"^^xsd:string .
+
+    g4data:set1_73 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Piper%20borbonense%C2%A0%28Miq.%29%20C.%20DC.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Piperaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Piper ;
+        g4vocab:localName "Tsimahalatsaka, voantsiperifery"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 941"^^xsd:string .
+
+    g4data:set1_74 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Pittosporum%20ochrosiifolium%C2%A0Bojer> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Pittosporaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Pittosporum ;
+        g4vocab:localName "Hazombary, maimbovitsika"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1322"^^xsd:string .
+
+    g4data:set1_75 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Oryza%20sativa%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Poaceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Oryza ;
+        g4vocab:localName "Vary"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Seeds"^^xsd:string ;
+        g4vocab:preparation "Cook and filter"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_76 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Zea%20mays%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Poaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Zea ;
+        g4vocab:localName "Tsakotsako"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Stem"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_77 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Maesa%20lanceolata%C2%A0Forssk.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Primulaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Maesa ;
+        g4vocab:localName "Radoka"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 500"^^xsd:string .
+
+    g4data:set1_78 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Pteris%C2%A0cf.%C2%A0cretica%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Pteridaceae ;
+        g4vocab:fidelityLevel "5.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Pteris cf. cretica L.> ;
+        g4vocab:localName "Ravimbolo"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 458"^^xsd:string .
+
+    g4data:set1_79 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName g4data:Unidentified ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Pteridophyta ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Unidentified ;
+        g4vocab:localName "Ahitrimpa"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_8 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Apocynaceae ;
+        g4vocab:fidelityLevel ""^^xsd:int ;
+        g4vocab:genusType dbr:Petchia ;
+        g4vocab:localName "Hintona"^^xsd:string ;
+        g4vocab:numberCitations ""^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Infusion"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_80 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Gouania%20tiliifolia%C2%A0Lam.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Rhamnaceae ;
+        g4vocab:fidelityLevel "6.0"^^xsd:int ;
+        g4vocab:genusType dbr:Gouania ;
+        g4vocab:localName "Ranovavanaomby"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush"@en ;
+        g4vocab:voucherNo "RKN 499"^^xsd:string .
+
+    g4data:set1_81 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Eriobotrya%20japonica%C2%A0%28Thunb.%29%20Lindl.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Rosaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Eriobotrya ;
+        g4vocab:localName "Pibasy"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "Croat 32156"^^xsd:string .
+
+    g4data:set1_82 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Rubus%20moluccanus%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Rosaceae ;
+        g4vocab:fidelityLevel "60.0"^^xsd:int ;
+        g4vocab:genusType dbr:Rubus ;
+        g4vocab:localName "Takoaka"^^xsd:string ;
+        g4vocab:numberCitations "6.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Crush, decoction"@en ;
+        g4vocab:voucherNo "REH 720"^^xsd:string .
+
+    g4data:set1_83 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Rubus%20moluccanus%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Rosaceae ;
+        g4vocab:fidelityLevel "10.0"^^xsd:int ;
+        g4vocab:genusType dbr:Rubus ;
+        g4vocab:localName "Takoaka"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_84 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Rubus%20rosifolius%C2%A0Sm.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Rosaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Rubus ;
+        g4vocab:localName "Voandroy"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "PPL 6592"^^xsd:string .
+
+    g4data:set1_85 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Breonia%20decaryana%C2%A0Homolle> ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Rubiaceae ;
+        g4vocab:fidelityLevel "20.0"^^xsd:int ;
+        g4vocab:genusType dbr:Breonia ;
+        g4vocab:localName "Molompangady"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Bark and leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RZA 158"^^xsd:string .
+
+    g4data:set1_86 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Danais%20terminalis%C2%A0Boivin%20ex%20Drake> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Rubiaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Danais ;
+        g4vocab:localName "Vahinofokorana"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Roots"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RKN 680"^^xsd:string .
+
+    g4data:set1_87 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Paederia%20thouarsiana%C2%A0Baill.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Rubiaceae ;
+        g4vocab:fidelityLevel "77.0"^^xsd:int ;
+        g4vocab:genusType dbr:Paederia ;
+        g4vocab:localName "Vahivola, vahimantsina"^^xsd:string ;
+        g4vocab:numberCitations "10.0"^^xsd:int ;
+        g4vocab:plantParts "Branch, leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1349"^^xsd:string .
+
+    g4data:set1_88 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20aurantium%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Citrus ;
+        g4vocab:localName "Voahangy ala"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Young leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "AP 5569"^^xsd:string .
+
+    g4data:set1_89 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Citrus ;
+        g4vocab:localName "Voahangitsoha"^^xsd:string ;
+        g4vocab:numberCitations "3.0"^^xsd:int ;
+        g4vocab:plantParts "Fruit"^^xsd:string ;
+        g4vocab:preparation "Juice"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_9 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Cocos%20nucifera%C2%A0L.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Arecaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Cocos ;
+        g4vocab:localName "Coco"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Infusion"@en ;
+        g4vocab:voucherNo "Gunn 643"^^xsd:string .
+
+    g4data:set1_90 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel ""^^xsd:int ;
+        g4vocab:genusType dbr:Citrus ;
+        g4vocab:localName "Voahangitsoha"^^xsd:string ;
+        g4vocab:numberCitations ""^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_91 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20reticulata%C2%A0Blanco> ;
+        g4vocab:diseaseTreated prl:DOID_1395 ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Citrus ;
+        g4vocab:localName "Mandarinina"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_92 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> ;
+        g4vocab:diseaseTreated prl:DOID_12365 ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Toddalia ;
+        g4vocab:localName "Anakasimba"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo "RA 1329"^^xsd:string .
+
+    g4data:set1_93 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Rutaceae ;
+        g4vocab:fidelityLevel "50.0"^^xsd:int ;
+        g4vocab:genusType dbr:Toddalia ;
+        g4vocab:localName "Anakasimba"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_94 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Sapindaceae ;
+        g4vocab:fidelityLevel "67.0"^^xsd:int ;
+        g4vocab:genusType dbr:Litchi ;
+        g4vocab:localName "Letisia"^^xsd:string ;
+        g4vocab:numberCitations "8.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_95 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        g4vocab:familyName dbr:Sapindaceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Litchi ;
+        g4vocab:localName "Letisia"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Bark"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_96 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Sapindaceae ;
+        g4vocab:fidelityLevel "17.0"^^xsd:int ;
+        g4vocab:genusType dbr:Litchi ;
+        g4vocab:localName "Letisia"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_97 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Schizolaena%C2%A0Thouars> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Sarcolaenaceae ;
+        g4vocab:fidelityLevel "67.0"^^xsd:int ;
+        g4vocab:genusType <http://dbpedia.org/resource/Schizolaena Thouars> ;
+        g4vocab:localName "Kikazana"^^xsd:string ;
+        g4vocab:numberCitations "2.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Decoction"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+
+    g4data:set1_98 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Capsicum%20annuum%C2%A0L.> ;
+        g4vocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        g4vocab:familyName dbr:Solanaceae ;
+        g4vocab:fidelityLevel "33.0"^^xsd:int ;
+        g4vocab:genusType dbr:Capsicum ;
+        g4vocab:localName "Pilopilo"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Fruit"^^xsd:string ;
+        g4vocab:preparation "Crush"@en ;
+        g4vocab:voucherNo "ALJ 1183"^^xsd:string .
+
+    g4data:set1_99 g4vocab:administration "Oral"@en ;
+        g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Lycopersicon%20esculentum%C2%A0Mill.> ;
+        g4vocab:diseaseTreated prl:DOID_13250 ;
+        g4vocab:familyName dbr:Solanaceae ;
+        g4vocab:fidelityLevel "100.0"^^xsd:int ;
+        g4vocab:genusType dbr:Lycopersicon ;
+        g4vocab:localName "Voatabia"^^xsd:string ;
+        g4vocab:numberCitations "1.0"^^xsd:int ;
+        g4vocab:plantParts "Leaves"^^xsd:string ;
+        g4vocab:preparation "Heat and press"@en ;
+        g4vocab:voucherNo ""^^xsd:string .
+}
+
+{
+    g4data:Aerangis a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Aerangis%20hyaloides%C2%A0%28Rchb.%20f.%29%20Schltr.> a g4vocab:binomialName ;
+        rdfs:label "Aerangis hyaloides (Rchb. f.) Schltr."^^xsd:string .
+
+    g4data:Aeschynomene a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Aeschynomene%20sensitiva%C2%A0Sw.> a g4vocab:binomialName ;
+        rdfs:label "Aeschynomene sensitiva Sw."^^xsd:string .
+
+    g4data:Aframomum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Aframomum%20angustifolium%C2%A0%28Sonn.%29%20K.%20Schum.> a g4vocab:binomialName ;
+        rdfs:label "Aframomum angustifolium (Sonn.) K. Schum."^^xsd:string .
+
+    g4data:Anacardiaceae a g4vocab:familyName .
+
+    g4data:Annona a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Annona%20muricata%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Annona muricata L."^^xsd:string .
+
+    g4data:Annonaceae a g4vocab:familyName .
+
+    g4data:Aphloia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Aphloia%20theiformis%C2%A0%28Vahl%29%20Benn.> a g4vocab:binomialName ;
+        rdfs:label "Aphloia theiformis (Vahl) Benn."^^xsd:string .
+
+    g4data:Aphloiaceae a g4vocab:familyName .
+
+    g4data:Apiaceae a g4vocab:familyName .
+
+    g4data:Apocynaceae a g4vocab:familyName .
+
+    g4data:Arecaceae a g4vocab:familyName .
+
+    g4data:Artocarpus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Artocarpus%20heterophyllus%C2%A0Lam.> a g4vocab:binomialName ;
+        rdfs:label "Artocarpus heterophyllus Lam."^^xsd:string .
+
+    g4data:Asteraceae a g4vocab:familyName .
+
+    g4data:Breonia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Breonia%20decaryana%C2%A0Homolle> a g4vocab:binomialName ;
+        rdfs:label "Breonia decaryana Homolle"^^xsd:string .
+
+    g4data:Burseraceae a g4vocab:familyName .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Canarium%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Canarium L."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Canarium L.> a g4vocab:genusType .
+
+    g4data:Capsicum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Capsicum%20annuum%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Capsicum annuum L."^^xsd:string .
+
+    g4data:Catharanthus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Catharanthus%20roseus%C2%A0%28L.%29%20G.%20Don> a g4vocab:binomialName ;
+        rdfs:label "Catharanthus roseus (L.) G. Don"^^xsd:string .
+
+    g4data:Centella a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Centella%20asiatica%C2%A0%28L.%29%20Urb.> a g4vocab:binomialName ;
+        rdfs:label "Centella asiatica (L.) Urb."^^xsd:string .
+
+    g4data:Citrus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20aurantium%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Citrus aurantium L."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> a g4vocab:binomialName ;
+        rdfs:label "Citrus limon (L.) Burm. f."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Citrus%20reticulata%C2%A0Blanco> a g4vocab:binomialName ;
+        rdfs:label "Citrus reticulata Blanco"^^xsd:string .
+
+    g4data:Clidemia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> a g4vocab:binomialName ;
+        rdfs:label "Clidemia hirta (L.) D. Don"^^xsd:string .
+
+    g4data:Clusiaceae a g4vocab:familyName .
+
+    g4data:Cnestis a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Cnestis%20polyphylla%C2%A0Lam.> a g4vocab:binomialName ;
+        rdfs:label "Cnestis polyphylla Lam."^^xsd:string .
+
+    g4data:Cocos a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Cocos%20nucifera%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Cocos nucifera L."^^xsd:string .
+
+    g4data:Combretaceae a g4vocab:familyName .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Combretum%C2%A0Loefl.> a g4vocab:binomialName ;
+        rdfs:label "Combretum Loefl."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Combretum Loefl.> a g4vocab:genusType .
+
+    g4data:Connaraceae a g4vocab:familyName .
+
+    g4data:Crassulaceae a g4vocab:familyName .
+
+    g4data:Cucurbitaceae a g4vocab:familyName .
+
+    g4data:Cunoniaceae a g4vocab:familyName .
+
+    g4data:Curcuma a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Curcuma%20longa%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Curcuma longa L."^^xsd:string .
+
+    g4data:Cyanthillium a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Cyanthillium%20cinereum%C2%A0%28L.%29%20H.%20Rob.> a g4vocab:binomialName ;
+        rdfs:label "Cyanthillium cinereum (L.) H. Rob."^^xsd:string .
+
+    g4data:Dalbergia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Dalbergia%20monticola%C2%A0Bosser%20%26%20R.%20Rabev%3F.> a g4vocab:binomialName ;
+        rdfs:label "Dalbergia monticola Bosser & R. Rabev?."^^xsd:string .
+
+    g4data:Danais a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Danais%20terminalis%C2%A0Boivin%20ex%20Drake> a g4vocab:binomialName ;
+        rdfs:label "Danais terminalis Boivin ex Drake"^^xsd:string .
+
+    g4data:Desmodium a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> a g4vocab:binomialName ;
+        rdfs:label "Desmodium ramosissimum G. Don"^^xsd:string .
+
+    g4data:Dichaetanthera a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Dichaetanthera%20oblongifolia%C2%A0Baker> a g4vocab:binomialName ;
+        rdfs:label "Dichaetanthera oblongifolia Baker"^^xsd:string .
+
+    g4data:Elephantopus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Elephantopus%20scaber%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Elephantopus scaber L."^^xsd:string .
+
+    g4data:Emilia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Emilia%20citrina%C2%A0DC.> a g4vocab:binomialName ;
+        rdfs:label "Emilia citrina DC."^^xsd:string .
+
+    g4data:Entada a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Entada%20gigas%C2%A0%28L.%29%20Fawc.%20%26%20Rendle> a g4vocab:binomialName ;
+        rdfs:label "Entada gigas (L.) Fawc. & Rendle"^^xsd:string .
+
+    g4data:Eriobotrya a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Eriobotrya%20japonica%C2%A0%28Thunb.%29%20Lindl.> a g4vocab:binomialName ;
+        rdfs:label "Eriobotrya japonica (Thunb.) Lindl."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> a g4vocab:binomialName ;
+        rdfs:label "Eucalyptus camaldulensis Dehnh."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Eucalyptus camaldulensis> a g4vocab:genusType .
+
+    g4data:Euphorbiaceae a g4vocab:familyName .
+
+    g4data:Exacum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Exacum%20quinquenervium%C2%A0Griseb.> a g4vocab:binomialName ;
+        rdfs:label "Exacum quinquenervium Griseb."^^xsd:string .
+
+    g4data:Fabaceae a g4vocab:familyName .
+
+    g4data:Ficus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Ficus%20polita%C2%A0Vahl> a g4vocab:binomialName ;
+        rdfs:label "Ficus polita Vahl"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Ficus%20reflexa%C2%A0Thunb.> a g4vocab:binomialName ;
+        rdfs:label "Ficus reflexa Thunb."^^xsd:string .
+
+    g4data:Garcinia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Garcinia%20chapelieri%C2%A0%28Planch.%20%26%20Triana%29%20H.%20Perrier> a g4vocab:binomialName ;
+        rdfs:label "Garcinia chapelieri (Planch. & Triana) H. Perrier"^^xsd:string .
+
+    g4data:Gentianaceae a g4vocab:familyName .
+
+    g4data:Gleicheniaceae a g4vocab:familyName .
+
+    g4data:Gouania a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Gouania%20tiliifolia%C2%A0Lam.> a g4vocab:binomialName ;
+        rdfs:label "Gouania tiliifolia Lam."^^xsd:string .
+
+    g4data:Harungana a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Harungana%20madagascariensis%C2%A0Lam.%20ex%20Poir.> a g4vocab:binomialName ;
+        rdfs:label "Harungana madagascariensis Lam. ex Poir."^^xsd:string .
+
+    g4data:Helianthus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Helianthus%20annuus%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Helianthus annuus L."^^xsd:string .
+
+    g4data:Helichrysum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Helichrysum%20flagellare%C2%A0Baker> a g4vocab:binomialName ;
+        rdfs:label "Helichrysum flagellare Baker"^^xsd:string .
+
+    g4data:Hypericaceae a g4vocab:familyName .
+
+    g4data:Kalanchoe a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> a g4vocab:binomialName ;
+        rdfs:label "Kalanchoe prolifera (Bowie ex Hook.) Raym.-Hamet"^^xsd:string .
+
+    g4data:Lamiaceae a g4vocab:familyName .
+
+    g4data:Lantana a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Lantana%20camara%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Lantana camara L."^^xsd:string .
+
+    g4data:Litchi a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Litchi%20chinensis%C2%A0Sonn.> a g4vocab:binomialName ;
+        rdfs:label "Litchi chinensis Sonn."^^xsd:string .
+
+    g4data:Lycopersicon a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Lycopersicon%20esculentum%C2%A0Mill.> a g4vocab:binomialName ;
+        rdfs:label "Lycopersicon esculentum Mill."^^xsd:string .
+
+    g4data:Lygodiaceae a g4vocab:familyName .
+
+    g4data:Lygodium a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Lygodium%20lanceolatum%C2%A0Desv.> a g4vocab:binomialName ;
+        rdfs:label "Lygodium lanceolatum Desv."^^xsd:string .
+
+    g4data:Macaranga a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Macaranga%20obovata%C2%A0Boivin%20ex%20Baill.> a g4vocab:binomialName ;
+        rdfs:label "Macaranga obovata Boivin ex Baill."^^xsd:string .
+
+    g4data:Maesa a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Maesa%20lanceolata%C2%A0Forssk.> a g4vocab:binomialName ;
+        rdfs:label "Maesa lanceolata Forssk."^^xsd:string .
+
+    g4data:Manihot a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Manihot%20esculenta%C2%A0Crantz> a g4vocab:binomialName ;
+        rdfs:label "Manihot esculenta Crantz"^^xsd:string .
+
+    g4data:Mauloutchia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Mauloutchia%20humblotii%C2%A0%28H.%20Perrier%29%20Capuron> a g4vocab:binomialName ;
+        rdfs:label "Mauloutchia humblotii (H. Perrier) Capuron"^^xsd:string .
+
+    g4data:Melastomataceae a g4vocab:familyName .
+
+    g4data:Melia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Melia%20azedarach%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Melia azedarach L."^^xsd:string .
+
+    g4data:Meliaceae a g4vocab:familyName .
+
+    g4data:Molluginaceae a g4vocab:familyName .
+
+    g4data:Mollugo a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Mollugo%20nudicaulis%C2%A0Lam.> a g4vocab:binomialName ;
+        rdfs:label "Mollugo nudicaulis Lam."^^xsd:string .
+
+    g4data:Momordica a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Momordica%20charantia%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Momordica charantia L."^^xsd:string .
+
+    g4data:Moraceae a g4vocab:familyName .
+
+    g4data:Musa a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Musa%20paradisiaca%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Musa paradisiaca L."^^xsd:string .
+
+    g4data:Musaceae a g4vocab:familyName .
+
+    g4data:Myristicaceae a g4vocab:familyName .
+
+    g4data:Myrtaceae a g4vocab:familyName .
+
+    g4data:Orchidaceae a g4vocab:familyName .
+
+    g4data:Ornichia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Ornichia%20madagascariensis%C2%A0%28Baker%29%20Klack.> a g4vocab:binomialName ;
+        rdfs:label "Ornichia madagascariensis (Baker) Klack."^^xsd:string .
+
+    g4data:Oryza a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Oryza%20sativa%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Oryza sativa L."^^xsd:string .
+
+    g4data:Oxalidaceae a g4vocab:familyName .
+
+    g4data:Oxalis a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Oxalis%20corniculata%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Oxalis corniculata L."^^xsd:string .
+
+    g4data:Paederia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Paederia%20thouarsiana%C2%A0Baill.> a g4vocab:binomialName ;
+        rdfs:label "Paederia thouarsiana Baill."^^xsd:string .
+
+    g4data:Pandanaceae a g4vocab:familyName .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Pandanus%C2%A0sp.%20Parkinson> a g4vocab:binomialName ;
+        rdfs:label "Pandanus sp. Parkinson"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Pandanus sp.> a g4vocab:genusType .
+
+    g4data:Passiflora a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Passiflora%20edulis%C2%A0Sims> a g4vocab:binomialName ;
+        rdfs:label "Passiflora edulis Sims"^^xsd:string .
+
+    g4data:Passifloraceae a g4vocab:familyName .
+
+    g4data:Petchia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> a g4vocab:binomialName ;
+        rdfs:label "Petchia erythrocarpa (Vatke) Leeuwenb."^^xsd:string .
+
+    g4data:Phyllanthaceae a g4vocab:familyName .
+
+    g4data:Phyllanthus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Phyllanthus%20nummulariifolius%C2%A0Poir.> a g4vocab:binomialName ;
+        rdfs:label "Phyllanthus nummulariifolius Poir."^^xsd:string .
+
+    g4data:Piper a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Piper%20borbonense%C2%A0%28Miq.%29%20C.%20DC.> a g4vocab:binomialName ;
+        rdfs:label "Piper borbonense (Miq.) C. DC."^^xsd:string .
+
+    g4data:Piperaceae a g4vocab:familyName .
+
+    g4data:Pittosporaceae a g4vocab:familyName .
+
+    g4data:Pittosporum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Pittosporum%20ochrosiifolium%C2%A0Bojer> a g4vocab:binomialName ;
+        rdfs:label "Pittosporum ochrosiifolium Bojer"^^xsd:string .
+
+    g4data:Plectranthus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Plectranthus%20perrieri%C2%A0Hedge> a g4vocab:binomialName ;
+        rdfs:label "Plectranthus perrieri Hedge"^^xsd:string .
+
+    g4data:Poaceae a g4vocab:familyName .
+
+    g4data:Primulaceae a g4vocab:familyName .
+
+    g4data:Psiadia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Psiadia%20altissima%C2%A0%28DC.%29%20Drake> a g4vocab:binomialName ;
+        rdfs:label "Psiadia altissima (DC.) Drake"^^xsd:string .
+
+    g4data:Psidium a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Psidium%20cattleyanum%C2%A0Sabine> a g4vocab:binomialName ;
+        rdfs:label "Psidium cattleyanum Sabine"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Psidium%20guajava%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Psidium guajava L."^^xsd:string .
+
+    g4data:Pteridaceae a g4vocab:familyName .
+
+    g4data:Pteridophyta a g4vocab:familyName .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Pteris%C2%A0cf.%C2%A0cretica%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Pteris cf. cretica L."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Pteris cf. cretica L.> a g4vocab:genusType .
+
+    g4data:Raphia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Raphia%20farinifera%C2%A0%28Gaertn.%29%20Hyl.> a g4vocab:binomialName ;
+        rdfs:label "Raphia farinifera (Gaertn.) Hyl."^^xsd:string .
+
+    g4data:Ravenala a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Ravenala%20madagascariensis%C2%A0Sonn.> a g4vocab:binomialName ;
+        rdfs:label "Ravenala madagascariensis Sonn."^^xsd:string .
+
+    g4data:Rhamnaceae a g4vocab:familyName .
+
+    g4data:Rosaceae a g4vocab:familyName .
+
+    g4data:Rubiaceae a g4vocab:familyName .
+
+    g4data:Rubus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Rubus%20moluccanus%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Rubus moluccanus L."^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Rubus%20rosifolius%C2%A0Sm.> a g4vocab:binomialName ;
+        rdfs:label "Rubus rosifolius Sm."^^xsd:string .
+
+    g4data:Rutaceae a g4vocab:familyName .
+
+    g4data:Sapindaceae a g4vocab:familyName .
+
+    g4data:Sarcolaenaceae a g4vocab:familyName .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Schizolaena%C2%A0Thouars> a g4vocab:binomialName ;
+        rdfs:label "Schizolaena Thouars"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Schizolaena Thouars> a g4vocab:genusType .
+
+    g4data:Senna a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Senna%20alata%C2%A0%28L.%29%20Roxb.> a g4vocab:binomialName ;
+        rdfs:label "Senna alata (L.) Roxb."^^xsd:string .
+
+    g4data:Solanaceae a g4vocab:familyName .
+
+    g4data:Solanum a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Solanum%20mauritianum%C2%A0Scop.> a g4vocab:binomialName ;
+        rdfs:label "Solanum mauritianum Scop."^^xsd:string .
+
+    g4data:Sorindeia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Sorindeia%20madagascariensis%C2%A0DC.> a g4vocab:binomialName ;
+        rdfs:label "Sorindeia madagascariensis DC."^^xsd:string .
+
+    g4data:Sticherus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Sticherus%20flagellaris%C2%A0%28Bory%20ex%20Willd.%29%20Ching> a g4vocab:binomialName ;
+        rdfs:label "Sticherus flagellaris (Bory ex Willd.) Ching"^^xsd:string .
+
+    g4data:Streblus a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Streblus%20dimepate%C2%A0%28Bureau%29%20C.C.%20Berg> a g4vocab:binomialName ;
+        rdfs:label "Streblus dimepate (Bureau) C.C. Berg"^^xsd:string .
+
+    g4data:Strelitziaceae a g4vocab:familyName .
+
+    g4data:Symphonia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Symphonia%20fasciculata%C2%A0%28Noronha%20ex%20Thouars%29%20Vesque> a g4vocab:binomialName ;
+        rdfs:label "Symphonia fasciculata (Noronha ex Thouars) Vesque"^^xsd:string .
+
+    g4data:Syzygium a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Syzygium%20malaccense%C2%A0%28L.%29%20Merr.%20%26%20L.M.%20Perry> a g4vocab:binomialName ;
+        rdfs:label "Syzygium malaccense (L.) Merr. & L.M. Perry"^^xsd:string .
+
+    g4data:Toddalia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> a g4vocab:binomialName ;
+        rdfs:label "Toddalia asiatica (L.) Lam."^^xsd:string .
+
+    g4data:Unidentified a g4vocab:binomialName,
+            g4vocab:genusType ;
+        rdfs:label "Unidentified"^^xsd:string .
+
+    g4data:Verbenaceae a g4vocab:familyName .
+
+    g4data:Weinmannia a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Weinmannia%20bojeriana%C2%A0Tul.> a g4vocab:binomialName ;
+        rdfs:label "Weinmannia bojeriana Tul."^^xsd:string .
+
+    g4data:Zea a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Zea%20mays%C2%A0L.> a g4vocab:binomialName ;
+        rdfs:label "Zea mays L."^^xsd:string .
+
+    g4data:Zingiber a g4vocab:genusType .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Zingiber%20zerumbet%C2%A0%28L.%29%20Roscoe%20ex%20Sm.> a g4vocab:binomialName ;
+        rdfs:label "Zingiber zerumbet (L.) Roscoe ex Sm."^^xsd:string .
+
+    g4data:Zingiberaceae a g4vocab:familyName .
+
+    g4data:set1_1 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_1"^^xsd:string .
+
+    g4data:set1_10 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_10"^^xsd:string .
+
+    g4data:set1_100 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_100"^^xsd:string .
+
+    g4data:set1_101 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_101"^^xsd:string .
+
+    g4data:set1_102 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_102"^^xsd:string .
+
+    g4data:set1_103 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_103"^^xsd:string .
+
+    g4data:set1_104 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_104"^^xsd:string .
+
+    g4data:set1_105 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_105"^^xsd:string .
+
+    g4data:set1_106 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_106"^^xsd:string .
+
+    g4data:set1_11 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_11"^^xsd:string .
+
+    g4data:set1_12 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_12"^^xsd:string .
+
+    g4data:set1_13 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_13"^^xsd:string .
+
+    g4data:set1_14 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_14"^^xsd:string .
+
+    g4data:set1_15 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_15"^^xsd:string .
+
+    g4data:set1_16 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_16"^^xsd:string .
+
+    g4data:set1_17 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_17"^^xsd:string .
+
+    g4data:set1_18 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_18"^^xsd:string .
+
+    g4data:set1_19 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_19"^^xsd:string .
+
+    g4data:set1_2 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_2"^^xsd:string .
+
+    g4data:set1_20 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_20"^^xsd:string .
+
+    g4data:set1_21 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_21"^^xsd:string .
+
+    g4data:set1_22 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_22"^^xsd:string .
+
+    g4data:set1_23 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_23"^^xsd:string .
+
+    g4data:set1_24 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_24"^^xsd:string .
+
+    g4data:set1_25 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_25"^^xsd:string .
+
+    g4data:set1_26 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_26"^^xsd:string .
+
+    g4data:set1_27 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_27"^^xsd:string .
+
+    g4data:set1_28 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_28"^^xsd:string .
+
+    g4data:set1_29 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_29"^^xsd:string .
+
+    g4data:set1_3 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_3"^^xsd:string .
+
+    g4data:set1_30 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_30"^^xsd:string .
+
+    g4data:set1_31 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_31"^^xsd:string .
+
+    g4data:set1_32 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_32"^^xsd:string .
+
+    g4data:set1_33 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_33"^^xsd:string .
+
+    g4data:set1_34 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_34"^^xsd:string .
+
+    g4data:set1_35 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_35"^^xsd:string .
+
+    g4data:set1_36 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_36"^^xsd:string .
+
+    g4data:set1_37 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_37"^^xsd:string .
+
+    g4data:set1_38 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_38"^^xsd:string .
+
+    g4data:set1_39 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_39"^^xsd:string .
+
+    g4data:set1_4 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_4"^^xsd:string .
+
+    g4data:set1_40 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_40"^^xsd:string .
+
+    g4data:set1_41 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_41"^^xsd:string .
+
+    g4data:set1_42 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_42"^^xsd:string .
+
+    g4data:set1_43 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_43"^^xsd:string .
+
+    g4data:set1_44 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_44"^^xsd:string .
+
+    g4data:set1_45 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_45"^^xsd:string .
+
+    g4data:set1_46 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_46"^^xsd:string .
+
+    g4data:set1_47 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_47"^^xsd:string .
+
+    g4data:set1_48 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_48"^^xsd:string .
+
+    g4data:set1_49 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_49"^^xsd:string .
+
+    g4data:set1_5 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_5"^^xsd:string .
+
+    g4data:set1_50 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_50"^^xsd:string .
+
+    g4data:set1_51 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_51"^^xsd:string .
+
+    g4data:set1_52 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_52"^^xsd:string .
+
+    g4data:set1_53 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_53"^^xsd:string .
+
+    g4data:set1_54 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_54"^^xsd:string .
+
+    g4data:set1_55 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_55"^^xsd:string .
+
+    g4data:set1_56 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_56"^^xsd:string .
+
+    g4data:set1_57 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_57"^^xsd:string .
+
+    g4data:set1_58 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_58"^^xsd:string .
+
+    g4data:set1_59 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_59"^^xsd:string .
+
+    g4data:set1_6 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_6"^^xsd:string .
+
+    g4data:set1_60 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_60"^^xsd:string .
+
+    g4data:set1_61 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_61"^^xsd:string .
+
+    g4data:set1_62 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_62"^^xsd:string .
+
+    g4data:set1_63 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_63"^^xsd:string .
+
+    g4data:set1_64 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_64"^^xsd:string .
+
+    g4data:set1_65 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_65"^^xsd:string .
+
+    g4data:set1_66 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_66"^^xsd:string .
+
+    g4data:set1_67 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_67"^^xsd:string .
+
+    g4data:set1_68 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_68"^^xsd:string .
+
+    g4data:set1_69 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_69"^^xsd:string .
+
+    g4data:set1_7 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_7"^^xsd:string .
+
+    g4data:set1_70 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_70"^^xsd:string .
+
+    g4data:set1_71 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_71"^^xsd:string .
+
+    g4data:set1_72 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_72"^^xsd:string .
+
+    g4data:set1_73 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_73"^^xsd:string .
+
+    g4data:set1_74 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_74"^^xsd:string .
+
+    g4data:set1_75 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_75"^^xsd:string .
+
+    g4data:set1_76 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_76"^^xsd:string .
+
+    g4data:set1_77 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_77"^^xsd:string .
+
+    g4data:set1_78 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_78"^^xsd:string .
+
+    g4data:set1_79 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_79"^^xsd:string .
+
+    g4data:set1_8 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_8"^^xsd:string .
+
+    g4data:set1_80 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_80"^^xsd:string .
+
+    g4data:set1_81 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_81"^^xsd:string .
+
+    g4data:set1_82 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_82"^^xsd:string .
+
+    g4data:set1_83 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_83"^^xsd:string .
+
+    g4data:set1_84 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_84"^^xsd:string .
+
+    g4data:set1_85 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_85"^^xsd:string .
+
+    g4data:set1_86 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_86"^^xsd:string .
+
+    g4data:set1_87 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_87"^^xsd:string .
+
+    g4data:set1_88 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_88"^^xsd:string .
+
+    g4data:set1_89 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_89"^^xsd:string .
+
+    g4data:set1_9 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_9"^^xsd:string .
+
+    g4data:set1_90 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_90"^^xsd:string .
+
+    g4data:set1_91 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_91"^^xsd:string .
+
+    g4data:set1_92 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_92"^^xsd:string .
+
+    g4data:set1_93 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_93"^^xsd:string .
+
+    g4data:set1_94 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_94"^^xsd:string .
+
+    g4data:set1_95 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_95"^^xsd:string .
+
+    g4data:set1_96 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_96"^^xsd:string .
+
+    g4data:set1_97 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_97"^^xsd:string .
+
+    g4data:set1_98 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_98"^^xsd:string .
+
+    g4data:set1_99 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set1_99"^^xsd:string .
+
+    dbr:Aerangis rdfs:label "Aerangis"^^xsd:string .
+
+    dbr:Aeschynomene rdfs:label "Aeschynomene"^^xsd:string .
+
+    dbr:Aframomum rdfs:label "Aframomum"^^xsd:string .
+
+    dbr:Anacardiaceae rdfs:label "Anacardiaceae"^^xsd:string .
+
+    dbr:Annona rdfs:label "Annona"^^xsd:string .
+
+    dbr:Annonaceae rdfs:label "Annonaceae"^^xsd:string .
+
+    dbr:Aphloia rdfs:label "Aphloia"^^xsd:string .
+
+    dbr:Aphloiaceae rdfs:label "Aphloiaceae"^^xsd:string .
+
+    dbr:Apiaceae rdfs:label "Apiaceae"^^xsd:string .
+
+    dbr:Apocynaceae rdfs:label "Apocynaceae"^^xsd:string .
+
+    dbr:Arecaceae rdfs:label "Arecaceae"^^xsd:string .
+
+    dbr:Artocarpus rdfs:label "Artocarpus"^^xsd:string .
+
+    dbr:Asteraceae rdfs:label "Asteraceae"^^xsd:string .
+
+    dbr:Breonia rdfs:label "Breonia"^^xsd:string .
+
+    dbr:Burseraceae rdfs:label "Burseraceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Canarium L.> rdfs:label "Canarium L."^^xsd:string .
+
+    dbr:Capsicum rdfs:label "Capsicum"^^xsd:string .
+
+    dbr:Catharanthus rdfs:label "Catharanthus"^^xsd:string .
+
+    dbr:Centella rdfs:label "Centella"^^xsd:string .
+
+    dbr:Citrus rdfs:label "Citrus"^^xsd:string .
+
+    dbr:Clidemia rdfs:label "Clidemia"^^xsd:string .
+
+    dbr:Clusiaceae rdfs:label "Clusiaceae"^^xsd:string .
+
+    dbr:Cnestis rdfs:label "Cnestis"^^xsd:string .
+
+    dbr:Cocos rdfs:label "Cocos"^^xsd:string .
+
+    dbr:Combretaceae rdfs:label "Combretaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Combretum Loefl.> rdfs:label "Combretum Loefl."^^xsd:string .
+
+    dbr:Connaraceae rdfs:label "Connaraceae"^^xsd:string .
+
+    dbr:Crassulaceae rdfs:label "Crassulaceae"^^xsd:string .
+
+    dbr:Cucurbitaceae rdfs:label "Cucurbitaceae"^^xsd:string .
+
+    dbr:Cunoniaceae rdfs:label "Cunoniaceae"^^xsd:string .
+
+    dbr:Curcuma rdfs:label "Curcuma"^^xsd:string .
+
+    dbr:Cyanthillium rdfs:label "Cyanthillium"^^xsd:string .
+
+    dbr:Dalbergia rdfs:label "Dalbergia"^^xsd:string .
+
+    dbr:Danais rdfs:label "Danais"^^xsd:string .
+
+    dbr:Desmodium rdfs:label "Desmodium"^^xsd:string .
+
+    dbr:Dichaetanthera rdfs:label "Dichaetanthera"^^xsd:string .
+
+    dbr:Elephantopus rdfs:label "Elephantopus"^^xsd:string .
+
+    dbr:Emilia rdfs:label "Emilia"^^xsd:string .
+
+    dbr:Entada rdfs:label "Entada"^^xsd:string .
+
+    dbr:Eriobotrya rdfs:label "Eriobotrya"^^xsd:string .
+
+    <http://dbpedia.org/resource/Eucalyptus camaldulensis> rdfs:label "Eucalyptus camaldulensis"^^xsd:string .
+
+    dbr:Euphorbiaceae rdfs:label "Euphorbiaceae"^^xsd:string .
+
+    dbr:Exacum rdfs:label "Exacum"^^xsd:string .
+
+    dbr:Fabaceae rdfs:label "Fabaceae"^^xsd:string .
+
+    dbr:Ficus rdfs:label "Ficus"^^xsd:string .
+
+    dbr:Garcinia rdfs:label "Garcinia"^^xsd:string .
+
+    dbr:Gentianaceae rdfs:label "Gentianaceae"^^xsd:string .
+
+    dbr:Gleicheniaceae rdfs:label "Gleicheniaceae"^^xsd:string .
+
+    dbr:Gouania rdfs:label "Gouania"^^xsd:string .
+
+    dbr:Harungana rdfs:label "Harungana"^^xsd:string .
+
+    dbr:Helianthus rdfs:label "Helianthus"^^xsd:string .
+
+    dbr:Helichrysum rdfs:label "Helichrysum"^^xsd:string .
+
+    dbr:Hypericaceae rdfs:label "Hypericaceae"^^xsd:string .
+
+    dbr:Kalanchoe rdfs:label "Kalanchoe"^^xsd:string .
+
+    dbr:Lamiaceae rdfs:label "Lamiaceae"^^xsd:string .
+
+    dbr:Lantana rdfs:label "Lantana"^^xsd:string .
+
+    dbr:Litchi rdfs:label "Litchi"^^xsd:string .
+
+    dbr:Lycopersicon rdfs:label "Lycopersicon"^^xsd:string .
+
+    dbr:Lygodiaceae rdfs:label "Lygodiaceae"^^xsd:string .
+
+    dbr:Lygodium rdfs:label "Lygodium"^^xsd:string .
+
+    dbr:Macaranga rdfs:label "Macaranga"^^xsd:string .
+
+    dbr:Maesa rdfs:label "Maesa"^^xsd:string .
+
+    dbr:Manihot rdfs:label "Manihot"^^xsd:string .
+
+    dbr:Mauloutchia rdfs:label "Mauloutchia"^^xsd:string .
+
+    dbr:Melastomataceae rdfs:label "Melastomataceae"^^xsd:string .
+
+    dbr:Melia rdfs:label "Melia"^^xsd:string .
+
+    dbr:Meliaceae rdfs:label "Meliaceae"^^xsd:string .
+
+    dbr:Molluginaceae rdfs:label "Molluginaceae"^^xsd:string .
+
+    dbr:Mollugo rdfs:label "Mollugo"^^xsd:string .
+
+    dbr:Momordica rdfs:label "Momordica"^^xsd:string .
+
+    dbr:Moraceae rdfs:label "Moraceae"^^xsd:string .
+
+    dbr:Musa rdfs:label "Musa"^^xsd:string .
+
+    dbr:Musaceae rdfs:label "Musaceae"^^xsd:string .
+
+    dbr:Myristicaceae rdfs:label "Myristicaceae"^^xsd:string .
+
+    dbr:Myrtaceae rdfs:label "Myrtaceae"^^xsd:string .
+
+    dbr:Orchidaceae rdfs:label "Orchidaceae"^^xsd:string .
+
+    dbr:Ornichia rdfs:label "Ornichia"^^xsd:string .
+
+    dbr:Oryza rdfs:label "Oryza"^^xsd:string .
+
+    dbr:Oxalidaceae rdfs:label "Oxalidaceae"^^xsd:string .
+
+    dbr:Oxalis rdfs:label "Oxalis"^^xsd:string .
+
+    dbr:Paederia rdfs:label "Paederia"^^xsd:string .
+
+    dbr:Pandanaceae rdfs:label "Pandanaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Pandanus sp.> rdfs:label "Pandanus sp."^^xsd:string .
+
+    dbr:Passiflora rdfs:label "Passiflora"^^xsd:string .
+
+    dbr:Passifloraceae rdfs:label "Passifloraceae"^^xsd:string .
+
+    dbr:Petchia rdfs:label "Petchia"^^xsd:string .
+
+    dbr:Phyllanthaceae rdfs:label "Phyllanthaceae"^^xsd:string .
+
+    dbr:Phyllanthus rdfs:label "Phyllanthus"^^xsd:string .
+
+    dbr:Piper rdfs:label "Piper"^^xsd:string .
+
+    dbr:Piperaceae rdfs:label "Piperaceae"^^xsd:string .
+
+    dbr:Pittosporaceae rdfs:label "Pittosporaceae"^^xsd:string .
+
+    dbr:Pittosporum rdfs:label "Pittosporum"^^xsd:string .
+
+    dbr:Plectranthus rdfs:label "Plectranthus"^^xsd:string .
+
+    dbr:Poaceae rdfs:label "Poaceae"^^xsd:string .
+
+    dbr:Primulaceae rdfs:label "Primulaceae"^^xsd:string .
+
+    dbr:Psiadia rdfs:label "Psiadia"^^xsd:string .
+
+    dbr:Psidium rdfs:label "Psidium"^^xsd:string .
+
+    dbr:Pteridaceae rdfs:label "Pteridaceae"^^xsd:string .
+
+    dbr:Pteridophyta rdfs:label "Pteridophyta"^^xsd:string .
+
+    <http://dbpedia.org/resource/Pteris cf. cretica L.> rdfs:label "Pteris cf. cretica L."^^xsd:string .
+
+    dbr:Raphia rdfs:label "Raphia"^^xsd:string .
+
+    dbr:Ravenala rdfs:label "Ravenala"^^xsd:string .
+
+    dbr:Rhamnaceae rdfs:label "Rhamnaceae"^^xsd:string .
+
+    dbr:Rosaceae rdfs:label "Rosaceae"^^xsd:string .
+
+    dbr:Rubiaceae rdfs:label "Rubiaceae"^^xsd:string .
+
+    dbr:Rubus rdfs:label "Rubus"^^xsd:string .
+
+    dbr:Rutaceae rdfs:label "Rutaceae"^^xsd:string .
+
+    dbr:Sapindaceae rdfs:label "Sapindaceae"^^xsd:string .
+
+    dbr:Sarcolaenaceae rdfs:label "Sarcolaenaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Schizolaena Thouars> rdfs:label "Schizolaena Thouars"^^xsd:string .
+
+    dbr:Senna rdfs:label "Senna"^^xsd:string .
+
+    dbr:Solanaceae rdfs:label "Solanaceae"^^xsd:string .
+
+    dbr:Solanum rdfs:label "Solanum"^^xsd:string .
+
+    dbr:Sorindeia rdfs:label "Sorindeia"^^xsd:string .
+
+    dbr:Sticherus rdfs:label "Sticherus"^^xsd:string .
+
+    dbr:Streblus rdfs:label "Streblus"^^xsd:string .
+
+    dbr:Strelitziaceae rdfs:label "Strelitziaceae"^^xsd:string .
+
+    dbr:Symphonia rdfs:label "Symphonia"^^xsd:string .
+
+    dbr:Syzygium rdfs:label "Syzygium"^^xsd:string .
+
+    dbr:Toddalia rdfs:label "Toddalia"^^xsd:string .
+
+    dbr:Unidentified rdfs:label "Unidentified"^^xsd:string .
+
+    dbr:Verbenaceae rdfs:label "Verbenaceae"^^xsd:string .
+
+    dbr:Weinmannia rdfs:label "Weinmannia"^^xsd:string .
+
+    dbr:Zea rdfs:label "Zea"^^xsd:string .
+
+    dbr:Zingiber rdfs:label "Zingiber"^^xsd:string .
+
+    dbr:Zingiberaceae rdfs:label "Zingiberaceae"^^xsd:string .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> a g4vocab:diseaseTreated ;
+        rdfs:label "Dysentery [Disease/Finding]"@en .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> a g4vocab:diseaseTreated ;
+        rdfs:label "Stomach ache"@en .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> a g4vocab:diseaseTreated ;
+        rdfs:label "Cough"@en .
+
+    prl:DOID_12365 a g4vocab:diseaseTreated ;
+        rdfs:label "Malaria Pathway"@en .
+
+    prl:DOID_13250 a g4vocab:diseaseTreated ;
+        rdfs:label "Diarrhea"@en .
+
+    prl:DOID_1395 a g4vocab:diseaseTreated ;
+        rdfs:label "Schistosomiasis"@en .
+}
+
