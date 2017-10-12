@@ -191,7 +191,7 @@ ns1:set3_senegal {
             atmData:Antidouleur,
             atmData:Bechique,
             atmData:Laxatif,
-            <http://data.krw.d2s.labs.vu.nl/resource/Sterilitã©>,
+            <http://semanticweb.cs.vu.nl/linkedatm/resource/Sterilitã©>,
             atmData:Tranquilisant ;
         atmVocab:nomBinomial atmData:Hymenocardia_acida ;
         atmVocab:nomGenre dbr:Hymenocardia ;
@@ -854,7 +854,7 @@ ns1:set3_senegal {
         atmVocab:nomWolof ""^^xsd:string ;
         atmVocab:partieUtilisee "Branchette"@fr .
 
-    atmData:set3_164 atmVocab:indication <http://data.krw.d2s.labs.vu.nl/resource/Antilã©Preux>,
+    atmData:set3_164 atmVocab:indication <http://semanticweb.cs.vu.nl/linkedatm/resource/Antilã©Preux>,
             atmData:Emetique ;
         atmVocab:nomBinomial atmData:Raphia_sudanica ;
         atmVocab:nomGenre dbr:Raphia ;
@@ -1095,7 +1095,7 @@ ns1:set3_senegal {
             atmData:Atonie,
             atmData:Cardiopathies,
             atmData:Insomnie,
-            <http://data.krw.d2s.labs.vu.nl/resource/Nervositã©>,
+            <http://semanticweb.cs.vu.nl/linkedatm/resource/Nervositã©>,
             atmData:Reconstituant,
             atmData:Regulateur_D_Etension ;
         atmVocab:nomBinomial atmData:Tribulus_terrestris ;
@@ -1607,7 +1607,7 @@ ns1:set3_senegal {
             atmData:Febrifuge,
             atmData:Topique,
             atmData:Vermifuge ;
-        atmVocab:nomBinomial <http://data.krw.d2s.labs.vu.nl/resource/Capsicum_sp.> ;
+        atmVocab:nomBinomial <http://semanticweb.cs.vu.nl/linkedatm/resource/Capsicum_sp.> ;
         atmVocab:nomGenre dbr:Capsicum ;
         atmVocab:nomPeul "Kani"^^xsd:string ;
         atmVocab:nomWolof "Kani"^^xsd:string ;
@@ -1869,7 +1869,7 @@ ns1:set3_senegal {
             atmData:Reconstituant,
             atmData:Stimulant,
             atmData:Vermifuge ;
-        atmVocab:nomBinomial <http://data.krw.d2s.labs.vu.nl/resource/Citrus_sp.> ;
+        atmVocab:nomBinomial <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus_sp.> ;
         atmVocab:nomGenre dbr:Citrus ;
         atmVocab:nomPeul "Limon"^^xsd:string ;
         atmVocab:nomWolof "Limon"^^xsd:string ;
@@ -2608,7 +2608,7 @@ ns1:set3_senegal {
     atmData:Antilepreux a atmVocab:indication ;
         rdfs:label "Antilepreux"@fr .
 
-    <http://data.krw.d2s.labs.vu.nl/resource/Antilã©Preux> a atmVocab:indication ;
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Antilã©Preux> a atmVocab:indication ;
         rdfs:label "Antilã©Preux"@fr .
 
     atmData:Antimeningite a atmVocab:indication ;
@@ -2791,7 +2791,7 @@ ns1:set3_senegal {
     atmData:Capparis_tomentosa a atmVocab:nomBinomial ;
         rdfs:label "Capparis tomentosa"^^xsd:string .
 
-    <http://data.krw.d2s.labs.vu.nl/resource/Capsicum_sp.> a atmVocab:nomBinomial ;
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Capsicum_sp.> a atmVocab:nomBinomial ;
         rdfs:label "Capsicum sp."^^xsd:string .
 
     atmData:Carapa_procera a atmVocab:nomBinomial ;
@@ -2881,7 +2881,7 @@ ns1:set3_senegal {
     atmData:Cissus_quadrangularis a atmVocab:nomBinomial ;
         rdfs:label "Cissus quadrangularis"^^xsd:string .
 
-    <http://data.krw.d2s.labs.vu.nl/resource/Citrus_sp.> a atmVocab:nomBinomial ;
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus_sp.> a atmVocab:nomBinomial ;
         rdfs:label "Citrus sp."^^xsd:string .
 
     atmData:Cleome_gynandra a atmVocab:nomBinomial ;
@@ -3346,7 +3346,7 @@ ns1:set3_senegal {
     atmData:Neocarya_macrophylla a atmVocab:nomBinomial ;
         rdfs:label "Neocarya macrophylla"^^xsd:string .
 
-    <http://data.krw.d2s.labs.vu.nl/resource/Nervositã©> a atmVocab:indication ;
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Nervositã©> a atmVocab:indication ;
         rdfs:label "Nervositã©"@fr .
 
     atmData:Neuropathie a atmVocab:indication ;
@@ -3553,7 +3553,7 @@ ns1:set3_senegal {
     atmData:Sterilite a atmVocab:indication ;
         rdfs:label "Sterilite"@fr .
 
-    <http://data.krw.d2s.labs.vu.nl/resource/Sterilitã©> a atmVocab:indication ;
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Sterilitã©> a atmVocab:indication ;
         rdfs:label "Sterilitã©"@fr .
 
     atmData:Stimulant a atmVocab:indication ;
@@ -3754,401 +3754,401 @@ ns1:set3_senegal {
     atmData:_Restaure_La_Flore_Gastrique a atmVocab:indication ;
         rdfs:label " Restaure La Flore Gastrique"@fr .
 
-    atmData:set3_1 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_1"^^xsd:string .
+    atmData:set3_1 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_1"^^xsd:string .
 
-    atmData:set3_10 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_10"^^xsd:string .
+    atmData:set3_10 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_10"^^xsd:string .
 
-    atmData:set3_100 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_100"^^xsd:string .
+    atmData:set3_100 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_100"^^xsd:string .
 
-    atmData:set3_101 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_101"^^xsd:string .
+    atmData:set3_101 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_101"^^xsd:string .
 
-    atmData:set3_102 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_102"^^xsd:string .
+    atmData:set3_102 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_102"^^xsd:string .
 
-    atmData:set3_103 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_103"^^xsd:string .
+    atmData:set3_103 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_103"^^xsd:string .
 
-    atmData:set3_104 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_104"^^xsd:string .
+    atmData:set3_104 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_104"^^xsd:string .
 
-    atmData:set3_105 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_105"^^xsd:string .
+    atmData:set3_105 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_105"^^xsd:string .
 
-    atmData:set3_106 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_106"^^xsd:string .
+    atmData:set3_106 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_106"^^xsd:string .
 
-    atmData:set3_107 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_107"^^xsd:string .
+    atmData:set3_107 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_107"^^xsd:string .
 
-    atmData:set3_108 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_108"^^xsd:string .
+    atmData:set3_108 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_108"^^xsd:string .
 
-    atmData:set3_109 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_109"^^xsd:string .
+    atmData:set3_109 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_109"^^xsd:string .
 
-    atmData:set3_11 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_11"^^xsd:string .
+    atmData:set3_11 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_11"^^xsd:string .
 
-    atmData:set3_110 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_110"^^xsd:string .
+    atmData:set3_110 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_110"^^xsd:string .
 
-    atmData:set3_111 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_111"^^xsd:string .
+    atmData:set3_111 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_111"^^xsd:string .
 
-    atmData:set3_112 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_112"^^xsd:string .
+    atmData:set3_112 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_112"^^xsd:string .
 
-    atmData:set3_113 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_113"^^xsd:string .
+    atmData:set3_113 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_113"^^xsd:string .
 
-    atmData:set3_114 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_114"^^xsd:string .
+    atmData:set3_114 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_114"^^xsd:string .
 
-    atmData:set3_115 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_115"^^xsd:string .
+    atmData:set3_115 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_115"^^xsd:string .
 
-    atmData:set3_116 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_116"^^xsd:string .
+    atmData:set3_116 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_116"^^xsd:string .
 
-    atmData:set3_117 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_117"^^xsd:string .
+    atmData:set3_117 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_117"^^xsd:string .
 
-    atmData:set3_118 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_118"^^xsd:string .
+    atmData:set3_118 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_118"^^xsd:string .
 
-    atmData:set3_119 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_119"^^xsd:string .
+    atmData:set3_119 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_119"^^xsd:string .
 
-    atmData:set3_12 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_12"^^xsd:string .
+    atmData:set3_12 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_12"^^xsd:string .
 
-    atmData:set3_120 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_120"^^xsd:string .
+    atmData:set3_120 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_120"^^xsd:string .
 
-    atmData:set3_121 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_121"^^xsd:string .
+    atmData:set3_121 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_121"^^xsd:string .
 
-    atmData:set3_122 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_122"^^xsd:string .
+    atmData:set3_122 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_122"^^xsd:string .
 
-    atmData:set3_123 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_123"^^xsd:string .
+    atmData:set3_123 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_123"^^xsd:string .
 
-    atmData:set3_124 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_124"^^xsd:string .
+    atmData:set3_124 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_124"^^xsd:string .
 
-    atmData:set3_125 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_125"^^xsd:string .
+    atmData:set3_125 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_125"^^xsd:string .
 
-    atmData:set3_126 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_126"^^xsd:string .
+    atmData:set3_126 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_126"^^xsd:string .
 
-    atmData:set3_127 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_127"^^xsd:string .
+    atmData:set3_127 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_127"^^xsd:string .
 
-    atmData:set3_128 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_128"^^xsd:string .
+    atmData:set3_128 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_128"^^xsd:string .
 
-    atmData:set3_129 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_129"^^xsd:string .
+    atmData:set3_129 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_129"^^xsd:string .
 
-    atmData:set3_13 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_13"^^xsd:string .
+    atmData:set3_13 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_13"^^xsd:string .
 
-    atmData:set3_130 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_130"^^xsd:string .
+    atmData:set3_130 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_130"^^xsd:string .
 
-    atmData:set3_131 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_131"^^xsd:string .
+    atmData:set3_131 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_131"^^xsd:string .
 
-    atmData:set3_132 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_132"^^xsd:string .
+    atmData:set3_132 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_132"^^xsd:string .
 
-    atmData:set3_133 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_133"^^xsd:string .
+    atmData:set3_133 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_133"^^xsd:string .
 
-    atmData:set3_134 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_134"^^xsd:string .
+    atmData:set3_134 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_134"^^xsd:string .
 
-    atmData:set3_135 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_135"^^xsd:string .
+    atmData:set3_135 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_135"^^xsd:string .
 
-    atmData:set3_136 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_136"^^xsd:string .
+    atmData:set3_136 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_136"^^xsd:string .
 
-    atmData:set3_137 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_137"^^xsd:string .
+    atmData:set3_137 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_137"^^xsd:string .
 
-    atmData:set3_138 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_138"^^xsd:string .
+    atmData:set3_138 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_138"^^xsd:string .
 
-    atmData:set3_139 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_139"^^xsd:string .
+    atmData:set3_139 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_139"^^xsd:string .
 
-    atmData:set3_14 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_14"^^xsd:string .
+    atmData:set3_14 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_14"^^xsd:string .
 
-    atmData:set3_140 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_140"^^xsd:string .
+    atmData:set3_140 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_140"^^xsd:string .
 
-    atmData:set3_141 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_141"^^xsd:string .
+    atmData:set3_141 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_141"^^xsd:string .
 
-    atmData:set3_142 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_142"^^xsd:string .
+    atmData:set3_142 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_142"^^xsd:string .
 
-    atmData:set3_143 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_143"^^xsd:string .
+    atmData:set3_143 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_143"^^xsd:string .
 
-    atmData:set3_144 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_144"^^xsd:string .
+    atmData:set3_144 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_144"^^xsd:string .
 
-    atmData:set3_145 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_145"^^xsd:string .
+    atmData:set3_145 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_145"^^xsd:string .
 
-    atmData:set3_146 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_146"^^xsd:string .
+    atmData:set3_146 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_146"^^xsd:string .
 
-    atmData:set3_147 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_147"^^xsd:string .
+    atmData:set3_147 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_147"^^xsd:string .
 
-    atmData:set3_148 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_148"^^xsd:string .
+    atmData:set3_148 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_148"^^xsd:string .
 
-    atmData:set3_149 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_149"^^xsd:string .
+    atmData:set3_149 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_149"^^xsd:string .
 
-    atmData:set3_15 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_15"^^xsd:string .
+    atmData:set3_15 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_15"^^xsd:string .
 
-    atmData:set3_150 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_150"^^xsd:string .
+    atmData:set3_150 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_150"^^xsd:string .
 
-    atmData:set3_151 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_151"^^xsd:string .
+    atmData:set3_151 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_151"^^xsd:string .
 
-    atmData:set3_152 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_152"^^xsd:string .
+    atmData:set3_152 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_152"^^xsd:string .
 
-    atmData:set3_153 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_153"^^xsd:string .
+    atmData:set3_153 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_153"^^xsd:string .
 
-    atmData:set3_154 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_154"^^xsd:string .
+    atmData:set3_154 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_154"^^xsd:string .
 
-    atmData:set3_155 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_155"^^xsd:string .
+    atmData:set3_155 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_155"^^xsd:string .
 
-    atmData:set3_156 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_156"^^xsd:string .
+    atmData:set3_156 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_156"^^xsd:string .
 
-    atmData:set3_157 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_157"^^xsd:string .
+    atmData:set3_157 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_157"^^xsd:string .
 
-    atmData:set3_158 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_158"^^xsd:string .
+    atmData:set3_158 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_158"^^xsd:string .
 
-    atmData:set3_159 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_159"^^xsd:string .
+    atmData:set3_159 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_159"^^xsd:string .
 
-    atmData:set3_16 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_16"^^xsd:string .
+    atmData:set3_16 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_16"^^xsd:string .
 
-    atmData:set3_160 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_160"^^xsd:string .
+    atmData:set3_160 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_160"^^xsd:string .
 
-    atmData:set3_161 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_161"^^xsd:string .
+    atmData:set3_161 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_161"^^xsd:string .
 
-    atmData:set3_162 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_162"^^xsd:string .
+    atmData:set3_162 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_162"^^xsd:string .
 
-    atmData:set3_163 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_163"^^xsd:string .
+    atmData:set3_163 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_163"^^xsd:string .
 
-    atmData:set3_164 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_164"^^xsd:string .
+    atmData:set3_164 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_164"^^xsd:string .
 
-    atmData:set3_165 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_165"^^xsd:string .
+    atmData:set3_165 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_165"^^xsd:string .
 
-    atmData:set3_166 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_166"^^xsd:string .
+    atmData:set3_166 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_166"^^xsd:string .
 
-    atmData:set3_167 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_167"^^xsd:string .
+    atmData:set3_167 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_167"^^xsd:string .
 
-    atmData:set3_168 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_168"^^xsd:string .
+    atmData:set3_168 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_168"^^xsd:string .
 
-    atmData:set3_169 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_169"^^xsd:string .
+    atmData:set3_169 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_169"^^xsd:string .
 
-    atmData:set3_17 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_17"^^xsd:string .
+    atmData:set3_17 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_17"^^xsd:string .
 
-    atmData:set3_170 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_170"^^xsd:string .
+    atmData:set3_170 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_170"^^xsd:string .
 
-    atmData:set3_171 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_171"^^xsd:string .
+    atmData:set3_171 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_171"^^xsd:string .
 
-    atmData:set3_172 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_172"^^xsd:string .
+    atmData:set3_172 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_172"^^xsd:string .
 
-    atmData:set3_173 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_173"^^xsd:string .
+    atmData:set3_173 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_173"^^xsd:string .
 
-    atmData:set3_174 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_174"^^xsd:string .
+    atmData:set3_174 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_174"^^xsd:string .
 
-    atmData:set3_175 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_175"^^xsd:string .
+    atmData:set3_175 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_175"^^xsd:string .
 
-    atmData:set3_176 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_176"^^xsd:string .
+    atmData:set3_176 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_176"^^xsd:string .
 
-    atmData:set3_177 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_177"^^xsd:string .
+    atmData:set3_177 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_177"^^xsd:string .
 
-    atmData:set3_178 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_178"^^xsd:string .
+    atmData:set3_178 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_178"^^xsd:string .
 
-    atmData:set3_179 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_179"^^xsd:string .
+    atmData:set3_179 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_179"^^xsd:string .
 
-    atmData:set3_18 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_18"^^xsd:string .
+    atmData:set3_18 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_18"^^xsd:string .
 
-    atmData:set3_180 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_180"^^xsd:string .
+    atmData:set3_180 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_180"^^xsd:string .
 
-    atmData:set3_181 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_181"^^xsd:string .
+    atmData:set3_181 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_181"^^xsd:string .
 
-    atmData:set3_182 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_182"^^xsd:string .
+    atmData:set3_182 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_182"^^xsd:string .
 
-    atmData:set3_183 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_183"^^xsd:string .
+    atmData:set3_183 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_183"^^xsd:string .
 
-    atmData:set3_184 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_184"^^xsd:string .
+    atmData:set3_184 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_184"^^xsd:string .
 
-    atmData:set3_185 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_185"^^xsd:string .
+    atmData:set3_185 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_185"^^xsd:string .
 
-    atmData:set3_186 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_186"^^xsd:string .
+    atmData:set3_186 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_186"^^xsd:string .
 
-    atmData:set3_187 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_187"^^xsd:string .
+    atmData:set3_187 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_187"^^xsd:string .
 
-    atmData:set3_188 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_188"^^xsd:string .
+    atmData:set3_188 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_188"^^xsd:string .
 
-    atmData:set3_189 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_189"^^xsd:string .
+    atmData:set3_189 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_189"^^xsd:string .
 
-    atmData:set3_19 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_19"^^xsd:string .
+    atmData:set3_19 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_19"^^xsd:string .
 
-    atmData:set3_190 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_190"^^xsd:string .
+    atmData:set3_190 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_190"^^xsd:string .
 
-    atmData:set3_191 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_191"^^xsd:string .
+    atmData:set3_191 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_191"^^xsd:string .
 
-    atmData:set3_192 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_192"^^xsd:string .
+    atmData:set3_192 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_192"^^xsd:string .
 
-    atmData:set3_193 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_193"^^xsd:string .
+    atmData:set3_193 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_193"^^xsd:string .
 
-    atmData:set3_194 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_194"^^xsd:string .
+    atmData:set3_194 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_194"^^xsd:string .
 
-    atmData:set3_195 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_195"^^xsd:string .
+    atmData:set3_195 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_195"^^xsd:string .
 
-    atmData:set3_196 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_196"^^xsd:string .
+    atmData:set3_196 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_196"^^xsd:string .
 
-    atmData:set3_197 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_197"^^xsd:string .
+    atmData:set3_197 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_197"^^xsd:string .
 
-    atmData:set3_198 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_198"^^xsd:string .
+    atmData:set3_198 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_198"^^xsd:string .
 
-    atmData:set3_2 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_2"^^xsd:string .
+    atmData:set3_2 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_2"^^xsd:string .
 
-    atmData:set3_20 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_20"^^xsd:string .
+    atmData:set3_20 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_20"^^xsd:string .
 
-    atmData:set3_21 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_21"^^xsd:string .
+    atmData:set3_21 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_21"^^xsd:string .
 
-    atmData:set3_22 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_22"^^xsd:string .
+    atmData:set3_22 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_22"^^xsd:string .
 
-    atmData:set3_23 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_23"^^xsd:string .
+    atmData:set3_23 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_23"^^xsd:string .
 
-    atmData:set3_24 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_24"^^xsd:string .
+    atmData:set3_24 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_24"^^xsd:string .
 
-    atmData:set3_25 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_25"^^xsd:string .
+    atmData:set3_25 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_25"^^xsd:string .
 
-    atmData:set3_26 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_26"^^xsd:string .
+    atmData:set3_26 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_26"^^xsd:string .
 
-    atmData:set3_27 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_27"^^xsd:string .
+    atmData:set3_27 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_27"^^xsd:string .
 
-    atmData:set3_28 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_28"^^xsd:string .
+    atmData:set3_28 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_28"^^xsd:string .
 
-    atmData:set3_29 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_29"^^xsd:string .
+    atmData:set3_29 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_29"^^xsd:string .
 
-    atmData:set3_3 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_3"^^xsd:string .
+    atmData:set3_3 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_3"^^xsd:string .
 
-    atmData:set3_30 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_30"^^xsd:string .
+    atmData:set3_30 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_30"^^xsd:string .
 
-    atmData:set3_31 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_31"^^xsd:string .
+    atmData:set3_31 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_31"^^xsd:string .
 
-    atmData:set3_32 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_32"^^xsd:string .
+    atmData:set3_32 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_32"^^xsd:string .
 
-    atmData:set3_33 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_33"^^xsd:string .
+    atmData:set3_33 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_33"^^xsd:string .
 
-    atmData:set3_34 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_34"^^xsd:string .
+    atmData:set3_34 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_34"^^xsd:string .
 
-    atmData:set3_35 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_35"^^xsd:string .
+    atmData:set3_35 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_35"^^xsd:string .
 
-    atmData:set3_36 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_36"^^xsd:string .
+    atmData:set3_36 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_36"^^xsd:string .
 
-    atmData:set3_37 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_37"^^xsd:string .
+    atmData:set3_37 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_37"^^xsd:string .
 
-    atmData:set3_38 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_38"^^xsd:string .
+    atmData:set3_38 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_38"^^xsd:string .
 
-    atmData:set3_39 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_39"^^xsd:string .
+    atmData:set3_39 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_39"^^xsd:string .
 
-    atmData:set3_4 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_4"^^xsd:string .
+    atmData:set3_4 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_4"^^xsd:string .
 
-    atmData:set3_40 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_40"^^xsd:string .
+    atmData:set3_40 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_40"^^xsd:string .
 
-    atmData:set3_41 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_41"^^xsd:string .
+    atmData:set3_41 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_41"^^xsd:string .
 
-    atmData:set3_42 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_42"^^xsd:string .
+    atmData:set3_42 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_42"^^xsd:string .
 
-    atmData:set3_43 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_43"^^xsd:string .
+    atmData:set3_43 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_43"^^xsd:string .
 
-    atmData:set3_44 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_44"^^xsd:string .
+    atmData:set3_44 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_44"^^xsd:string .
 
-    atmData:set3_45 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_45"^^xsd:string .
+    atmData:set3_45 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_45"^^xsd:string .
 
-    atmData:set3_46 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_46"^^xsd:string .
+    atmData:set3_46 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_46"^^xsd:string .
 
-    atmData:set3_47 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_47"^^xsd:string .
+    atmData:set3_47 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_47"^^xsd:string .
 
-    atmData:set3_48 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_48"^^xsd:string .
+    atmData:set3_48 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_48"^^xsd:string .
 
-    atmData:set3_49 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_49"^^xsd:string .
+    atmData:set3_49 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_49"^^xsd:string .
 
-    atmData:set3_5 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_5"^^xsd:string .
+    atmData:set3_5 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_5"^^xsd:string .
 
-    atmData:set3_50 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_50"^^xsd:string .
+    atmData:set3_50 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_50"^^xsd:string .
 
-    atmData:set3_51 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_51"^^xsd:string .
+    atmData:set3_51 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_51"^^xsd:string .
 
-    atmData:set3_52 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_52"^^xsd:string .
+    atmData:set3_52 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_52"^^xsd:string .
 
-    atmData:set3_53 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_53"^^xsd:string .
+    atmData:set3_53 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_53"^^xsd:string .
 
-    atmData:set3_54 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_54"^^xsd:string .
+    atmData:set3_54 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_54"^^xsd:string .
 
-    atmData:set3_55 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_55"^^xsd:string .
+    atmData:set3_55 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_55"^^xsd:string .
 
-    atmData:set3_56 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_56"^^xsd:string .
+    atmData:set3_56 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_56"^^xsd:string .
 
-    atmData:set3_57 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_57"^^xsd:string .
+    atmData:set3_57 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_57"^^xsd:string .
 
-    atmData:set3_58 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_58"^^xsd:string .
+    atmData:set3_58 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_58"^^xsd:string .
 
-    atmData:set3_59 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_59"^^xsd:string .
+    atmData:set3_59 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_59"^^xsd:string .
 
-    atmData:set3_6 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_6"^^xsd:string .
+    atmData:set3_6 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_6"^^xsd:string .
 
-    atmData:set3_60 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_60"^^xsd:string .
+    atmData:set3_60 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_60"^^xsd:string .
 
-    atmData:set3_61 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_61"^^xsd:string .
+    atmData:set3_61 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_61"^^xsd:string .
 
-    atmData:set3_62 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_62"^^xsd:string .
+    atmData:set3_62 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_62"^^xsd:string .
 
-    atmData:set3_63 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_63"^^xsd:string .
+    atmData:set3_63 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_63"^^xsd:string .
 
-    atmData:set3_64 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_64"^^xsd:string .
+    atmData:set3_64 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_64"^^xsd:string .
 
-    atmData:set3_65 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_65"^^xsd:string .
+    atmData:set3_65 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_65"^^xsd:string .
 
-    atmData:set3_66 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_66"^^xsd:string .
+    atmData:set3_66 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_66"^^xsd:string .
 
-    atmData:set3_67 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_67"^^xsd:string .
+    atmData:set3_67 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_67"^^xsd:string .
 
-    atmData:set3_68 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_68"^^xsd:string .
+    atmData:set3_68 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_68"^^xsd:string .
 
-    atmData:set3_69 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_69"^^xsd:string .
+    atmData:set3_69 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_69"^^xsd:string .
 
-    atmData:set3_7 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_7"^^xsd:string .
+    atmData:set3_7 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_7"^^xsd:string .
 
-    atmData:set3_70 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_70"^^xsd:string .
+    atmData:set3_70 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_70"^^xsd:string .
 
-    atmData:set3_71 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_71"^^xsd:string .
+    atmData:set3_71 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_71"^^xsd:string .
 
-    atmData:set3_72 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_72"^^xsd:string .
+    atmData:set3_72 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_72"^^xsd:string .
 
-    atmData:set3_73 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_73"^^xsd:string .
+    atmData:set3_73 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_73"^^xsd:string .
 
-    atmData:set3_74 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_74"^^xsd:string .
+    atmData:set3_74 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_74"^^xsd:string .
 
-    atmData:set3_75 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_75"^^xsd:string .
+    atmData:set3_75 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_75"^^xsd:string .
 
-    atmData:set3_76 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_76"^^xsd:string .
+    atmData:set3_76 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_76"^^xsd:string .
 
-    atmData:set3_77 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_77"^^xsd:string .
+    atmData:set3_77 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_77"^^xsd:string .
 
-    atmData:set3_78 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_78"^^xsd:string .
+    atmData:set3_78 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_78"^^xsd:string .
 
-    atmData:set3_79 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_79"^^xsd:string .
+    atmData:set3_79 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_79"^^xsd:string .
 
-    atmData:set3_8 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_8"^^xsd:string .
+    atmData:set3_8 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_8"^^xsd:string .
 
-    atmData:set3_80 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_80"^^xsd:string .
+    atmData:set3_80 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_80"^^xsd:string .
 
-    atmData:set3_81 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_81"^^xsd:string .
+    atmData:set3_81 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_81"^^xsd:string .
 
-    atmData:set3_82 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_82"^^xsd:string .
+    atmData:set3_82 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_82"^^xsd:string .
 
-    atmData:set3_83 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_83"^^xsd:string .
+    atmData:set3_83 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_83"^^xsd:string .
 
-    atmData:set3_84 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_84"^^xsd:string .
+    atmData:set3_84 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_84"^^xsd:string .
 
-    atmData:set3_85 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_85"^^xsd:string .
+    atmData:set3_85 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_85"^^xsd:string .
 
-    atmData:set3_86 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_86"^^xsd:string .
+    atmData:set3_86 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_86"^^xsd:string .
 
-    atmData:set3_87 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_87"^^xsd:string .
+    atmData:set3_87 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_87"^^xsd:string .
 
-    atmData:set3_88 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_88"^^xsd:string .
+    atmData:set3_88 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_88"^^xsd:string .
 
-    atmData:set3_89 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_89"^^xsd:string .
+    atmData:set3_89 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_89"^^xsd:string .
 
-    atmData:set3_9 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_9"^^xsd:string .
+    atmData:set3_9 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_9"^^xsd:string .
 
-    atmData:set3_90 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_90"^^xsd:string .
+    atmData:set3_90 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_90"^^xsd:string .
 
-    atmData:set3_91 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_91"^^xsd:string .
+    atmData:set3_91 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_91"^^xsd:string .
 
-    atmData:set3_92 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_92"^^xsd:string .
+    atmData:set3_92 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_92"^^xsd:string .
 
-    atmData:set3_93 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_93"^^xsd:string .
+    atmData:set3_93 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_93"^^xsd:string .
 
-    atmData:set3_94 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_94"^^xsd:string .
+    atmData:set3_94 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_94"^^xsd:string .
 
-    atmData:set3_95 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_95"^^xsd:string .
+    atmData:set3_95 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_95"^^xsd:string .
 
-    atmData:set3_96 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_96"^^xsd:string .
+    atmData:set3_96 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_96"^^xsd:string .
 
-    atmData:set3_97 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_97"^^xsd:string .
+    atmData:set3_97 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_97"^^xsd:string .
 
-    atmData:set3_98 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_98"^^xsd:string .
+    atmData:set3_98 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_98"^^xsd:string .
 
-    atmData:set3_99 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_99"^^xsd:string .
+    atmData:set3_99 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set3_99"^^xsd:string .
 
     dbr:Abrus a atmVocab:nomGenre ;
         rdfs:label "Abrus"^^xsd:string .
