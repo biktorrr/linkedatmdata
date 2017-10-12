@@ -1,0 +1,129 @@
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  lav: <http://semanticweb.cs.vu.nl/linkedatm/vocab/> .
+
+
+lav:indication
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "indication" ;
+	rdfs:range rdfs:Resource .
+
+lav:nomBinomial
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "binonial name" ;
+	rdfs:range rdfs:Resource .
+
+lav:nomGenre
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "nomGenre" ;
+	rdfs:range rdfs:Resource .
+
+lav:nomPeul
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "nomPeul" ;
+	rdfs:range xsd:string .
+
+lav:nomWolof
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "nomWolof" ;
+	rdfs:range xsd:string .
+
+lav:partieUtilisee
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "partieUtilisee" ;
+	rdfs:range rdfs:Literal .
+
+lav:ailment
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "ailment" ;
+	rdfs:range rdfs:Resource .
+	
+lav:categoryAilment
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "catergory of ailment" ;
+	rdfs:range rdfs:Literal .
+	
+lav:preparationAdministration
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "preparation administration" .	
+	
+lav:useValue	
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "use value" .
+	
+lav:administration
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "administration" ;
+	rdfs:range rdfs:Literal .
+
+lav:binomialName
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "Binomial Name" ;
+	rdfs:range rdfs:Resource .
+
+lav:diseaseTreated
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "diseaseTreated" ;
+	rdfs:range rdfs:Resource .
+
+lav:familyName
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "familyName" ;
+	rdfs:range rdfs:Resource .
+
+lav:fidelityLevel
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "fidelityLevel" ;
+	rdfs:range xsd:int .
+
+lav:genusType
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "genusType" ;
+	rdfs:range rdfs:Resource .
+
+lav:localName
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "localName" ;
+	rdfs:range xsd:string .
+
+lav:numberCitations
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "numberCitations" ;
+	rdfs:range xsd:int .
+
+lav:plantParts
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "plantParts" ;
+	rdfs:range xsd:string .
+
+lav:preparation
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "preparation" ;
+	rdfs:range rdfs:Literal .
+
+lav:voucherNo
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "voucherNo" ;
+	rdfs:range xsd:string .
