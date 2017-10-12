@@ -1,7 +1,7 @@
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix atmData: <http://semanticweb.cs.vu.nl/linkedatm/resource/> .
 @prefix atmVocab: <http://semanticweb.cs.vu.nl/linkedatm/vocab/> .
-@prefix ns1: <http://semanticweb.cs.vu.nl/linkedatm/resource/example/> .
+@prefix ns1: <http://semanticweb.cs.vu.nl/linkedatm/resource/graph/> .
 @prefix ns2: <urn:x-rdflib:> .
 @prefix prl: <http://purl.obolibrary.org/obo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,7 +10,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:examplegraph {
+ns1:set1_madagascar {
     atmData:set1_1 atmVocab:administration "Oral"@en ;
         atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
         atmVocab:diseaseTreated prl:DOID_13250 ;
