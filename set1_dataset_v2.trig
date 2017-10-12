@@ -10,7 +10,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:examplegraph {
+ns1:madagascar1 {
     g4data:set1_1 g4vocab:administration "Oral"@en ;
         g4vocab:binomialName <http://data.krw.d2s.labs.vu.nl/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
         g4vocab:diseaseTreated prl:DOID_13250 ;

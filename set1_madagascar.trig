@@ -1,0 +1,2267 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix atmData: <http://semanticweb.cs.vu.nl/linkedatm/resource/> .
+@prefix atmVocab: <http://semanticweb.cs.vu.nl/linkedatm/vocab/> .
+@prefix ns1: <http://semanticweb.cs.vu.nl/linkedatm/resource/example/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix prl: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix snmd: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:examplegraph {
+    atmData:set1_1 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Anacardiaceae ;
+        atmVocab:fidelityLevel "27.0"^^xsd:int ;
+        atmVocab:genusType dbr:Sorindeia ;
+        atmVocab:localName "Voasirindrina"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1334"^^xsd:string .
+
+    atmData:set1_10 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Cocos%20nucifera%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Arecaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Cocos ;
+        atmVocab:localName "Coco"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_100 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Solanum%20mauritianum%C2%A0Scop.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Solanaceae ;
+        atmVocab:fidelityLevel "40.0"^^xsd:int ;
+        atmVocab:genusType dbr:Solanum ;
+        atmVocab:localName "Bakobako"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush and press"@en ;
+        atmVocab:voucherNo "Schlieben 8097"^^xsd:string .
+
+    atmData:set1_101 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Ravenala%20madagascariensis%C2%A0Sonn.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Strelitziaceae ;
+        atmVocab:fidelityLevel "67.0"^^xsd:int ;
+        atmVocab:genusType dbr:Ravenala ;
+        atmVocab:localName "Fontsy"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Young leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "CR 5205"^^xsd:string .
+
+    atmData:set1_102 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Lantana%20camara%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Verbenaceae ;
+        atmVocab:fidelityLevel "7.0"^^xsd:int ;
+        atmVocab:genusType dbr:Lantana ;
+        atmVocab:localName "Radriaka"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "GES 1601"^^xsd:string .
+
+    atmData:set1_103 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Lantana%20camara%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Verbenaceae ;
+        atmVocab:fidelityLevel "21.0"^^xsd:int ;
+        atmVocab:genusType dbr:Lantana ;
+        atmVocab:localName "Radriaka"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_104 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Aframomum%20angustifolium%C2%A0%28Sonn.%29%20K.%20Schum.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Zingiberaceae ;
+        atmVocab:fidelityLevel "25.0"^^xsd:int ;
+        atmVocab:genusType dbr:Aframomum ;
+        atmVocab:localName "Lingoza"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Fruit"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "GES 1624"^^xsd:string .
+
+    atmData:set1_105 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Curcuma%20longa%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Zingiberaceae ;
+        atmVocab:fidelityLevel "40.0"^^xsd:int ;
+        atmVocab:genusType dbr:Curcuma ;
+        atmVocab:localName "Tamotamo"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Tuber"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "Geay 8277"^^xsd:string .
+
+    atmData:set1_106 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Zingiber%20zerumbet%C2%A0%28L.%29%20Roscoe%20ex%20Sm.> ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Zingiberaceae ;
+        atmVocab:fidelityLevel "40.0"^^xsd:int ;
+        atmVocab:genusType dbr:Zingiber ;
+        atmVocab:localName "Sakarivondambo"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Tuber"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 443"^^xsd:string .
+
+    atmData:set1_11 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Raphia%20farinifera%C2%A0%28Gaertn.%29%20Hyl.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Arecaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Raphia ;
+        atmVocab:localName "Rafia"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Fruit"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_12 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Cyanthillium%20cinereum%C2%A0%28L.%29%20H.%20Rob.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Cyanthillium ;
+        atmVocab:localName "Ramitsiry"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "AP 4968"^^xsd:string .
+
+    atmData:set1_13 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Elephantopus%20scaber%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "14.0"^^xsd:int ;
+        atmVocab:genusType dbr:Elephantopus ;
+        atmVocab:localName "Angadoha"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush and heat"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_14 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Elephantopus%20scaber%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "29.0"^^xsd:int ;
+        atmVocab:genusType dbr:Elephantopus ;
+        atmVocab:localName "Angadoha"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_15 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Emilia%20citrina%C2%A0DC.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "22.0"^^xsd:int ;
+        atmVocab:genusType dbr:Emilia ;
+        atmVocab:localName "Tsihontsihona"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 448"^^xsd:string .
+
+    atmData:set1_16 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Emilia%20citrina%C2%A0DC.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "22.0"^^xsd:int ;
+        atmVocab:genusType dbr:Emilia ;
+        atmVocab:localName "Tsihontsihona"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_17 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Helianthus%20annuus%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "38.0"^^xsd:int ;
+        atmVocab:genusType dbr:Helianthus ;
+        atmVocab:localName "Tanatanamasoandro"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Infusion, decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_18 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Helichrysum%20flagellare%C2%A0Baker> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "11.0"^^xsd:int ;
+        atmVocab:genusType dbr:Helichrysum ;
+        atmVocab:localName "Ahidroranga"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 548"^^xsd:string .
+
+    atmData:set1_19 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Psiadia%20altissima%C2%A0%28DC.%29%20Drake> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Asteraceae ;
+        atmVocab:fidelityLevel "8.0"^^xsd:int ;
+        atmVocab:genusType dbr:Psiadia ;
+        atmVocab:localName "Dingadingana"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "FRB 194"^^xsd:string .
+
+    atmData:set1_2 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Sorindeia%20madagascariensis%C2%A0DC.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Anacardiaceae ;
+        atmVocab:fidelityLevel "9.0"^^xsd:int ;
+        atmVocab:genusType dbr:Sorindeia ;
+        atmVocab:localName "Voasirindrina"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_20 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Canarium%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Burseraceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Canarium L.> ;
+        atmVocab:localName "Ramy"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RZA 1186"^^xsd:string .
+
+    atmData:set1_21 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Garcinia%20chapelieri%C2%A0%28Planch.%20%26%20Triana%29%20H.%20Perrier> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Clusiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Garcinia ;
+        atmVocab:localName "Takasina"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 473"^^xsd:string .
+
+    atmData:set1_22 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Symphonia%20fasciculata%C2%A0%28Noronha%20ex%20Thouars%29%20Vesque> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Clusiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Symphonia ;
+        atmVocab:localName "Kijy"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RAB 66"^^xsd:string .
+
+    atmData:set1_23 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Combretum%C2%A0Loefl.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Combretaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Combretum Loefl.> ;
+        atmVocab:localName "Vahinaletra"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1323"^^xsd:string .
+
+    atmData:set1_24 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Cnestis%20polyphylla%C2%A0Lam.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Connaraceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Cnestis ;
+        atmVocab:localName "Sefana"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Stem"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 511"^^xsd:string .
+
+    atmData:set1_25 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Crassulaceae ;
+        atmVocab:fidelityLevel "31.0"^^xsd:int ;
+        atmVocab:genusType dbr:Kalanchoe ;
+        atmVocab:localName "Sodifafana"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 512"^^xsd:string .
+
+    atmData:set1_26 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Crassulaceae ;
+        atmVocab:fidelityLevel "54.0"^^xsd:int ;
+        atmVocab:genusType dbr:Kalanchoe ;
+        atmVocab:localName "Sodifafana"^^xsd:string ;
+        atmVocab:numberCitations "7.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_27 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Momordica%20charantia%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Cucurbitaceae ;
+        atmVocab:fidelityLevel "67.0"^^xsd:int ;
+        atmVocab:genusType dbr:Momordica ;
+        atmVocab:localName "Margôzy"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RZK 3096"^^xsd:string .
+
+    atmData:set1_28 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Momordica%20charantia%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Cucurbitaceae ;
+        atmVocab:fidelityLevel "67.0"^^xsd:int ;
+        atmVocab:genusType dbr:Momordica ;
+        atmVocab:localName "Margôzy"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_29 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName atmData:Unidentified ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Cucurbitaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Unidentified ;
+        atmVocab:localName "Voatangolehy"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_3 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Annona%20muricata%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Annonaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Annona ;
+        atmVocab:localName "Voatsokina, goronoa"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "CR 4242"^^xsd:string .
+
+    atmData:set1_30 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Weinmannia%20bojeriana%C2%A0Tul.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Cunoniaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Weinmannia ;
+        atmVocab:localName "Sokia"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RZA 533"^^xsd:string .
+
+    atmData:set1_31 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Macaranga%20obovata%C2%A0Boivin%20ex%20Baill.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Euphorbiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Macaranga ;
+        atmVocab:localName "Mankaranana"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1051"^^xsd:string .
+
+    atmData:set1_32 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Manihot%20esculenta%C2%A0Crantz> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Euphorbiaceae ;
+        atmVocab:fidelityLevel "80.0"^^xsd:int ;
+        atmVocab:genusType dbr:Manihot ;
+        atmVocab:localName "Mangahazo"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_33 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Aeschynomene%20sensitiva%C2%A0Sw.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "83.0"^^xsd:int ;
+        atmVocab:genusType dbr:Aeschynomene ;
+        atmVocab:localName "Fanombo tintina"^^xsd:string ;
+        atmVocab:numberCitations "5.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 523"^^xsd:string .
+
+    atmData:set1_34 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Dalbergia%20monticola%C2%A0Bosser%20%26%20R.%20Rabev%3F.> ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Dalbergia ;
+        atmVocab:localName "Hitsika"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Wood-heart"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "Perrier 4830"^^xsd:string .
+
+    atmData:set1_35 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "60.0"^^xsd:int ;
+        atmVocab:genusType dbr:Desmodium ;
+        atmVocab:localName "Tsilavondrivotra"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and"@en ;
+        atmVocab:voucherNo "RKN 516"^^xsd:string .
+
+    atmData:set1_36 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "20.0"^^xsd:int ;
+        atmVocab:genusType dbr:Desmodium ;
+        atmVocab:localName "Tsilavondrivotra"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_37 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Entada%20gigas%C2%A0%28L.%29%20Fawc.%20%26%20Rendle> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "13.0"^^xsd:int ;
+        atmVocab:genusType dbr:Entada ;
+        atmVocab:localName "Vahinkarabo"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves, stem"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "13-Mar"^^xsd:string .
+
+    atmData:set1_38 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Senna%20alata%C2%A0%28L.%29%20Roxb.> ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Fabaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Senna ;
+        atmVocab:localName "4 épingles"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 490"^^xsd:string .
+
+    atmData:set1_39 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Exacum%20quinquenervium%C2%A0Griseb.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Gentianaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Exacum ;
+        atmVocab:localName "Mamoahely"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "ROR 842"^^xsd:string .
+
+    atmData:set1_4 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Aphloia%20theiformis%C2%A0%28Vahl%29%20Benn.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Aphloiaceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Aphloia ;
+        atmVocab:localName "Fandramanana"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1335"^^xsd:string .
+
+    atmData:set1_40 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Ornichia%20madagascariensis%C2%A0%28Baker%29%20Klack.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Gentianaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Ornichia ;
+        atmVocab:localName "Aferotaniala"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 496"^^xsd:string .
+
+    atmData:set1_41 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Sticherus%20flagellaris%C2%A0%28Bory%20ex%20Willd.%29%20Ching> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Gleicheniaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Sticherus ;
+        atmVocab:localName "Rangontohitra"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RZK 6632"^^xsd:string .
+
+    atmData:set1_42 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Harungana%20madagascariensis%C2%A0Lam.%20ex%20Poir.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Hypericaceae ;
+        atmVocab:fidelityLevel "27.0"^^xsd:int ;
+        atmVocab:genusType dbr:Harungana ;
+        atmVocab:localName "Harongana"^^xsd:string ;
+        atmVocab:numberCitations "6.0"^^xsd:int ;
+        atmVocab:plantParts "Bark, leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1325"^^xsd:string .
+
+    atmData:set1_43 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Plectranthus%20perrieri%C2%A0Hedge> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Lamiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Plectranthus ;
+        atmVocab:localName "Amparimaso"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo "Descoings 3703"^^xsd:string .
+
+    atmData:set1_44 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Lygodium%20lanceolatum%C2%A0Desv.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Lygodiaceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Lygodium ;
+        atmVocab:localName "Famalotrakanga"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 446"^^xsd:string .
+
+    atmData:set1_45 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Melastomataceae ;
+        atmVocab:fidelityLevel "22.0"^^xsd:int ;
+        atmVocab:genusType dbr:Clidemia ;
+        atmVocab:localName "Sompatra"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 513"^^xsd:string .
+
+    atmData:set1_46 atmVocab:administration "Inhalation, oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Melastomataceae ;
+        atmVocab:fidelityLevel "6.0"^^xsd:int ;
+        atmVocab:genusType dbr:Clidemia ;
+        atmVocab:localName "Sompatra"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_47 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Melastomataceae ;
+        atmVocab:fidelityLevel "6.0"^^xsd:int ;
+        atmVocab:genusType dbr:Clidemia ;
+        atmVocab:localName "Sompatra"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Roots"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_48 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Dichaetanthera%20oblongifolia%C2%A0Baker> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Melastomataceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Dichaetanthera ;
+        atmVocab:localName "Tsitrotroka"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1339"^^xsd:string .
+
+    atmData:set1_49 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Melia%20azedarach%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Meliaceae ;
+        atmVocab:fidelityLevel "11.0"^^xsd:int ;
+        atmVocab:genusType dbr:Melia ;
+        atmVocab:localName "Voandelaka"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 447"^^xsd:string .
+
+    atmData:set1_5 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Centella%20asiatica%C2%A0%28L.%29%20Urb.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Apiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Centella ;
+        atmVocab:localName "Talapetraka"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RNH 545"^^xsd:string .
+
+    atmData:set1_50 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Mollugo%20nudicaulis%C2%A0Lam.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Molluginaceae ;
+        atmVocab:fidelityLevel "66.0"^^xsd:int ;
+        atmVocab:genusType dbr:Mollugo ;
+        atmVocab:localName "Aferotany"^^xsd:string ;
+        atmVocab:numberCitations "19.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 485"^^xsd:string .
+
+    atmData:set1_51 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Mollugo%20nudicaulis%C2%A0Lam.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Molluginaceae ;
+        atmVocab:fidelityLevel "3.0"^^xsd:int ;
+        atmVocab:genusType dbr:Mollugo ;
+        atmVocab:localName "Aferotany"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Infusion"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_52 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Artocarpus%20heterophyllus%C2%A0Lam.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Moraceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Artocarpus ;
+        atmVocab:localName "Ampalibe"^^xsd:string ;
+        atmVocab:numberCitations "4.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush"@en ;
+        atmVocab:voucherNo "LRZ 1838"^^xsd:string .
+
+    atmData:set1_53 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Ficus%20polita%C2%A0Vahl> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Moraceae ;
+        atmVocab:fidelityLevel "7.0"^^xsd:int ;
+        atmVocab:genusType dbr:Ficus ;
+        atmVocab:localName "Mandresy"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 449"^^xsd:string .
+
+    atmData:set1_54 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Ficus%20reflexa%C2%A0Thunb.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Moraceae ;
+        atmVocab:fidelityLevel "25.0"^^xsd:int ;
+        atmVocab:genusType dbr:Ficus ;
+        atmVocab:localName "Nonoka madinika"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 455"^^xsd:string .
+
+    atmData:set1_55 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Streblus%20dimepate%C2%A0%28Bureau%29%20C.C.%20Berg> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Moraceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Streblus ;
+        atmVocab:localName "Manasavelona"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 552"^^xsd:string .
+
+    atmData:set1_56 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Musa%20paradisiaca%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Musaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Musa ;
+        atmVocab:localName "Akondro"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Fruit"^^xsd:string ;
+        atmVocab:preparation "Paste"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_57 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Musa%20paradisiaca%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Musaceae ;
+        atmVocab:fidelityLevel ""^^xsd:int ;
+        atmVocab:genusType dbr:Musa ;
+        atmVocab:localName "Akondro"^^xsd:string ;
+        atmVocab:numberCitations ""^^xsd:int ;
+        atmVocab:plantParts "Inflorescence"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_58 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Musa%20paradisiaca%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Musaceae ;
+        atmVocab:fidelityLevel ""^^xsd:int ;
+        atmVocab:genusType dbr:Musa ;
+        atmVocab:localName "Akondro"^^xsd:string ;
+        atmVocab:numberCitations ""^^xsd:int ;
+        atmVocab:plantParts "Resin"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_59 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Musa%20paradisiaca%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Musaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Musa ;
+        atmVocab:localName "Akondro"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Inflorescence"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_6 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Catharanthus%20roseus%C2%A0%28L.%29%20G.%20Don> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Apocynaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Catharanthus ;
+        atmVocab:localName "Arivotaombelona"^^xsd:string ;
+        atmVocab:numberCitations "7.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 503, 504"^^xsd:string .
+
+    atmData:set1_60 atmVocab:administration "Topical"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Mauloutchia%20humblotii%C2%A0%28H.%20Perrier%29%20Capuron> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Myristicaceae ;
+        atmVocab:fidelityLevel "20.0"^^xsd:int ;
+        atmVocab:genusType dbr:Mauloutchia ;
+        atmVocab:localName "Ilon-draharaha"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Seeds"^^xsd:string ;
+        atmVocab:preparation "Oil"@en ;
+        atmVocab:voucherNo "RA 972"^^xsd:string .
+
+    atmData:set1_61 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Eucalyptus camaldulensis> ;
+        atmVocab:localName "Kininina"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Young leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_62 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Eucalyptus camaldulensis> ;
+        atmVocab:localName "Kininina"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_63 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Psidium%20cattleyanum%C2%A0Sabine> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Psidium ;
+        atmVocab:localName "Gavo tsinahy"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "Gentry 11251"^^xsd:string .
+
+    atmData:set1_64 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Psidium%20guajava%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "35.0"^^xsd:int ;
+        atmVocab:genusType dbr:Psidium ;
+        atmVocab:localName "Gavo, gavombazaha, gavobe"^^xsd:string ;
+        atmVocab:numberCitations "6.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RCS 456"^^xsd:string .
+
+    atmData:set1_65 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Psidium%20guajava%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "6.0"^^xsd:int ;
+        atmVocab:genusType dbr:Psidium ;
+        atmVocab:localName "Gavo, gavombazaha, gavobe"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_66 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Syzygium%20malaccense%C2%A0%28L.%29%20Merr.%20%26%20L.M.%20Perry> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Myrtaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Syzygium ;
+        atmVocab:localName "Makoba"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Roots"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "D'Arcy 15233"^^xsd:string .
+
+    atmData:set1_67 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Aerangis%20hyaloides%C2%A0%28Rchb.%20f.%29%20Schltr.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Orchidaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Aerangis ;
+        atmVocab:localName "Tsiakondroakondro"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo "AP 7155"^^xsd:string .
+
+    atmData:set1_68 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Oxalis%20corniculata%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Oxalidaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Oxalis ;
+        atmVocab:localName "Takasintany"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "AP 5034"^^xsd:string .
+
+    atmData:set1_69 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Oxalis%20corniculata%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Oxalidaceae ;
+        atmVocab:fidelityLevel ""^^xsd:int ;
+        atmVocab:genusType dbr:Oxalis ;
+        atmVocab:localName "Takasintany"^^xsd:string ;
+        atmVocab:numberCitations ""^^xsd:int ;
+        atmVocab:plantParts "Whole plant"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_7 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Apocynaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Petchia ;
+        atmVocab:localName "Hintona"^^xsd:string ;
+        atmVocab:numberCitations "6.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 453"^^xsd:string .
+
+    atmData:set1_70 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Pandanus%C2%A0sp.%20Parkinson> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Pandanaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Pandanus sp.> ;
+        atmVocab:localName "Manasa ala"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_71 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Passiflora%20edulis%C2%A0Sims> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Passifloraceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Passiflora ;
+        atmVocab:localName "Garana madinika"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush and press"@en ;
+        atmVocab:voucherNo "RKN 456"^^xsd:string .
+
+    atmData:set1_72 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Phyllanthus%20nummulariifolius%C2%A0Poir.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Phyllanthaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Phyllanthus ;
+        atmVocab:localName "Mandrihariva"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 542"^^xsd:string .
+
+    atmData:set1_73 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Piper%20borbonense%C2%A0%28Miq.%29%20C.%20DC.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Piperaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Piper ;
+        atmVocab:localName "Tsimahalatsaka, voantsiperifery"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 941"^^xsd:string .
+
+    atmData:set1_74 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Pittosporum%20ochrosiifolium%C2%A0Bojer> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Pittosporaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Pittosporum ;
+        atmVocab:localName "Hazombary, maimbovitsika"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1322"^^xsd:string .
+
+    atmData:set1_75 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Oryza%20sativa%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Poaceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Oryza ;
+        atmVocab:localName "Vary"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Seeds"^^xsd:string ;
+        atmVocab:preparation "Cook and filter"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_76 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Zea%20mays%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Poaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Zea ;
+        atmVocab:localName "Tsakotsako"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Stem"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_77 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Maesa%20lanceolata%C2%A0Forssk.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Primulaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Maesa ;
+        atmVocab:localName "Radoka"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 500"^^xsd:string .
+
+    atmData:set1_78 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Pteris%C2%A0cf.%C2%A0cretica%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Pteridaceae ;
+        atmVocab:fidelityLevel "5.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Pteris cf. cretica L.> ;
+        atmVocab:localName "Ravimbolo"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 458"^^xsd:string .
+
+    atmData:set1_79 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName atmData:Unidentified ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Pteridophyta ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Unidentified ;
+        atmVocab:localName "Ahitrimpa"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_8 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Apocynaceae ;
+        atmVocab:fidelityLevel ""^^xsd:int ;
+        atmVocab:genusType dbr:Petchia ;
+        atmVocab:localName "Hintona"^^xsd:string ;
+        atmVocab:numberCitations ""^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Infusion"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_80 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Gouania%20tiliifolia%C2%A0Lam.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Rhamnaceae ;
+        atmVocab:fidelityLevel "6.0"^^xsd:int ;
+        atmVocab:genusType dbr:Gouania ;
+        atmVocab:localName "Ranovavanaomby"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush"@en ;
+        atmVocab:voucherNo "RKN 499"^^xsd:string .
+
+    atmData:set1_81 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Eriobotrya%20japonica%C2%A0%28Thunb.%29%20Lindl.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Rosaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Eriobotrya ;
+        atmVocab:localName "Pibasy"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "Croat 32156"^^xsd:string .
+
+    atmData:set1_82 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Rubus%20moluccanus%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Rosaceae ;
+        atmVocab:fidelityLevel "60.0"^^xsd:int ;
+        atmVocab:genusType dbr:Rubus ;
+        atmVocab:localName "Takoaka"^^xsd:string ;
+        atmVocab:numberCitations "6.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Crush, decoction"@en ;
+        atmVocab:voucherNo "REH 720"^^xsd:string .
+
+    atmData:set1_83 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Rubus%20moluccanus%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Rosaceae ;
+        atmVocab:fidelityLevel "10.0"^^xsd:int ;
+        atmVocab:genusType dbr:Rubus ;
+        atmVocab:localName "Takoaka"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_84 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Rubus%20rosifolius%C2%A0Sm.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Rosaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Rubus ;
+        atmVocab:localName "Voandroy"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "PPL 6592"^^xsd:string .
+
+    atmData:set1_85 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Breonia%20decaryana%C2%A0Homolle> ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Rubiaceae ;
+        atmVocab:fidelityLevel "20.0"^^xsd:int ;
+        atmVocab:genusType dbr:Breonia ;
+        atmVocab:localName "Molompangady"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Bark and leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RZA 158"^^xsd:string .
+
+    atmData:set1_86 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Danais%20terminalis%C2%A0Boivin%20ex%20Drake> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Rubiaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Danais ;
+        atmVocab:localName "Vahinofokorana"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Roots"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RKN 680"^^xsd:string .
+
+    atmData:set1_87 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Paederia%20thouarsiana%C2%A0Baill.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Rubiaceae ;
+        atmVocab:fidelityLevel "77.0"^^xsd:int ;
+        atmVocab:genusType dbr:Paederia ;
+        atmVocab:localName "Vahivola, vahimantsina"^^xsd:string ;
+        atmVocab:numberCitations "10.0"^^xsd:int ;
+        atmVocab:plantParts "Branch, leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1349"^^xsd:string .
+
+    atmData:set1_88 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20aurantium%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Citrus ;
+        atmVocab:localName "Voahangy ala"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Young leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "AP 5569"^^xsd:string .
+
+    atmData:set1_89 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Citrus ;
+        atmVocab:localName "Voahangitsoha"^^xsd:string ;
+        atmVocab:numberCitations "3.0"^^xsd:int ;
+        atmVocab:plantParts "Fruit"^^xsd:string ;
+        atmVocab:preparation "Juice"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_9 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Cocos%20nucifera%C2%A0L.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Arecaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Cocos ;
+        atmVocab:localName "Coco"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Infusion"@en ;
+        atmVocab:voucherNo "Gunn 643"^^xsd:string .
+
+    atmData:set1_90 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel ""^^xsd:int ;
+        atmVocab:genusType dbr:Citrus ;
+        atmVocab:localName "Voahangitsoha"^^xsd:string ;
+        atmVocab:numberCitations ""^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_91 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20reticulata%C2%A0Blanco> ;
+        atmVocab:diseaseTreated prl:DOID_1395 ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Citrus ;
+        atmVocab:localName "Mandarinina"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_92 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> ;
+        atmVocab:diseaseTreated prl:DOID_12365 ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Toddalia ;
+        atmVocab:localName "Anakasimba"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo "RA 1329"^^xsd:string .
+
+    atmData:set1_93 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Rutaceae ;
+        atmVocab:fidelityLevel "50.0"^^xsd:int ;
+        atmVocab:genusType dbr:Toddalia ;
+        atmVocab:localName "Anakasimba"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_94 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Sapindaceae ;
+        atmVocab:fidelityLevel "67.0"^^xsd:int ;
+        atmVocab:genusType dbr:Litchi ;
+        atmVocab:localName "Letisia"^^xsd:string ;
+        atmVocab:numberCitations "8.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_95 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> ;
+        atmVocab:familyName dbr:Sapindaceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Litchi ;
+        atmVocab:localName "Letisia"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Bark"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_96 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Litchi%20chinensis%C2%A0Sonn.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Sapindaceae ;
+        atmVocab:fidelityLevel "17.0"^^xsd:int ;
+        atmVocab:genusType dbr:Litchi ;
+        atmVocab:localName "Letisia"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_97 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Schizolaena%C2%A0Thouars> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Sarcolaenaceae ;
+        atmVocab:fidelityLevel "67.0"^^xsd:int ;
+        atmVocab:genusType <http://dbpedia.org/resource/Schizolaena Thouars> ;
+        atmVocab:localName "Kikazana"^^xsd:string ;
+        atmVocab:numberCitations "2.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Decoction"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+
+    atmData:set1_98 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Capsicum%20annuum%C2%A0L.> ;
+        atmVocab:diseaseTreated <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> ;
+        atmVocab:familyName dbr:Solanaceae ;
+        atmVocab:fidelityLevel "33.0"^^xsd:int ;
+        atmVocab:genusType dbr:Capsicum ;
+        atmVocab:localName "Pilopilo"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Fruit"^^xsd:string ;
+        atmVocab:preparation "Crush"@en ;
+        atmVocab:voucherNo "ALJ 1183"^^xsd:string .
+
+    atmData:set1_99 atmVocab:administration "Oral"@en ;
+        atmVocab:binomialName <http://semanticweb.cs.vu.nl/linkedatm/resource/Lycopersicon%20esculentum%C2%A0Mill.> ;
+        atmVocab:diseaseTreated prl:DOID_13250 ;
+        atmVocab:familyName dbr:Solanaceae ;
+        atmVocab:fidelityLevel "100.0"^^xsd:int ;
+        atmVocab:genusType dbr:Lycopersicon ;
+        atmVocab:localName "Voatabia"^^xsd:string ;
+        atmVocab:numberCitations "1.0"^^xsd:int ;
+        atmVocab:plantParts "Leaves"^^xsd:string ;
+        atmVocab:preparation "Heat and press"@en ;
+        atmVocab:voucherNo ""^^xsd:string .
+}
+
+{
+    atmData:Aerangis a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Aerangis%20hyaloides%C2%A0%28Rchb.%20f.%29%20Schltr.> a atmVocab:binomialName ;
+        rdfs:label "Aerangis hyaloides (Rchb. f.) Schltr."^^xsd:string .
+
+    atmData:Aeschynomene a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Aeschynomene%20sensitiva%C2%A0Sw.> a atmVocab:binomialName ;
+        rdfs:label "Aeschynomene sensitiva Sw."^^xsd:string .
+
+    atmData:Aframomum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Aframomum%20angustifolium%C2%A0%28Sonn.%29%20K.%20Schum.> a atmVocab:binomialName ;
+        rdfs:label "Aframomum angustifolium (Sonn.) K. Schum."^^xsd:string .
+
+    atmData:Anacardiaceae a atmVocab:familyName .
+
+    atmData:Annona a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Annona%20muricata%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Annona muricata L."^^xsd:string .
+
+    atmData:Annonaceae a atmVocab:familyName .
+
+    atmData:Aphloia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Aphloia%20theiformis%C2%A0%28Vahl%29%20Benn.> a atmVocab:binomialName ;
+        rdfs:label "Aphloia theiformis (Vahl) Benn."^^xsd:string .
+
+    atmData:Aphloiaceae a atmVocab:familyName .
+
+    atmData:Apiaceae a atmVocab:familyName .
+
+    atmData:Apocynaceae a atmVocab:familyName .
+
+    atmData:Arecaceae a atmVocab:familyName .
+
+    atmData:Artocarpus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Artocarpus%20heterophyllus%C2%A0Lam.> a atmVocab:binomialName ;
+        rdfs:label "Artocarpus heterophyllus Lam."^^xsd:string .
+
+    atmData:Asteraceae a atmVocab:familyName .
+
+    atmData:Breonia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Breonia%20decaryana%C2%A0Homolle> a atmVocab:binomialName ;
+        rdfs:label "Breonia decaryana Homolle"^^xsd:string .
+
+    atmData:Burseraceae a atmVocab:familyName .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Canarium%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Canarium L."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Canarium L.> a atmVocab:genusType .
+
+    atmData:Capsicum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Capsicum%20annuum%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Capsicum annuum L."^^xsd:string .
+
+    atmData:Catharanthus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Catharanthus%20roseus%C2%A0%28L.%29%20G.%20Don> a atmVocab:binomialName ;
+        rdfs:label "Catharanthus roseus (L.) G. Don"^^xsd:string .
+
+    atmData:Centella a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Centella%20asiatica%C2%A0%28L.%29%20Urb.> a atmVocab:binomialName ;
+        rdfs:label "Centella asiatica (L.) Urb."^^xsd:string .
+
+    atmData:Citrus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20aurantium%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Citrus aurantium L."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20limon%C2%A0%28L.%29%20Burm.%20f.> a atmVocab:binomialName ;
+        rdfs:label "Citrus limon (L.) Burm. f."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Citrus%20reticulata%C2%A0Blanco> a atmVocab:binomialName ;
+        rdfs:label "Citrus reticulata Blanco"^^xsd:string .
+
+    atmData:Clidemia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Clidemia%20hirta%C2%A0%28L.%29%20D.%20Don> a atmVocab:binomialName ;
+        rdfs:label "Clidemia hirta (L.) D. Don"^^xsd:string .
+
+    atmData:Clusiaceae a atmVocab:familyName .
+
+    atmData:Cnestis a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Cnestis%20polyphylla%C2%A0Lam.> a atmVocab:binomialName ;
+        rdfs:label "Cnestis polyphylla Lam."^^xsd:string .
+
+    atmData:Cocos a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Cocos%20nucifera%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Cocos nucifera L."^^xsd:string .
+
+    atmData:Combretaceae a atmVocab:familyName .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Combretum%C2%A0Loefl.> a atmVocab:binomialName ;
+        rdfs:label "Combretum Loefl."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Combretum Loefl.> a atmVocab:genusType .
+
+    atmData:Connaraceae a atmVocab:familyName .
+
+    atmData:Crassulaceae a atmVocab:familyName .
+
+    atmData:Cucurbitaceae a atmVocab:familyName .
+
+    atmData:Cunoniaceae a atmVocab:familyName .
+
+    atmData:Curcuma a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Curcuma%20longa%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Curcuma longa L."^^xsd:string .
+
+    atmData:Cyanthillium a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Cyanthillium%20cinereum%C2%A0%28L.%29%20H.%20Rob.> a atmVocab:binomialName ;
+        rdfs:label "Cyanthillium cinereum (L.) H. Rob."^^xsd:string .
+
+    atmData:Dalbergia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Dalbergia%20monticola%C2%A0Bosser%20%26%20R.%20Rabev%3F.> a atmVocab:binomialName ;
+        rdfs:label "Dalbergia monticola Bosser & R. Rabev?."^^xsd:string .
+
+    atmData:Danais a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Danais%20terminalis%C2%A0Boivin%20ex%20Drake> a atmVocab:binomialName ;
+        rdfs:label "Danais terminalis Boivin ex Drake"^^xsd:string .
+
+    atmData:Desmodium a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Desmodium%20ramosissimum%C2%A0G.%20Don> a atmVocab:binomialName ;
+        rdfs:label "Desmodium ramosissimum G. Don"^^xsd:string .
+
+    atmData:Dichaetanthera a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Dichaetanthera%20oblongifolia%C2%A0Baker> a atmVocab:binomialName ;
+        rdfs:label "Dichaetanthera oblongifolia Baker"^^xsd:string .
+
+    atmData:Elephantopus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Elephantopus%20scaber%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Elephantopus scaber L."^^xsd:string .
+
+    atmData:Emilia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Emilia%20citrina%C2%A0DC.> a atmVocab:binomialName ;
+        rdfs:label "Emilia citrina DC."^^xsd:string .
+
+    atmData:Entada a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Entada%20gigas%C2%A0%28L.%29%20Fawc.%20%26%20Rendle> a atmVocab:binomialName ;
+        rdfs:label "Entada gigas (L.) Fawc. & Rendle"^^xsd:string .
+
+    atmData:Eriobotrya a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Eriobotrya%20japonica%C2%A0%28Thunb.%29%20Lindl.> a atmVocab:binomialName ;
+        rdfs:label "Eriobotrya japonica (Thunb.) Lindl."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Eucalyptus%C2%A0camaldulensis%20Dehnh.> a atmVocab:binomialName ;
+        rdfs:label "Eucalyptus camaldulensis Dehnh."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Eucalyptus camaldulensis> a atmVocab:genusType .
+
+    atmData:Euphorbiaceae a atmVocab:familyName .
+
+    atmData:Exacum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Exacum%20quinquenervium%C2%A0Griseb.> a atmVocab:binomialName ;
+        rdfs:label "Exacum quinquenervium Griseb."^^xsd:string .
+
+    atmData:Fabaceae a atmVocab:familyName .
+
+    atmData:Ficus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Ficus%20polita%C2%A0Vahl> a atmVocab:binomialName ;
+        rdfs:label "Ficus polita Vahl"^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Ficus%20reflexa%C2%A0Thunb.> a atmVocab:binomialName ;
+        rdfs:label "Ficus reflexa Thunb."^^xsd:string .
+
+    atmData:Garcinia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Garcinia%20chapelieri%C2%A0%28Planch.%20%26%20Triana%29%20H.%20Perrier> a atmVocab:binomialName ;
+        rdfs:label "Garcinia chapelieri (Planch. & Triana) H. Perrier"^^xsd:string .
+
+    atmData:Gentianaceae a atmVocab:familyName .
+
+    atmData:Gleicheniaceae a atmVocab:familyName .
+
+    atmData:Gouania a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Gouania%20tiliifolia%C2%A0Lam.> a atmVocab:binomialName ;
+        rdfs:label "Gouania tiliifolia Lam."^^xsd:string .
+
+    atmData:Harungana a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Harungana%20madagascariensis%C2%A0Lam.%20ex%20Poir.> a atmVocab:binomialName ;
+        rdfs:label "Harungana madagascariensis Lam. ex Poir."^^xsd:string .
+
+    atmData:Helianthus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Helianthus%20annuus%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Helianthus annuus L."^^xsd:string .
+
+    atmData:Helichrysum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Helichrysum%20flagellare%C2%A0Baker> a atmVocab:binomialName ;
+        rdfs:label "Helichrysum flagellare Baker"^^xsd:string .
+
+    atmData:Hypericaceae a atmVocab:familyName .
+
+    atmData:Kalanchoe a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Kalanchoe%20prolifera%C2%A0%28Bowie%20ex%20Hook.%29%C2%A0Raym.-Hamet> a atmVocab:binomialName ;
+        rdfs:label "Kalanchoe prolifera (Bowie ex Hook.) Raym.-Hamet"^^xsd:string .
+
+    atmData:Lamiaceae a atmVocab:familyName .
+
+    atmData:Lantana a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Lantana%20camara%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Lantana camara L."^^xsd:string .
+
+    atmData:Litchi a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Litchi%20chinensis%C2%A0Sonn.> a atmVocab:binomialName ;
+        rdfs:label "Litchi chinensis Sonn."^^xsd:string .
+
+    atmData:Lycopersicon a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Lycopersicon%20esculentum%C2%A0Mill.> a atmVocab:binomialName ;
+        rdfs:label "Lycopersicon esculentum Mill."^^xsd:string .
+
+    atmData:Lygodiaceae a atmVocab:familyName .
+
+    atmData:Lygodium a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Lygodium%20lanceolatum%C2%A0Desv.> a atmVocab:binomialName ;
+        rdfs:label "Lygodium lanceolatum Desv."^^xsd:string .
+
+    atmData:Macaranga a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Macaranga%20obovata%C2%A0Boivin%20ex%20Baill.> a atmVocab:binomialName ;
+        rdfs:label "Macaranga obovata Boivin ex Baill."^^xsd:string .
+
+    atmData:Maesa a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Maesa%20lanceolata%C2%A0Forssk.> a atmVocab:binomialName ;
+        rdfs:label "Maesa lanceolata Forssk."^^xsd:string .
+
+    atmData:Manihot a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Manihot%20esculenta%C2%A0Crantz> a atmVocab:binomialName ;
+        rdfs:label "Manihot esculenta Crantz"^^xsd:string .
+
+    atmData:Mauloutchia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Mauloutchia%20humblotii%C2%A0%28H.%20Perrier%29%20Capuron> a atmVocab:binomialName ;
+        rdfs:label "Mauloutchia humblotii (H. Perrier) Capuron"^^xsd:string .
+
+    atmData:Melastomataceae a atmVocab:familyName .
+
+    atmData:Melia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Melia%20azedarach%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Melia azedarach L."^^xsd:string .
+
+    atmData:Meliaceae a atmVocab:familyName .
+
+    atmData:Molluginaceae a atmVocab:familyName .
+
+    atmData:Mollugo a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Mollugo%20nudicaulis%C2%A0Lam.> a atmVocab:binomialName ;
+        rdfs:label "Mollugo nudicaulis Lam."^^xsd:string .
+
+    atmData:Momordica a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Momordica%20charantia%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Momordica charantia L."^^xsd:string .
+
+    atmData:Moraceae a atmVocab:familyName .
+
+    atmData:Musa a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Musa%20paradisiaca%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Musa paradisiaca L."^^xsd:string .
+
+    atmData:Musaceae a atmVocab:familyName .
+
+    atmData:Myristicaceae a atmVocab:familyName .
+
+    atmData:Myrtaceae a atmVocab:familyName .
+
+    atmData:Orchidaceae a atmVocab:familyName .
+
+    atmData:Ornichia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Ornichia%20madagascariensis%C2%A0%28Baker%29%20Klack.> a atmVocab:binomialName ;
+        rdfs:label "Ornichia madagascariensis (Baker) Klack."^^xsd:string .
+
+    atmData:Oryza a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Oryza%20sativa%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Oryza sativa L."^^xsd:string .
+
+    atmData:Oxalidaceae a atmVocab:familyName .
+
+    atmData:Oxalis a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Oxalis%20corniculata%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Oxalis corniculata L."^^xsd:string .
+
+    atmData:Paederia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Paederia%20thouarsiana%C2%A0Baill.> a atmVocab:binomialName ;
+        rdfs:label "Paederia thouarsiana Baill."^^xsd:string .
+
+    atmData:Pandanaceae a atmVocab:familyName .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Pandanus%C2%A0sp.%20Parkinson> a atmVocab:binomialName ;
+        rdfs:label "Pandanus sp. Parkinson"^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Pandanus sp.> a atmVocab:genusType .
+
+    atmData:Passiflora a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Passiflora%20edulis%C2%A0Sims> a atmVocab:binomialName ;
+        rdfs:label "Passiflora edulis Sims"^^xsd:string .
+
+    atmData:Passifloraceae a atmVocab:familyName .
+
+    atmData:Petchia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Petchia%20erythrocarpa%C2%A0%28Vatke%29%20Leeuwenb.> a atmVocab:binomialName ;
+        rdfs:label "Petchia erythrocarpa (Vatke) Leeuwenb."^^xsd:string .
+
+    atmData:Phyllanthaceae a atmVocab:familyName .
+
+    atmData:Phyllanthus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Phyllanthus%20nummulariifolius%C2%A0Poir.> a atmVocab:binomialName ;
+        rdfs:label "Phyllanthus nummulariifolius Poir."^^xsd:string .
+
+    atmData:Piper a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Piper%20borbonense%C2%A0%28Miq.%29%20C.%20DC.> a atmVocab:binomialName ;
+        rdfs:label "Piper borbonense (Miq.) C. DC."^^xsd:string .
+
+    atmData:Piperaceae a atmVocab:familyName .
+
+    atmData:Pittosporaceae a atmVocab:familyName .
+
+    atmData:Pittosporum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Pittosporum%20ochrosiifolium%C2%A0Bojer> a atmVocab:binomialName ;
+        rdfs:label "Pittosporum ochrosiifolium Bojer"^^xsd:string .
+
+    atmData:Plectranthus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Plectranthus%20perrieri%C2%A0Hedge> a atmVocab:binomialName ;
+        rdfs:label "Plectranthus perrieri Hedge"^^xsd:string .
+
+    atmData:Poaceae a atmVocab:familyName .
+
+    atmData:Primulaceae a atmVocab:familyName .
+
+    atmData:Psiadia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Psiadia%20altissima%C2%A0%28DC.%29%20Drake> a atmVocab:binomialName ;
+        rdfs:label "Psiadia altissima (DC.) Drake"^^xsd:string .
+
+    atmData:Psidium a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Psidium%20cattleyanum%C2%A0Sabine> a atmVocab:binomialName ;
+        rdfs:label "Psidium cattleyanum Sabine"^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Psidium%20guajava%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Psidium guajava L."^^xsd:string .
+
+    atmData:Pteridaceae a atmVocab:familyName .
+
+    atmData:Pteridophyta a atmVocab:familyName .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Pteris%C2%A0cf.%C2%A0cretica%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Pteris cf. cretica L."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Pteris cf. cretica L.> a atmVocab:genusType .
+
+    atmData:Raphia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Raphia%20farinifera%C2%A0%28Gaertn.%29%20Hyl.> a atmVocab:binomialName ;
+        rdfs:label "Raphia farinifera (Gaertn.) Hyl."^^xsd:string .
+
+    atmData:Ravenala a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Ravenala%20madagascariensis%C2%A0Sonn.> a atmVocab:binomialName ;
+        rdfs:label "Ravenala madagascariensis Sonn."^^xsd:string .
+
+    atmData:Rhamnaceae a atmVocab:familyName .
+
+    atmData:Rosaceae a atmVocab:familyName .
+
+    atmData:Rubiaceae a atmVocab:familyName .
+
+    atmData:Rubus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Rubus%20moluccanus%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Rubus moluccanus L."^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Rubus%20rosifolius%C2%A0Sm.> a atmVocab:binomialName ;
+        rdfs:label "Rubus rosifolius Sm."^^xsd:string .
+
+    atmData:Rutaceae a atmVocab:familyName .
+
+    atmData:Sapindaceae a atmVocab:familyName .
+
+    atmData:Sarcolaenaceae a atmVocab:familyName .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Schizolaena%C2%A0Thouars> a atmVocab:binomialName ;
+        rdfs:label "Schizolaena Thouars"^^xsd:string .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Schizolaena Thouars> a atmVocab:genusType .
+
+    atmData:Senna a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Senna%20alata%C2%A0%28L.%29%20Roxb.> a atmVocab:binomialName ;
+        rdfs:label "Senna alata (L.) Roxb."^^xsd:string .
+
+    atmData:Solanaceae a atmVocab:familyName .
+
+    atmData:Solanum a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Solanum%20mauritianum%C2%A0Scop.> a atmVocab:binomialName ;
+        rdfs:label "Solanum mauritianum Scop."^^xsd:string .
+
+    atmData:Sorindeia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Sorindeia%20madagascariensis%C2%A0DC.> a atmVocab:binomialName ;
+        rdfs:label "Sorindeia madagascariensis DC."^^xsd:string .
+
+    atmData:Sticherus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Sticherus%20flagellaris%C2%A0%28Bory%20ex%20Willd.%29%20Ching> a atmVocab:binomialName ;
+        rdfs:label "Sticherus flagellaris (Bory ex Willd.) Ching"^^xsd:string .
+
+    atmData:Streblus a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Streblus%20dimepate%C2%A0%28Bureau%29%20C.C.%20Berg> a atmVocab:binomialName ;
+        rdfs:label "Streblus dimepate (Bureau) C.C. Berg"^^xsd:string .
+
+    atmData:Strelitziaceae a atmVocab:familyName .
+
+    atmData:Symphonia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Symphonia%20fasciculata%C2%A0%28Noronha%20ex%20Thouars%29%20Vesque> a atmVocab:binomialName ;
+        rdfs:label "Symphonia fasciculata (Noronha ex Thouars) Vesque"^^xsd:string .
+
+    atmData:Syzygium a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Syzygium%20malaccense%C2%A0%28L.%29%20Merr.%20%26%20L.M.%20Perry> a atmVocab:binomialName ;
+        rdfs:label "Syzygium malaccense (L.) Merr. & L.M. Perry"^^xsd:string .
+
+    atmData:Toddalia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Toddalia%20asiatica%C2%A0%28L.%29%20Lam.> a atmVocab:binomialName ;
+        rdfs:label "Toddalia asiatica (L.) Lam."^^xsd:string .
+
+    atmData:Unidentified a atmVocab:binomialName,
+            atmVocab:genusType ;
+        rdfs:label "Unidentified"^^xsd:string .
+
+    atmData:Verbenaceae a atmVocab:familyName .
+
+    atmData:Weinmannia a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Weinmannia%20bojeriana%C2%A0Tul.> a atmVocab:binomialName ;
+        rdfs:label "Weinmannia bojeriana Tul."^^xsd:string .
+
+    atmData:Zea a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Zea%20mays%C2%A0L.> a atmVocab:binomialName ;
+        rdfs:label "Zea mays L."^^xsd:string .
+
+    atmData:Zingiber a atmVocab:genusType .
+
+    <http://semanticweb.cs.vu.nl/linkedatm/resource/Zingiber%20zerumbet%C2%A0%28L.%29%20Roscoe%20ex%20Sm.> a atmVocab:binomialName ;
+        rdfs:label "Zingiber zerumbet (L.) Roscoe ex Sm."^^xsd:string .
+
+    atmData:Zingiberaceae a atmVocab:familyName .
+
+    atmData:set1_1 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_1"^^xsd:string .
+
+    atmData:set1_10 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_10"^^xsd:string .
+
+    atmData:set1_100 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_100"^^xsd:string .
+
+    atmData:set1_101 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_101"^^xsd:string .
+
+    atmData:set1_102 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_102"^^xsd:string .
+
+    atmData:set1_103 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_103"^^xsd:string .
+
+    atmData:set1_104 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_104"^^xsd:string .
+
+    atmData:set1_105 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_105"^^xsd:string .
+
+    atmData:set1_106 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_106"^^xsd:string .
+
+    atmData:set1_11 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_11"^^xsd:string .
+
+    atmData:set1_12 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_12"^^xsd:string .
+
+    atmData:set1_13 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_13"^^xsd:string .
+
+    atmData:set1_14 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_14"^^xsd:string .
+
+    atmData:set1_15 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_15"^^xsd:string .
+
+    atmData:set1_16 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_16"^^xsd:string .
+
+    atmData:set1_17 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_17"^^xsd:string .
+
+    atmData:set1_18 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_18"^^xsd:string .
+
+    atmData:set1_19 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_19"^^xsd:string .
+
+    atmData:set1_2 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_2"^^xsd:string .
+
+    atmData:set1_20 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_20"^^xsd:string .
+
+    atmData:set1_21 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_21"^^xsd:string .
+
+    atmData:set1_22 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_22"^^xsd:string .
+
+    atmData:set1_23 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_23"^^xsd:string .
+
+    atmData:set1_24 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_24"^^xsd:string .
+
+    atmData:set1_25 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_25"^^xsd:string .
+
+    atmData:set1_26 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_26"^^xsd:string .
+
+    atmData:set1_27 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_27"^^xsd:string .
+
+    atmData:set1_28 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_28"^^xsd:string .
+
+    atmData:set1_29 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_29"^^xsd:string .
+
+    atmData:set1_3 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_3"^^xsd:string .
+
+    atmData:set1_30 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_30"^^xsd:string .
+
+    atmData:set1_31 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_31"^^xsd:string .
+
+    atmData:set1_32 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_32"^^xsd:string .
+
+    atmData:set1_33 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_33"^^xsd:string .
+
+    atmData:set1_34 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_34"^^xsd:string .
+
+    atmData:set1_35 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_35"^^xsd:string .
+
+    atmData:set1_36 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_36"^^xsd:string .
+
+    atmData:set1_37 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_37"^^xsd:string .
+
+    atmData:set1_38 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_38"^^xsd:string .
+
+    atmData:set1_39 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_39"^^xsd:string .
+
+    atmData:set1_4 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_4"^^xsd:string .
+
+    atmData:set1_40 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_40"^^xsd:string .
+
+    atmData:set1_41 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_41"^^xsd:string .
+
+    atmData:set1_42 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_42"^^xsd:string .
+
+    atmData:set1_43 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_43"^^xsd:string .
+
+    atmData:set1_44 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_44"^^xsd:string .
+
+    atmData:set1_45 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_45"^^xsd:string .
+
+    atmData:set1_46 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_46"^^xsd:string .
+
+    atmData:set1_47 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_47"^^xsd:string .
+
+    atmData:set1_48 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_48"^^xsd:string .
+
+    atmData:set1_49 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_49"^^xsd:string .
+
+    atmData:set1_5 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_5"^^xsd:string .
+
+    atmData:set1_50 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_50"^^xsd:string .
+
+    atmData:set1_51 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_51"^^xsd:string .
+
+    atmData:set1_52 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_52"^^xsd:string .
+
+    atmData:set1_53 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_53"^^xsd:string .
+
+    atmData:set1_54 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_54"^^xsd:string .
+
+    atmData:set1_55 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_55"^^xsd:string .
+
+    atmData:set1_56 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_56"^^xsd:string .
+
+    atmData:set1_57 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_57"^^xsd:string .
+
+    atmData:set1_58 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_58"^^xsd:string .
+
+    atmData:set1_59 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_59"^^xsd:string .
+
+    atmData:set1_6 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_6"^^xsd:string .
+
+    atmData:set1_60 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_60"^^xsd:string .
+
+    atmData:set1_61 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_61"^^xsd:string .
+
+    atmData:set1_62 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_62"^^xsd:string .
+
+    atmData:set1_63 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_63"^^xsd:string .
+
+    atmData:set1_64 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_64"^^xsd:string .
+
+    atmData:set1_65 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_65"^^xsd:string .
+
+    atmData:set1_66 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_66"^^xsd:string .
+
+    atmData:set1_67 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_67"^^xsd:string .
+
+    atmData:set1_68 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_68"^^xsd:string .
+
+    atmData:set1_69 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_69"^^xsd:string .
+
+    atmData:set1_7 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_7"^^xsd:string .
+
+    atmData:set1_70 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_70"^^xsd:string .
+
+    atmData:set1_71 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_71"^^xsd:string .
+
+    atmData:set1_72 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_72"^^xsd:string .
+
+    atmData:set1_73 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_73"^^xsd:string .
+
+    atmData:set1_74 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_74"^^xsd:string .
+
+    atmData:set1_75 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_75"^^xsd:string .
+
+    atmData:set1_76 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_76"^^xsd:string .
+
+    atmData:set1_77 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_77"^^xsd:string .
+
+    atmData:set1_78 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_78"^^xsd:string .
+
+    atmData:set1_79 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_79"^^xsd:string .
+
+    atmData:set1_8 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_8"^^xsd:string .
+
+    atmData:set1_80 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_80"^^xsd:string .
+
+    atmData:set1_81 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_81"^^xsd:string .
+
+    atmData:set1_82 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_82"^^xsd:string .
+
+    atmData:set1_83 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_83"^^xsd:string .
+
+    atmData:set1_84 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_84"^^xsd:string .
+
+    atmData:set1_85 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_85"^^xsd:string .
+
+    atmData:set1_86 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_86"^^xsd:string .
+
+    atmData:set1_87 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_87"^^xsd:string .
+
+    atmData:set1_88 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_88"^^xsd:string .
+
+    atmData:set1_89 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_89"^^xsd:string .
+
+    atmData:set1_9 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_9"^^xsd:string .
+
+    atmData:set1_90 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_90"^^xsd:string .
+
+    atmData:set1_91 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_91"^^xsd:string .
+
+    atmData:set1_92 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_92"^^xsd:string .
+
+    atmData:set1_93 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_93"^^xsd:string .
+
+    atmData:set1_94 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_94"^^xsd:string .
+
+    atmData:set1_95 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_95"^^xsd:string .
+
+    atmData:set1_96 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_96"^^xsd:string .
+
+    atmData:set1_97 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_97"^^xsd:string .
+
+    atmData:set1_98 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_98"^^xsd:string .
+
+    atmData:set1_99 rdfs:label "http://semanticweb.cs.vu.nl/linkedatm/resource/set1_99"^^xsd:string .
+
+    dbr:Aerangis rdfs:label "Aerangis"^^xsd:string .
+
+    dbr:Aeschynomene rdfs:label "Aeschynomene"^^xsd:string .
+
+    dbr:Aframomum rdfs:label "Aframomum"^^xsd:string .
+
+    dbr:Anacardiaceae rdfs:label "Anacardiaceae"^^xsd:string .
+
+    dbr:Annona rdfs:label "Annona"^^xsd:string .
+
+    dbr:Annonaceae rdfs:label "Annonaceae"^^xsd:string .
+
+    dbr:Aphloia rdfs:label "Aphloia"^^xsd:string .
+
+    dbr:Aphloiaceae rdfs:label "Aphloiaceae"^^xsd:string .
+
+    dbr:Apiaceae rdfs:label "Apiaceae"^^xsd:string .
+
+    dbr:Apocynaceae rdfs:label "Apocynaceae"^^xsd:string .
+
+    dbr:Arecaceae rdfs:label "Arecaceae"^^xsd:string .
+
+    dbr:Artocarpus rdfs:label "Artocarpus"^^xsd:string .
+
+    dbr:Asteraceae rdfs:label "Asteraceae"^^xsd:string .
+
+    dbr:Breonia rdfs:label "Breonia"^^xsd:string .
+
+    dbr:Burseraceae rdfs:label "Burseraceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Canarium L.> rdfs:label "Canarium L."^^xsd:string .
+
+    dbr:Capsicum rdfs:label "Capsicum"^^xsd:string .
+
+    dbr:Catharanthus rdfs:label "Catharanthus"^^xsd:string .
+
+    dbr:Centella rdfs:label "Centella"^^xsd:string .
+
+    dbr:Citrus rdfs:label "Citrus"^^xsd:string .
+
+    dbr:Clidemia rdfs:label "Clidemia"^^xsd:string .
+
+    dbr:Clusiaceae rdfs:label "Clusiaceae"^^xsd:string .
+
+    dbr:Cnestis rdfs:label "Cnestis"^^xsd:string .
+
+    dbr:Cocos rdfs:label "Cocos"^^xsd:string .
+
+    dbr:Combretaceae rdfs:label "Combretaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Combretum Loefl.> rdfs:label "Combretum Loefl."^^xsd:string .
+
+    dbr:Connaraceae rdfs:label "Connaraceae"^^xsd:string .
+
+    dbr:Crassulaceae rdfs:label "Crassulaceae"^^xsd:string .
+
+    dbr:Cucurbitaceae rdfs:label "Cucurbitaceae"^^xsd:string .
+
+    dbr:Cunoniaceae rdfs:label "Cunoniaceae"^^xsd:string .
+
+    dbr:Curcuma rdfs:label "Curcuma"^^xsd:string .
+
+    dbr:Cyanthillium rdfs:label "Cyanthillium"^^xsd:string .
+
+    dbr:Dalbergia rdfs:label "Dalbergia"^^xsd:string .
+
+    dbr:Danais rdfs:label "Danais"^^xsd:string .
+
+    dbr:Desmodium rdfs:label "Desmodium"^^xsd:string .
+
+    dbr:Dichaetanthera rdfs:label "Dichaetanthera"^^xsd:string .
+
+    dbr:Elephantopus rdfs:label "Elephantopus"^^xsd:string .
+
+    dbr:Emilia rdfs:label "Emilia"^^xsd:string .
+
+    dbr:Entada rdfs:label "Entada"^^xsd:string .
+
+    dbr:Eriobotrya rdfs:label "Eriobotrya"^^xsd:string .
+
+    <http://dbpedia.org/resource/Eucalyptus camaldulensis> rdfs:label "Eucalyptus camaldulensis"^^xsd:string .
+
+    dbr:Euphorbiaceae rdfs:label "Euphorbiaceae"^^xsd:string .
+
+    dbr:Exacum rdfs:label "Exacum"^^xsd:string .
+
+    dbr:Fabaceae rdfs:label "Fabaceae"^^xsd:string .
+
+    dbr:Ficus rdfs:label "Ficus"^^xsd:string .
+
+    dbr:Garcinia rdfs:label "Garcinia"^^xsd:string .
+
+    dbr:Gentianaceae rdfs:label "Gentianaceae"^^xsd:string .
+
+    dbr:Gleicheniaceae rdfs:label "Gleicheniaceae"^^xsd:string .
+
+    dbr:Gouania rdfs:label "Gouania"^^xsd:string .
+
+    dbr:Harungana rdfs:label "Harungana"^^xsd:string .
+
+    dbr:Helianthus rdfs:label "Helianthus"^^xsd:string .
+
+    dbr:Helichrysum rdfs:label "Helichrysum"^^xsd:string .
+
+    dbr:Hypericaceae rdfs:label "Hypericaceae"^^xsd:string .
+
+    dbr:Kalanchoe rdfs:label "Kalanchoe"^^xsd:string .
+
+    dbr:Lamiaceae rdfs:label "Lamiaceae"^^xsd:string .
+
+    dbr:Lantana rdfs:label "Lantana"^^xsd:string .
+
+    dbr:Litchi rdfs:label "Litchi"^^xsd:string .
+
+    dbr:Lycopersicon rdfs:label "Lycopersicon"^^xsd:string .
+
+    dbr:Lygodiaceae rdfs:label "Lygodiaceae"^^xsd:string .
+
+    dbr:Lygodium rdfs:label "Lygodium"^^xsd:string .
+
+    dbr:Macaranga rdfs:label "Macaranga"^^xsd:string .
+
+    dbr:Maesa rdfs:label "Maesa"^^xsd:string .
+
+    dbr:Manihot rdfs:label "Manihot"^^xsd:string .
+
+    dbr:Mauloutchia rdfs:label "Mauloutchia"^^xsd:string .
+
+    dbr:Melastomataceae rdfs:label "Melastomataceae"^^xsd:string .
+
+    dbr:Melia rdfs:label "Melia"^^xsd:string .
+
+    dbr:Meliaceae rdfs:label "Meliaceae"^^xsd:string .
+
+    dbr:Molluginaceae rdfs:label "Molluginaceae"^^xsd:string .
+
+    dbr:Mollugo rdfs:label "Mollugo"^^xsd:string .
+
+    dbr:Momordica rdfs:label "Momordica"^^xsd:string .
+
+    dbr:Moraceae rdfs:label "Moraceae"^^xsd:string .
+
+    dbr:Musa rdfs:label "Musa"^^xsd:string .
+
+    dbr:Musaceae rdfs:label "Musaceae"^^xsd:string .
+
+    dbr:Myristicaceae rdfs:label "Myristicaceae"^^xsd:string .
+
+    dbr:Myrtaceae rdfs:label "Myrtaceae"^^xsd:string .
+
+    dbr:Orchidaceae rdfs:label "Orchidaceae"^^xsd:string .
+
+    dbr:Ornichia rdfs:label "Ornichia"^^xsd:string .
+
+    dbr:Oryza rdfs:label "Oryza"^^xsd:string .
+
+    dbr:Oxalidaceae rdfs:label "Oxalidaceae"^^xsd:string .
+
+    dbr:Oxalis rdfs:label "Oxalis"^^xsd:string .
+
+    dbr:Paederia rdfs:label "Paederia"^^xsd:string .
+
+    dbr:Pandanaceae rdfs:label "Pandanaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Pandanus sp.> rdfs:label "Pandanus sp."^^xsd:string .
+
+    dbr:Passiflora rdfs:label "Passiflora"^^xsd:string .
+
+    dbr:Passifloraceae rdfs:label "Passifloraceae"^^xsd:string .
+
+    dbr:Petchia rdfs:label "Petchia"^^xsd:string .
+
+    dbr:Phyllanthaceae rdfs:label "Phyllanthaceae"^^xsd:string .
+
+    dbr:Phyllanthus rdfs:label "Phyllanthus"^^xsd:string .
+
+    dbr:Piper rdfs:label "Piper"^^xsd:string .
+
+    dbr:Piperaceae rdfs:label "Piperaceae"^^xsd:string .
+
+    dbr:Pittosporaceae rdfs:label "Pittosporaceae"^^xsd:string .
+
+    dbr:Pittosporum rdfs:label "Pittosporum"^^xsd:string .
+
+    dbr:Plectranthus rdfs:label "Plectranthus"^^xsd:string .
+
+    dbr:Poaceae rdfs:label "Poaceae"^^xsd:string .
+
+    dbr:Primulaceae rdfs:label "Primulaceae"^^xsd:string .
+
+    dbr:Psiadia rdfs:label "Psiadia"^^xsd:string .
+
+    dbr:Psidium rdfs:label "Psidium"^^xsd:string .
+
+    dbr:Pteridaceae rdfs:label "Pteridaceae"^^xsd:string .
+
+    dbr:Pteridophyta rdfs:label "Pteridophyta"^^xsd:string .
+
+    <http://dbpedia.org/resource/Pteris cf. cretica L.> rdfs:label "Pteris cf. cretica L."^^xsd:string .
+
+    dbr:Raphia rdfs:label "Raphia"^^xsd:string .
+
+    dbr:Ravenala rdfs:label "Ravenala"^^xsd:string .
+
+    dbr:Rhamnaceae rdfs:label "Rhamnaceae"^^xsd:string .
+
+    dbr:Rosaceae rdfs:label "Rosaceae"^^xsd:string .
+
+    dbr:Rubiaceae rdfs:label "Rubiaceae"^^xsd:string .
+
+    dbr:Rubus rdfs:label "Rubus"^^xsd:string .
+
+    dbr:Rutaceae rdfs:label "Rutaceae"^^xsd:string .
+
+    dbr:Sapindaceae rdfs:label "Sapindaceae"^^xsd:string .
+
+    dbr:Sarcolaenaceae rdfs:label "Sarcolaenaceae"^^xsd:string .
+
+    <http://dbpedia.org/resource/Schizolaena Thouars> rdfs:label "Schizolaena Thouars"^^xsd:string .
+
+    dbr:Senna rdfs:label "Senna"^^xsd:string .
+
+    dbr:Solanaceae rdfs:label "Solanaceae"^^xsd:string .
+
+    dbr:Solanum rdfs:label "Solanum"^^xsd:string .
+
+    dbr:Sorindeia rdfs:label "Sorindeia"^^xsd:string .
+
+    dbr:Sticherus rdfs:label "Sticherus"^^xsd:string .
+
+    dbr:Streblus rdfs:label "Streblus"^^xsd:string .
+
+    dbr:Strelitziaceae rdfs:label "Strelitziaceae"^^xsd:string .
+
+    dbr:Symphonia rdfs:label "Symphonia"^^xsd:string .
+
+    dbr:Syzygium rdfs:label "Syzygium"^^xsd:string .
+
+    dbr:Toddalia rdfs:label "Toddalia"^^xsd:string .
+
+    dbr:Unidentified rdfs:label "Unidentified"^^xsd:string .
+
+    dbr:Verbenaceae rdfs:label "Verbenaceae"^^xsd:string .
+
+    dbr:Weinmannia rdfs:label "Weinmannia"^^xsd:string .
+
+    dbr:Zea rdfs:label "Zea"^^xsd:string .
+
+    dbr:Zingiber rdfs:label "Zingiber"^^xsd:string .
+
+    dbr:Zingiberaceae rdfs:label "Zingiberaceae"^^xsd:string .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/111939009> a atmVocab:diseaseTreated ;
+        rdfs:label "Dysentery [Disease/Finding]"@en .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/271681002> a atmVocab:diseaseTreated ;
+        rdfs:label "Stomach ache"@en .
+
+    <http://purl.bioontology.org/ontology/SNOMEDCT/49727002> a atmVocab:diseaseTreated ;
+        rdfs:label "Cough"@en .
+
+    prl:DOID_12365 a atmVocab:diseaseTreated ;
+        rdfs:label "Malaria Pathway"@en .
+
+    prl:DOID_13250 a atmVocab:diseaseTreated ;
+        rdfs:label "Diarrhea"@en .
+
+    prl:DOID_1395 a atmVocab:diseaseTreated ;
+        rdfs:label "Schistosomiasis"@en .
+}
+

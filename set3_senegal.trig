@@ -1,0 +1,4630 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix atmData: <http://semanticweb.cs.vu.nl/linkedatm/resource/> .
+@prefix atmVocab: <http://semanticweb.cs.vu.nl/linkedatm/vocab/> .
+@prefix ns1: <http://data.krw.d2s.labs.vu.nl/resource/example/> .
+@prefix ns2: <urn:x-rdflib:> .
+@prefix prl: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:examplegraph {
+    atmData:set3_1 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antiparasitaire,
+            atmData:Antitussif,
+            atmData:Cicatrisant,
+            atmData:Hemostatique,
+            atmData:Ophtalmies,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Ageratum_conzoides ;
+        atmVocab:nomGenre dbr:Ageratum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Gobou"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_10 atmVocab:indication atmData:Antiicterique,
+            atmData:Antitussif,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Acacia_gourmeansis ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_100 atmVocab:indication atmData:Emollient,
+            atmData:Laxatif,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Grewia_barteri ;
+        atmVocab:nomGenre dbr:Grewia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_101 atmVocab:indication atmData:Emollient,
+            atmData:Laxatif,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Grewia_bicolor ;
+        atmVocab:nomGenre dbr:Grewia ;
+        atmVocab:nomPeul "Kelli"^^xsd:string ;
+        atmVocab:nomWolof "Kel"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_102 atmVocab:indication atmData:Emollient,
+            atmData:Laxatif,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Grewia_flavescens ;
+        atmVocab:nomGenre dbr:Grewia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_103 atmVocab:indication atmData:,
+            atmData:Antidouleur,
+            atmData:Antitussif,
+            atmData:Astringent,
+            atmData:Digestif,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Guiera_senegalensis ;
+        atmVocab:nomGenre dbr:Guiera ;
+        atmVocab:nomPeul "Geloki"^^xsd:string ;
+        atmVocab:nomWolof "Nger"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_104 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Heeria_insignis ;
+        atmVocab:nomGenre dbr:Heeria ;
+        atmVocab:nomPeul "Keleli"^^xsd:string ;
+        atmVocab:nomWolof "Waswasor"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Racine"@fr,
+            "f"@fr .
+
+    atmData:set3_105 atmVocab:indication atmData:Antibiotique,
+            atmData:Antiicterique,
+            atmData:Depuratif,
+            atmData:Stimulant,
+            atmData:Vermicide ;
+        atmVocab:nomBinomial atmData:Hibiscus_asper ;
+        atmVocab:nomGenre dbr:Hibiscus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Feuillel"@fr .
+
+    atmData:set3_106 atmVocab:indication atmData:Affections_Buccopharyngees,
+            atmData:Emollient,
+            atmData:Rsolutif,
+            atmData:Topique,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Hibiscus_esculentus ;
+        atmVocab:nomGenre dbr:Hibiscus ;
+        atmVocab:nomPeul "Kandie"^^xsd:string ;
+        atmVocab:nomWolof "Kandie"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_107 atmVocab:indication atmData:Antiparasitaire,
+            atmData:Antiseptique,
+            atmData:Diuretique,
+            atmData:Emollient,
+            atmData:Hypotenseur,
+            atmData:Vermifuge,
+            atmData:Vulneraire ;
+        atmVocab:nomBinomial atmData:Hibiscus_sabdarifa ;
+        atmVocab:nomGenre dbr:Hibiscus ;
+        atmVocab:nomPeul "Follere"^^xsd:string ;
+        atmVocab:nomWolof "Bissap"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuillel"@fr .
+
+    atmData:set3_108 atmVocab:indication atmData:Antiarhheique,
+            atmData:Astringente ;
+        atmVocab:nomBinomial atmData:Hippocratea_africana ;
+        atmVocab:nomGenre dbr:Hippocratea ;
+        atmVocab:nomPeul "Delbidek"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_109 atmVocab:indication atmData:,
+            atmData:Antidiarrheique,
+            atmData:Antiparasitaire,
+            atmData:Antiseptique,
+            atmData:Diuretique,
+            atmData:Febrifuge,
+            atmData:Sterilite ;
+        atmVocab:nomBinomial atmData:Holarrhena_floribounda ;
+        atmVocab:nomGenre dbr:Holarrhena ;
+        atmVocab:nomPeul "Salali"^^xsd:string ;
+        atmVocab:nomWolof "Salali"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_11 atmVocab:indication atmData:Antfongique,
+            atmData:Astringent,
+            atmData:Diuretique,
+            atmData:Emollient,
+            atmData:Stimulant,
+            atmData:Topique ;
+        atmVocab:nomBinomial atmData:Acacia_nilotica ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul "Gawdi"^^xsd:string ;
+        atmVocab:nomWolof "Nepnep"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_110 atmVocab:indication atmData:Abortif,
+            atmData:Antibiotique,
+            atmData:Antipaludeen,
+            atmData:Antispasmodique,
+            atmData:Antivenimeux,
+            atmData:Insecticide ;
+        atmVocab:nomBinomial atmData:Hoslundia_opposita ;
+        atmVocab:nomGenre dbr:Hoslundia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_111 atmVocab:indication atmData:Anticonvulsif,
+            atmData:Antidiarrheique,
+            atmData:Antispasmodique,
+            atmData:Cephalees,
+            atmData:Hypotenseur,
+            atmData:Repulsif,
+            atmData:Sinusite,
+            atmData:Toux ;
+        atmVocab:nomBinomial atmData:Hyptis_suavolens ;
+        atmVocab:nomGenre dbr:Hyptis ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_112 atmVocab:indication atmData:Affections_Buccodentaires,
+            atmData:Antidouleur,
+            atmData:Bechique,
+            atmData:Laxatif,
+            <http://data.krw.d2s.labs.vu.nl/resource/Sterilitã©>,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Hymenocardia_acida ;
+        atmVocab:nomGenre dbr:Hymenocardia ;
+        atmVocab:nomPeul "Pelitoro"^^xsd:string ;
+        atmVocab:nomWolof "Inkelegne"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_113 atmVocab:indication atmData:Antispasmodique,
+            atmData:Antitussif,
+            atmData:Dopant,
+            atmData:Reconstituant,
+            atmData:Sterilite,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Icacina_senegalensis ;
+        atmVocab:nomGenre dbr:Icacina ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_114 atmVocab:indication atmData:Coliques_Nephretiques_Et_Abdominales,
+            atmData:Lepre ;
+        atmVocab:nomBinomial atmData:Indigofera_tinctorium ;
+        atmVocab:nomGenre dbr:Indigofera ;
+        atmVocab:nomPeul "Bourou"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_115 atmVocab:indication atmData:Anemie,
+            atmData:Antidiarrheique,
+            atmData:Antihemorragique,
+            atmData:Epulsive,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Ipomea_asarifolia ;
+        atmVocab:nomGenre dbr:Ipomea ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ndenate"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_116 atmVocab:indication atmData:,
+            atmData:Antianemique,
+            atmData:Antibiotique,
+            atmData:Anticancereux,
+            atmData:Antidiabetique,
+            atmData:Antispasmodique,
+            atmData:Hypotenseur,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Ipomea_batatas ;
+        atmVocab:nomGenre dbr:Ipomea ;
+        atmVocab:nomPeul "Patas"^^xsd:string ;
+        atmVocab:nomWolof "Patas"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_117 atmVocab:indication atmData:Antiparasitaire,
+            atmData:Cicatrisante,
+            atmData:Diuretique,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Jatropha_curcas ;
+        atmVocab:nomGenre dbr:Jatropha ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Tabanani"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr,
+            "Latex"@fr .
+
+    atmData:set3_118 atmVocab:indication atmData:Anticancereux,
+            atmData:Antiparasitaire,
+            atmData:Antiprasitaire,
+            atmData:Desaccoutumant,
+            atmData:Febrifuge,
+            atmData:Sedatif,
+            atmData:Tonique ;
+        atmVocab:nomBinomial atmData:Khaya_senegalensis ;
+        atmVocab:nomGenre dbr:Khaya ;
+        atmVocab:nomPeul "Kahi"^^xsd:string ;
+        atmVocab:nomWolof "Hay"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_119 atmVocab:indication atmData:,
+            atmData:Grossissement_Des_Seins,
+            atmData:Lepre,
+            atmData:_Fecondant ;
+        atmVocab:nomBinomial atmData:Kigelia_africana ;
+        atmVocab:nomGenre dbr:Kigelia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Dambal"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_12 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidiarrheiqe,
+            atmData:Antilepreux,
+            atmData:Antimigraineux,
+            atmData:Ophtalmie ;
+        atmVocab:nomBinomial atmData:Acacia_seyal ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul "Boulbi"^^xsd:string ;
+        atmVocab:nomWolof "Sourour"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_120 atmVocab:indication atmData:Antididirrheique,
+            atmData:Digestif,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Landolphia_heudoletti ;
+        atmVocab:nomGenre dbr:Landolphia ;
+        atmVocab:nomPeul "Tol"^^xsd:string ;
+        atmVocab:nomWolof "Tol"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_121 atmVocab:indication atmData:Astringent,
+            atmData:Fecondant_,
+            atmData:Neuropathie ;
+        atmVocab:nomBinomial atmData:Lannea_acida ;
+        atmVocab:nomGenre dbr:Lannea ;
+        atmVocab:nomPeul "Thingoli"^^xsd:string ;
+        atmVocab:nomWolof "Son"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_122 atmVocab:indication atmData:Antidiabetique,
+            atmData:Antispasmodique,
+            atmData:Bechique,
+            atmData:Desaccoutumant,
+            atmData:Detoxifiant,
+            atmData:Hypotenseur,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Lantana_camara ;
+        atmVocab:nomGenre dbr:Lantana ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_123 atmVocab:indication atmData:Agent_Tinctorial,
+            atmData:Antibiotique,
+            atmData:Anticonceptionnel,
+            atmData:Antidouleur_,
+            atmData:Antiinfectieux,
+            atmData:Cicatrisant ;
+        atmVocab:nomBinomial atmData:Lawsonia_inermis ;
+        atmVocab:nomGenre dbr:Lawsonia ;
+        atmVocab:nomPeul "Poudi"^^xsd:string ;
+        atmVocab:nomWolof "Fouden"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_124 atmVocab:indication atmData:,
+            atmData:Anticancereux,
+            atmData:Antinfecteiux,
+            atmData:Anurie,
+            atmData:Cicatrisant,
+            atmData:Stimulant,
+            atmData:_Laxatif ;
+        atmVocab:nomBinomial atmData:Leptadenia_hastata ;
+        atmVocab:nomGenre dbr:Leptadenia ;
+        atmVocab:nomPeul "Sapato"^^xsd:string ;
+        atmVocab:nomWolof "Tiahat"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Latex"@fr,
+            "Plante entiere"@fr,
+            "Racine"@fr .
+
+    atmData:set3_125 atmVocab:indication atmData:Bechique,
+            atmData:Hypotenseur,
+            atmData:Relaxant,
+            atmData:Sedatif_Digestif,
+            atmData:Stimulant,
+            atmData:Stomachique ;
+        atmVocab:nomBinomial atmData:Lippia_chevalieri ;
+        atmVocab:nomGenre dbr:Lippia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Dute gambi"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_126 atmVocab:indication atmData:Eponge_Vegetale ;
+        atmVocab:nomBinomial atmData:Luffa_cylindrica ;
+        atmVocab:nomGenre dbr:Luffa ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_127 atmVocab:indication atmData:Antimigraineux,
+            atmData:Cardiopathie,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Lycopersicum_esculentum ;
+        atmVocab:nomGenre dbr:Lycopersicum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_128 atmVocab:indication atmData:Antitussif,
+            atmData:Pediatrique,
+            atmData:Sterilite ;
+        atmVocab:nomBinomial atmData:Macrosphyra_longustifolia ;
+        atmVocab:nomGenre dbr:Macrosphyra ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_129 atmVocab:indication atmData:Antidiarhheique,
+            atmData:Antiicterique,
+            atmData:Astringent,
+            atmData:Hemorragie_Intestinale,
+            atmData:Tracheite,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Mangifera_indica ;
+        atmVocab:nomGenre dbr:Mangifera ;
+        atmVocab:nomPeul "Mango"^^xsd:string ;
+        atmVocab:nomWolof "Mango"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_13 atmVocab:indication atmData:Antibiotique,
+            atmData:Antihemorroidaire,
+            atmData:Antipaludeen,
+            atmData:Pediatrique ;
+        atmVocab:nomBinomial atmData:Acanthospermum_hispidium ;
+        atmVocab:nomGenre dbr:Acanthospermum ;
+        atmVocab:nomPeul "Niakhabere rewre"^^xsd:string ;
+        atmVocab:nomWolof "Ni"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_130 atmVocab:indication atmData:Antidouleur,
+            atmData:Antihemorragique,
+            atmData:Antihemorroidaire,
+            atmData:Reconstituant,
+            atmData:Stimulant,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Manihot_esculenta ;
+        atmVocab:nomGenre dbr:Manihot ;
+        atmVocab:nomPeul "Poulok"^^xsd:string ;
+        atmVocab:nomWolof "Gnambi"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_131 atmVocab:indication atmData:Affections_Buccodentaires,
+            atmData:Antidiabetique,
+            atmData:Ictere,
+            atmData:Pediatrique,
+            atmData:Reconstituant,
+            atmData:Troubles_Menstruels ;
+        atmVocab:nomBinomial atmData:Maytenus_senegalensis ;
+        atmVocab:nomGenre dbr:Maytenus ;
+        atmVocab:nomPeul "Gialgoti"^^xsd:string ;
+        atmVocab:nomWolof "Genigidek"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Racine"@fr .
+
+    atmData:set3_132 atmVocab:indication atmData:Digestif,
+            atmData:Repulsif,
+            atmData:Stimulant_Cerebral ;
+        atmVocab:nomBinomial atmData:Mentha_sp ;
+        atmVocab:nomGenre dbr:Mentha ;
+        atmVocab:nomPeul "Nana"^^xsd:string ;
+        atmVocab:nomWolof "Nana"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_133 atmVocab:indication atmData:Antibiotique,
+            atmData:Antiinflammatoire,
+            atmData:Diabete,
+            atmData:Hypertension,
+            atmData:Reconstituant,
+            atmData:Toux,
+            atmData:Troubles_Digestifs ;
+        atmVocab:nomBinomial atmData:Mitragyna_inermis ;
+        atmVocab:nomGenre dbr:Mitragyna ;
+        atmVocab:nomPeul "Koyli"^^xsd:string ;
+        atmVocab:nomWolof "Hoss"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_134 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouelur,
+            atmData:Sedatif,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Mimosa_pigra ;
+        atmVocab:nomGenre dbr:Mimosa ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_135 atmVocab:indication atmData:Antifongique,
+            atmData:Hypotenseur ;
+        atmVocab:nomBinomial atmData:Mitracarpus_scaber ;
+        atmVocab:nomGenre dbr:Mitracarpus ;
+        atmVocab:nomPeul "Solit"^^xsd:string ;
+        atmVocab:nomWolof "Ndatukan bou jigen"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_136 atmVocab:indication atmData:,
+            atmData:Antidiabetique,
+            atmData:Antidiarrheique,
+            atmData:Antifongique,
+            atmData:Antiparasitaire ;
+        atmVocab:nomBinomial atmData:Momordica_charantia ;
+        atmVocab:nomGenre dbr:Momordica ;
+        atmVocab:nomPeul "Bourbok"^^xsd:string ;
+        atmVocab:nomWolof "Mbeurbeuf"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_137 atmVocab:indication atmData:,
+            atmData:Antiviral,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Morinda_citrifolia ;
+        atmVocab:nomGenre dbr:Morinda ;
+        atmVocab:nomPeul "Noni"^^xsd:string ;
+        atmVocab:nomWolof "Noni"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_138 atmVocab:indication atmData:Dermatoses,
+            atmData:Diarrhee,
+            atmData:Hepatite,
+            atmData:Paludisme,
+            atmData:Vers_Intestinaux ;
+        atmVocab:nomBinomial atmData:Morinda_geminata ;
+        atmVocab:nomGenre dbr:Morinda ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_139 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antifongique,
+            atmData:Antiparasitaire,
+            atmData:Cicatrisant,
+            atmData:Hypoglycemiant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Moringa_oleifera ;
+        atmVocab:nomGenre dbr:Moringa ;
+        atmVocab:nomPeul "Niebeday"^^xsd:string ;
+        atmVocab:nomWolof "Niebeday"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Graines"@fr,
+            "Latex"@fr,
+            "Racine"@fr .
+
+    atmData:set3_14 atmVocab:indication atmData:Affections_Uro-Genitales,
+            atmData:Antibiotique,
+            atmData:Antitussif,
+            atmData:Astringente ;
+        atmVocab:nomBinomial atmData:Acacia_siberiana ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_140 atmVocab:indication atmData:Hypoglycemiant,
+            atmData:Hypotenseur ;
+        atmVocab:nomBinomial atmData:Moghania_faginea ;
+        atmVocab:nomGenre dbr:Moghania ;
+        atmVocab:nomPeul "Sanfito"^^xsd:string ;
+        atmVocab:nomWolof "Sanfito"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "br"@fr .
+
+    atmData:set3_141 atmVocab:indication atmData:Anticancereux,
+            atmData:Antiparasitaire,
+            atmData:Fievre ;
+        atmVocab:nomBinomial atmData:Nauclea_latifolia ;
+        atmVocab:nomGenre dbr:Nauclea ;
+        atmVocab:nomPeul "Diadabi"^^xsd:string ;
+        atmVocab:nomWolof "Nandok"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_142 atmVocab:indication atmData:Antinfectieux,
+            atmData:Cicattrisant,
+            atmData:Hypoglycemiant,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Neocarya_macrophylla ;
+        atmVocab:nomGenre dbr:Neocarya ;
+        atmVocab:nomPeul "Nawde"^^xsd:string ;
+        atmVocab:nomWolof "New"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_143 atmVocab:indication atmData:Anorexie,
+            atmData:Antirhumatismal,
+            atmData:Hernie,
+            atmData:Sedatif,
+            atmData:Vers_Intestinaux ;
+        atmVocab:nomBinomial atmData:Newbouldia_laevis ;
+        atmVocab:nomGenre dbr:Newbouldia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Walahour"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_144 atmVocab:indication atmData:Emetique,
+            atmData:Purgatif,
+            atmData:Stupefiant ;
+        atmVocab:nomBinomial atmData:Nicotiana_rustica ;
+        atmVocab:nomGenre dbr:Nicotiana ;
+        atmVocab:nomPeul "Sime"^^xsd:string ;
+        atmVocab:nomWolof "Pon"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_145 atmVocab:indication atmData:Antiparasitaire,
+            atmData:Antirhumatismal,
+            atmData:Antitumoral,
+            atmData:Astringent,
+            atmData:Diuretique,
+            atmData:Emollient ;
+        atmVocab:nomBinomial atmData:Opuntia_tuna ;
+        atmVocab:nomGenre dbr:Opuntia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Gargambosse"^^xsd:string ;
+        atmVocab:partieUtilisee "Fruit"@fr,
+            "seve"@fr .
+
+    atmData:set3_146 atmVocab:indication atmData:Atonie_Gastrique,
+            atmData:Diabete,
+            atmData:Digestif,
+            atmData:Hypertension,
+            atmData:Intolerance_Alimentaire ;
+        atmVocab:nomBinomial atmData:Oxynanthera_abyssinica ;
+        atmVocab:nomGenre dbr:Oxynanthera ;
+        atmVocab:nomPeul "Kewi"^^xsd:string ;
+        atmVocab:nomWolof "Wah"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_147 atmVocab:indication atmData:Antispasmodique,
+            atmData:Depuratif,
+            atmData:Digestif ;
+        atmVocab:nomBinomial atmData:Ocimum_gratisimum ;
+        atmVocab:nomGenre dbr:Ocimum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_148 atmVocab:indication atmData:,
+            atmData:Carminatif,
+            atmData:Depuratif,
+            atmData:Digestif ;
+        atmVocab:nomBinomial atmData:Ocimum_basilicum ;
+        atmVocab:nomGenre dbr:Ocimum ;
+        atmVocab:nomPeul "Guygumewi"^^xsd:string ;
+        atmVocab:nomWolof "Ngoun ngoun"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_149 atmVocab:indication atmData:Antibiotique,
+            atmData:Expectorante,
+            atmData:Orl,
+            atmData:Reconstituant,
+            atmData:Sedative ;
+        atmVocab:nomBinomial atmData:Parinari_curatellifolia ;
+        atmVocab:nomGenre dbr:Parinari ;
+        atmVocab:nomPeul "Mampato"^^xsd:string ;
+        atmVocab:nomWolof "Mampato"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_15 atmVocab:indication atmData:Bechique,
+            atmData:Diuretique ;
+        atmVocab:nomBinomial atmData:Achyrantes_aspera_ ;
+        atmVocab:nomGenre dbr:Achyrantes ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Nobisindah"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_150 atmVocab:indication atmData:Antidouleur,
+            atmData:Antiicterique,
+            atmData:Antipaludeen,
+            atmData:Antiparasitaire,
+            atmData:Diuretique,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Parkia_biglobosa ;
+        atmVocab:nomGenre dbr:Parkia ;
+        atmVocab:nomPeul "Oul"^^xsd:string ;
+        atmVocab:nomWolof "Oul"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_151 atmVocab:indication atmData:,
+            atmData:Antihepatique,
+            atmData:Antinfectieux,
+            atmData:Antioedemateux,
+            atmData:Antispasmodique,
+            atmData:Furoncle_Et_Bces ;
+        atmVocab:nomBinomial atmData:Parkinsonia_aculeata ;
+        atmVocab:nomGenre dbr:Parkinsonia ;
+        atmVocab:nomPeul "Thignowi"^^xsd:string ;
+        atmVocab:nomWolof "Barkesondia"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_152 atmVocab:indication atmData:Antidouleur,
+            atmData:Cardiopathie,
+            atmData:Rougeole,
+            atmData:Stimulant_Cerebral,
+            atmData:Vricelle ;
+        atmVocab:nomBinomial atmData:Passiflora_foetida ;
+        atmVocab:nomGenre dbr:Passiflora ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_153 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antispasmodique,
+            atmData:Reconstituant,
+            atmData:Remineralisant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Pennisetum_glaucum ;
+        atmVocab:nomGenre dbr:Pennisetum ;
+        atmVocab:nomPeul "Gawri"^^xsd:string ;
+        atmVocab:nomWolof "Dougoup"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_154 atmVocab:indication atmData:Dermatoses ;
+        atmVocab:nomBinomial atmData:Pergularia_daemia ;
+        atmVocab:nomGenre dbr:Pergularia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_155 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antipaludeen,
+            atmData:Stimulant_Cerebral ;
+        atmVocab:nomBinomial atmData:Phillantus_reticulatis ;
+        atmVocab:nomGenre dbr:Phillantus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_156 atmVocab:indication atmData:Antibiotique,
+            atmData:Antiheatique,
+            atmData:Cholagogue,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Phillantus_amarus ;
+        atmVocab:nomGenre dbr:Phillantus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_157 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antispasmodique,
+            atmData:Hygiiene_Buccodentaire,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Prosopis_africana ;
+        atmVocab:nomGenre dbr:Prosopis ;
+        atmVocab:nomPeul "Kohi"^^xsd:string ;
+        atmVocab:nomWolof "Yiir"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "br"@fr .
+
+    atmData:set3_158 atmVocab:indication atmData:Antiinfectieux,
+            atmData:Antiinflammatoire,
+            atmData:Reonstituant ;
+        atmVocab:nomBinomial atmData:Prosopis_chilensis ;
+        atmVocab:nomGenre dbr:Prosopis ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Nepnep toubab"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_159 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Astringent,
+            atmData:Topique ;
+        atmVocab:nomBinomial atmData:Psidium_guayava ;
+        atmVocab:nomGenre dbr:Psidium ;
+        atmVocab:nomPeul "Gouyap"^^xsd:string ;
+        atmVocab:nomWolof "Gouyap"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_16 atmVocab:indication atmData:Antiallergique,
+            atmData:Antidiarrheique,
+            atmData:Antiparasitaire,
+            atmData:Antirachitique,
+            atmData:Emmenagogue,
+            atmData:Febrifuge,
+            atmData:Immunostimulant,
+            atmData:Tonique ;
+        atmVocab:nomBinomial atmData:Adansonia_digitata ;
+        atmVocab:nomGenre dbr:Adansonia ;
+        atmVocab:nomPeul "Boki"^^xsd:string ;
+        atmVocab:nomWolof "Gouy"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Graines"@fr .
+
+    atmData:set3_160 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antidouleur,
+            atmData:Astringent,
+            atmData:Tranquilisant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Pterocarpus_erinaceus ;
+        atmVocab:nomGenre dbr:Pterocarpus ;
+        atmVocab:nomPeul "Bani"^^xsd:string ;
+        atmVocab:nomWolof "Ven"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_161 atmVocab:indication atmData:Affections_Uro-Genitales,
+            atmData:Metrorragie,
+            atmData:Oedeme,
+            atmData:Pediatrie,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Pupalia_lappacea ;
+        atmVocab:nomGenre dbr:Pupalia ;
+        atmVocab:nomPeul "Niaakabere rewre"^^xsd:string ;
+        atmVocab:nomWolof "Niabente"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_162 atmVocab:indication atmData:Antiseptique,
+            atmData:Decongestionannt,
+            atmData:Expectorant,
+            atmData:Hemostatique,
+            atmData:Hypoglycemiant,
+            atmData:Orl ;
+        atmVocab:nomBinomial atmData:Piliostigma_reticulatum ;
+        atmVocab:nomGenre dbr:Piliostigma ;
+        atmVocab:nomPeul "Barkewi"^^xsd:string ;
+        atmVocab:nomWolof "Ngigis"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_163 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antipaludeen,
+            atmData:Febrifuge,
+            atmData:Stimulant_Cerebral ;
+        atmVocab:nomBinomial atmData:Rauwolfia_vomitoria ;
+        atmVocab:nomGenre dbr:Rauwolfia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_164 atmVocab:indication <http://data.krw.d2s.labs.vu.nl/resource/Antilã©Preux>,
+            atmData:Emetique ;
+        atmVocab:nomBinomial atmData:Raphia_sudanica ;
+        atmVocab:nomGenre dbr:Raphia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "H"@fr .
+
+    atmData:set3_165 atmVocab:indication atmData:Cephalees,
+            atmData:Hemostatique,
+            atmData:Ophtalmie,
+            atmData:Stimulant,
+            atmData:Vertige ;
+        atmVocab:nomBinomial atmData:Saba_senegalensis ;
+        atmVocab:nomGenre dbr:Saba ;
+        atmVocab:nomPeul "Lamoude"^^xsd:string ;
+        atmVocab:nomWolof "Mad"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_166 atmVocab:indication atmData:Anticancereux,
+            atmData:Conceptif,
+            atmData:Emetique,
+            atmData:Expectorant,
+            atmData:Hypocholesterolemiant,
+            atmData:_Antiepileptque ;
+        atmVocab:nomBinomial atmData:Sapindus_mukorosi ;
+        atmVocab:nomGenre dbr:Sapindus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Sobane"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr .
+
+    atmData:set3_167 atmVocab:indication atmData:Reconstituant,
+            atmData:Remineralisant ;
+        atmVocab:nomBinomial atmData:Sesamum_radiatum ;
+        atmVocab:nomGenre dbr:Sesamum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Graines"@fr .
+
+    atmData:set3_168 atmVocab:indication atmData:,
+            atmData:Hypoglycemiant,
+            atmData:Reconstitunt,
+            atmData:Remineralisant,
+            atmData:_Restaure_La_Flore_Gastrique ;
+        atmVocab:nomBinomial atmData:Sorghum_vulgare ;
+        atmVocab:nomGenre dbr:Sorghum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_169 atmVocab:indication atmData:Antinfectieux,
+            atmData:Antivenumeux,
+            atmData:Astringent,
+            atmData:Hypoglycemiant ;
+        atmVocab:nomBinomial atmData:Sclerocarya_birrea ;
+        atmVocab:nomGenre dbr:Sclerocarya ;
+        atmVocab:nomPeul "Eri"^^xsd:string ;
+        atmVocab:nomWolof "Ber"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_17 atmVocab:indication atmData:Antiparasitaire,
+            atmData:Antipruriginuse,
+            atmData:Antirhumatismal ;
+        atmVocab:nomBinomial atmData:Adenium_obesum ;
+        atmVocab:nomGenre dbr:Adenium ;
+        atmVocab:nomPeul "Darbogel"^^xsd:string ;
+        atmVocab:nomWolof "Lisougar"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_170 atmVocab:indication atmData:Affections_Buccales,
+            atmData:Depuratif,
+            atmData:Hypoglycemiant,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Scoparia_dulcis ;
+        atmVocab:nomGenre dbr:Scoparia ;
+        atmVocab:nomPeul "Belwelngel"^^xsd:string ;
+        atmVocab:nomWolof "Madj madj"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_171 atmVocab:indication atmData:Antidouleur,
+            atmData:Antiinfectieux,
+            atmData:Antilepreux,
+            atmData:Antiparasitaire,
+            atmData:Emetique,
+            atmData:Repulsif_Reptile ;
+        atmVocab:nomBinomial atmData:Securidaca_longepedunculata ;
+        atmVocab:nomGenre dbr:Securidaca ;
+        atmVocab:nomPeul "Alali"^^xsd:string ;
+        atmVocab:nomWolof "Fouf"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_172 atmVocab:indication atmData:Antilepreux,
+            atmData:Antituberculeux,
+            atmData:Digestif,
+            atmData:Emollient,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Sterculia_setigera ;
+        atmVocab:nomGenre dbr:Sterculia ;
+        atmVocab:nomPeul "Bobori"^^xsd:string ;
+        atmVocab:nomWolof "Mbep"^^xsd:string ;
+        atmVocab:partieUtilisee "Gomme"@fr,
+            "squames"@fr .
+
+    atmData:set3_173 atmVocab:indication atmData:Dermatoses,
+            atmData:Febrilite,
+            atmData:Lepre,
+            atmData:Ulceres_Phagedeniques ;
+        atmVocab:nomBinomial atmData:Stereospermum_kunthianum ;
+        atmVocab:nomGenre dbr:Stereospermum ;
+        atmVocab:nomPeul "Golombi"^^xsd:string ;
+        atmVocab:nomWolof "Fekh"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Racine"@fr .
+
+    atmData:set3_174 atmVocab:indication atmData:Antidiabetique,
+            atmData:Antioxydant,
+            atmData:Bactericide,
+            atmData:Digestif,
+            atmData:Purgatif,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Strychnos_sinosa ;
+        atmVocab:nomGenre dbr:Strychnos ;
+        atmVocab:nomPeul "Ngorwali"^^xsd:string ;
+        atmVocab:nomWolof "Temb"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_175 atmVocab:indication atmData:,
+            atmData:Paralysie,
+            atmData:Tonicardiaque ;
+        atmVocab:nomBinomial atmData:Strophantus_sarmentosus ;
+        atmVocab:nomGenre dbr:Strophantus ;
+        atmVocab:nomPeul "Bondji"^^xsd:string ;
+        atmVocab:nomWolof "Bondie"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_176 atmVocab:indication atmData:Antibiotique,
+            atmData:Antiinflammatoire,
+            atmData:Dopant ;
+        atmVocab:nomBinomial atmData:Sygizium_guineense ;
+        atmVocab:nomGenre dbr:Sygizium ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_177 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antimeningite_,
+            atmData:Antistress,
+            atmData:Febrifuge,
+            atmData:Laxatif,
+            atmData:Sedatif,
+            atmData:Stimulant_,
+            atmData:Tenifuge ;
+        atmVocab:nomBinomial atmData:Tamarindus_indica ;
+        atmVocab:nomGenre dbr:Tamarindus ;
+        atmVocab:nomPeul "Diami"^^xsd:string ;
+        atmVocab:nomWolof "Dahar"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_178 atmVocab:indication atmData:,
+            atmData:Antibiotique,
+            atmData:Antidiarrheique,
+            atmData:Nevrite ;
+        atmVocab:nomBinomial atmData:Terminalia_avicenoides ;
+        atmVocab:nomGenre dbr:Terminalia ;
+        atmVocab:nomPeul "Poulemi"^^xsd:string ;
+        atmVocab:nomWolof "Reprep"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_179 atmVocab:indication atmData:Antianemique,
+            atmData:Antibiotique,
+            atmData:Antihepatique ;
+        atmVocab:nomBinomial atmData:Terminalia_macroptera ;
+        atmVocab:nomGenre dbr:Terminalia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Wolo"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_18 atmVocab:indication atmData:Febrifuge,
+            atmData:Maux_De_Ventre,
+            atmData:Stimulant_Gastrointestinal ;
+        atmVocab:nomBinomial atmData:Afzelia_africana ;
+        atmVocab:nomGenre dbr:Afzelia ;
+        atmVocab:nomPeul "Lingue"^^xsd:string ;
+        atmVocab:nomWolof "Fok"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr .
+
+    atmData:set3_180 atmVocab:indication atmData:Antihepatique,
+            atmData:Antimycotique,
+            atmData:Antiprurigineux,
+            atmData:Bactericide,
+            atmData:Hypotenseur,
+            atmData:Infections_Urogenitales ;
+        atmVocab:nomBinomial atmData:Terminalia_catapa ;
+        atmVocab:nomGenre dbr:Terminalia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Gertetoubab"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_181 atmVocab:indication atmData:,
+            atmData:Hepatite,
+            atmData:Hypotenseur,
+            atmData:Vermifuge,
+            atmData:_Antiicterique ;
+        atmVocab:nomBinomial atmData:Tinospora_bakis ;
+        atmVocab:nomGenre dbr:Tinospora ;
+        atmVocab:nomPeul "Bahagni"^^xsd:string ;
+        atmVocab:nomWolof "Bakis"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_182 atmVocab:indication atmData:Antianemique,
+            atmData:Antipaludeenne,
+            atmData:Antitussif,
+            atmData:Cardiopathies,
+            atmData:Hypotenseur,
+            atmData:Laxatif,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Trema_guineense ;
+        atmVocab:nomGenre dbr:Trema ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_183 atmVocab:indication atmData:,
+            atmData:Atonie,
+            atmData:Cardiopathies,
+            atmData:Insomnie,
+            <http://data.krw.d2s.labs.vu.nl/resource/Nervositã©>,
+            atmData:Reconstituant,
+            atmData:Regulateur_D_Etension ;
+        atmVocab:nomBinomial atmData:Tribulus_terrestris ;
+        atmVocab:nomGenre dbr:Tribulus ;
+        atmVocab:nomPeul "Toupere"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_184 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidouleur,
+            atmData:Antihemorroidaire,
+            atmData:Antioedemateux,
+            atmData:Emetique,
+            atmData:Hypertension,
+            atmData:Lepre,
+            atmData:Purgative,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Trichillia_emetica ;
+        atmVocab:nomGenre dbr:Trichillia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Farkagne"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_185 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antirhumatismal,
+            atmData:Diuretique,
+            atmData:Emetique,
+            atmData:Febrifuge,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Vernonia_nigritiana ;
+        atmVocab:nomGenre dbr:Vernonia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Bathiatior"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_186 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antirhumatismal,
+            atmData:Diuretique,
+            atmData:Emetique,
+            atmData:Febrifuge,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Vernonia_amygdalina ;
+        atmVocab:nomGenre dbr:Vernonia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Docteur"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_187 atmVocab:indication atmData:Anticancereux,
+            atmData:Antiinfecteux,
+            atmData:Febrifuge,
+            atmData:Frigidite,
+            atmData:Natigastralgique ;
+        atmVocab:nomBinomial atmData:Vernonia_colorata ;
+        atmVocab:nomGenre dbr:Vernonia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ndobarkat"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_188 atmVocab:indication atmData:Antidouelur,
+            atmData:Ulcere_Gastrique ;
+        atmVocab:nomBinomial atmData:Vernonia_kotschyana ;
+        atmVocab:nomGenre dbr:Vernonia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_189 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Desinfectant,
+            atmData:Maux_De_Ventre ;
+        atmVocab:nomBinomial atmData:Vetiveria_nigritiana ;
+        atmVocab:nomGenre dbr:Vetiveria ;
+        atmVocab:nomPeul "Samban"^^xsd:string ;
+        atmVocab:nomWolof "Sep"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Rhizome"@fr .
+
+    atmData:set3_19 atmVocab:indication atmData:Pediatrique ;
+        atmVocab:nomBinomial atmData:Amaranthus_spinosus ;
+        atmVocab:nomGenre dbr:Amaranthus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Mboum gor"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_190 atmVocab:indication atmData:Antidouleur,
+            atmData:Reconstituant,
+            atmData:Resolutif,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Vigna_ungulata ;
+        atmVocab:nomGenre dbr:Vigna ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Niebe"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_191 atmVocab:indication atmData:Affections_Pulmonaires,
+            atmData:Antiasthenique,
+            atmData:Mal_De_Ventre ;
+        atmVocab:nomBinomial atmData:Vitex_doniana ;
+        atmVocab:nomGenre dbr:Vitex ;
+        atmVocab:nomPeul "Bumi"^^xsd:string ;
+        atmVocab:nomWolof "Leng"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_192 atmVocab:indication atmData:Antibiotique,
+            atmData:Hygiene_Bucco-Dentaire,
+            atmData:Pediatrique,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Waltheria_indica ;
+        atmVocab:nomGenre dbr:Waltheria ;
+        atmVocab:nomPeul "Kafafi"^^xsd:string ;
+        atmVocab:nomWolof "Matum kewel"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_193 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antilepreux,
+            atmData:Hemostatique,
+            atmData:Resolutif,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Ximenia_americana ;
+        atmVocab:nomGenre dbr:Ximenia ;
+        atmVocab:nomPeul "Tiabourli"^^xsd:string ;
+        atmVocab:nomWolof "Ngologne"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_194 atmVocab:indication atmData:Antidouleur,
+            atmData:Carminatif,
+            atmData:Odontalgie,
+            atmData:Resolutif,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Xylopia_aethiopica ;
+        atmVocab:nomGenre dbr:Xylopia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Diar"^^xsd:string ;
+        atmVocab:partieUtilisee "Graines"@fr .
+
+    atmData:set3_195 atmVocab:indication atmData:Diuretique,
+            atmData:Hypoglycemiant,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Zea_mais ;
+        atmVocab:nomGenre dbr:Zea ;
+        atmVocab:nomPeul "Maka"^^xsd:string ;
+        atmVocab:nomWolof "Mbok"^^xsd:string ;
+        atmVocab:partieUtilisee "Graines"@fr .
+
+    atmData:set3_196 atmVocab:indication atmData:Enuresie,
+            atmData:Infections_Urogenitales ;
+        atmVocab:nomBinomial atmData:Ziziphus_lotus ;
+        atmVocab:nomGenre dbr:Ziziphus ;
+        atmVocab:nomPeul "Diabi maka"^^xsd:string ;
+        atmVocab:nomWolof "Sidem ganar"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_197 atmVocab:indication atmData:Enuresie,
+            atmData:Infections_Urogenitales ;
+        atmVocab:nomBinomial atmData:Ziziphus_mucronata ;
+        atmVocab:nomGenre dbr:Ziziphus ;
+        atmVocab:nomPeul "Diabi fowrou"^^xsd:string ;
+        atmVocab:nomWolof "Sidem bouki"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_198 atmVocab:indication atmData:Antibiotique,
+            atmData:Anticancereux,
+            atmData:Antidouleur,
+            atmData:Emollient,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Ziziphus_mauritiana ;
+        atmVocab:nomGenre dbr:Ziziphus ;
+        atmVocab:nomPeul "Diabi"^^xsd:string ;
+        atmVocab:nomWolof "Sidem"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_2 atmVocab:indication atmData:Antianemique,
+            atmData:Antidouleur,
+            atmData:Antiinfectieux,
+            atmData:Antilepreux,
+            atmData:Antipaludeen,
+            atmData:Antitussif,
+            atmData:Hygiene_Buccodentaire,
+            atmData:Tachycardie,
+            atmData:Troubles_Gastrqiues,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Alchornea_cordifolia ;
+        atmVocab:nomGenre dbr:Alchornea ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Feuille"@fr,
+            "Graines"@fr,
+            "Racine"@fr .
+
+    atmData:set3_20 atmVocab:indication atmData:Antiasthmatique,
+            atmData:Antidiarrheique,
+            atmData:Antimigraineux,
+            atmData:Antitussif,
+            atmData:Pediatrique,
+            atmData:Stimulant,
+            atmData:Troubles_Menstruels,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Anogeissus_leiocarpus ;
+        atmVocab:nomGenre dbr:Anogeissus ;
+        atmVocab:nomPeul "Kodioli"^^xsd:string ;
+        atmVocab:nomWolof "Ngediane"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_21 atmVocab:indication atmData:Antiinfecteiux,
+            atmData:Anurie,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Ambrosia_maritima ;
+        atmVocab:nomGenre dbr:Ambrosia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_22 atmVocab:indication atmData:Abortif,
+            atmData:Antidiarrheique,
+            atmData:Antinflammatoire,
+            atmData:Hypoglycemiant,
+            atmData:Hypotensur,
+            atmData:Stimulant,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Anacardium_occidentale ;
+        atmVocab:nomGenre dbr:Anacardium ;
+        atmVocab:nomPeul "Darkasse"^^xsd:string ;
+        atmVocab:nomWolof "Darkassou"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Gomme"@fr .
+
+    atmData:set3_23 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antipaludeen,
+            atmData:Cicatrisant,
+            atmData:Decongestionannt,
+            atmData:Desacoutumant,
+            atmData:Febrifuge,
+            atmData:Hemoroides,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Annona_senegalensis ;
+        atmVocab:nomGenre dbr:Annona ;
+        atmVocab:nomPeul "Doukoumi"^^xsd:string ;
+        atmVocab:nomWolof "Dougor"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_24 atmVocab:indication atmData:Antidouleur,
+            atmData:Dopant,
+            atmData:_Affections_Bronchopulmonaires ;
+        atmVocab:nomBinomial atmData:Aphania_senegalensis ;
+        atmVocab:nomGenre dbr:Aphania ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Khewer"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_25 atmVocab:indication atmData:Agalactie,
+            atmData:Anticonvulsif,
+            atmData:Antidiabetique,
+            atmData:Azospermie,
+            atmData:Immunostimulant,
+            atmData:Sterilite ;
+        atmVocab:nomBinomial atmData:Arachis_hypogea ;
+        atmVocab:nomGenre dbr:Arachis ;
+        atmVocab:nomPeul "Gerte"^^xsd:string ;
+        atmVocab:nomWolof "Gerte"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_26 atmVocab:indication atmData:,
+            atmData:Antihepatique,
+            atmData:Antiinfectieux,
+            atmData:Antiinflammatoire,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Asparagus_africanus ;
+        atmVocab:nomGenre dbr:Asparagus ;
+        atmVocab:nomPeul "Ngarare"^^xsd:string ;
+        atmVocab:nomWolof "Firoubouki"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_27 atmVocab:indication atmData:Antiparasitaire,
+            atmData:Antipludeen,
+            atmData:Febrifuge,
+            atmData:Insecticide,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Azadirachta_indica ;
+        atmVocab:nomGenre dbr:Azadirachta ;
+        atmVocab:nomPeul "Nim"^^xsd:string ;
+        atmVocab:nomWolof "Nim"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Huile extraite"@fr,
+            "R"@fr .
+
+    atmData:set3_28 atmVocab:indication atmData:Antilepreux,
+            atmData:Antimigraineux,
+            atmData:Antiparasitaire,
+            atmData:Decongestionannt,
+            atmData:Hygiene_Buccodentaire,
+            atmData:Hypocholesterolemiant,
+            atmData:Purgatif,
+            atmData:Stimulant_ ;
+        atmVocab:nomBinomial atmData:Balanites_aegyptiaca ;
+        atmVocab:nomGenre dbr:Balanites ;
+        atmVocab:nomPeul "Mourtoki"^^xsd:string ;
+        atmVocab:nomWolof "Soump"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_29 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antiicterique,
+            atmData:Antiinfectieux,
+            atmData:Diuetique,
+            atmData:Febrifuge,
+            atmData:Ophtalmie,
+            atmData:Sterilite ;
+        atmVocab:nomBinomial atmData:Bauhinia_rufescens ;
+        atmVocab:nomGenre dbr:Bauhinia ;
+        atmVocab:nomPeul "Namadi"^^xsd:string ;
+        atmVocab:nomWolof "Rand"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_3 atmVocab:indication atmData:Antidouleur,
+            atmData:Mal_De_Gorge,
+            atmData:Purgatif,
+            atmData:Stimulant_Cerebral,
+            atmData:Tonifiant_De_La_Voix,
+            atmData:Vermifuge,
+            atmData:Vertiges ;
+        atmVocab:nomBinomial atmData:Abrus_precatorius ;
+        atmVocab:nomGenre dbr:Abrus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Bet u dian"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_30 atmVocab:indication atmData:Antianemique,
+            atmData:Antiepileptique,
+            atmData:Antihmeorroidaire,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Boerhavia_diffusa ;
+        atmVocab:nomGenre dbr:Boerhavia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_31 atmVocab:indication atmData:Antihemorroidaire,
+            atmData:Orl,
+            atmData:Sterilite,
+            atmData:Stimulant_Nerveux ;
+        atmVocab:nomBinomial atmData:Borassus_eathipium ;
+        atmVocab:nomGenre dbr:Borassus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Koni"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_32 atmVocab:indication atmData:Abortif,
+            atmData:Antibiotique,
+            atmData:Antifongique,
+            atmData:Antilepreux,
+            atmData:Antiparasitaire,
+            atmData:Cicatrisante,
+            atmData:Emetique,
+            atmData:Laxatif ;
+        atmVocab:nomBinomial atmData:Borreria_verticillata ;
+        atmVocab:nomGenre dbr:Borreria ;
+        atmVocab:nomPeul "Tiamtarli"^^xsd:string ;
+        atmVocab:nomWolof "Ndatukan bou gor"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_33 atmVocab:indication atmData:Voir_Boscia_Seneglensis ;
+        atmVocab:nomBinomial atmData:Boscia_angustifolia ;
+        atmVocab:nomGenre dbr:Boscia ;
+        atmVocab:nomPeul "Guidjili"^^xsd:string ;
+        atmVocab:nomWolof "Niandam"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_34 atmVocab:indication atmData:Antihemorroidaire,
+            atmData:Antiparasitaire,
+            atmData:Antispasmodique,
+            atmData:Decongestionnant,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Boscia_seneglensis ;
+        atmVocab:nomGenre dbr:Boscia ;
+        atmVocab:nomPeul "\""^^xsd:string ;
+        atmVocab:nomWolof "\""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_35 atmVocab:indication atmData:,
+            atmData:Antidouleur,
+            atmData:Bechique,
+            atmData:Decongestionannt ;
+        atmVocab:nomBinomial atmData:Butyrospermum_paradoxa ;
+        atmVocab:nomGenre dbr:Butyrospermum ;
+        atmVocab:nomPeul "Karite"^^xsd:string ;
+        atmVocab:nomWolof "Karite"^^xsd:string ;
+        atmVocab:partieUtilisee "Beurre"@fr .
+
+    atmData:set3_36 atmVocab:indication atmData:Antioxydant,
+            atmData:Emollient,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Bombax_costatum ;
+        atmVocab:nomGenre dbr:Bombax ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Gouy dem"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuillel"@fr .
+
+    atmData:set3_37 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antispasmodique,
+            atmData:Cicatrisant,
+            atmData:Dermatoses,
+            atmData:Paludisme,
+            atmData:Psychiatrique,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Cadaba_farinosa ;
+        atmVocab:nomGenre dbr:Cadaba ;
+        atmVocab:nomPeul "Tiengtiengi"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_38 atmVocab:indication atmData:Abortif,
+            atmData:Antidote,
+            atmData:Antidouleur_,
+            atmData:Antirhumatsiamal,
+            atmData:Cicatrisant,
+            atmData:Topique ;
+        atmVocab:nomBinomial atmData:Calotropis_procera ;
+        atmVocab:nomGenre dbr:Calotropis ;
+        atmVocab:nomPeul "Bawami"^^xsd:string ;
+        atmVocab:nomWolof "Peften"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Latex"@fr,
+            "Racine"@fr,
+            "f"@fr .
+
+    atmData:set3_39 atmVocab:indication atmData:Antidouleur,
+            atmData:Antitussif,
+            atmData:Insecticide,
+            atmData:Repulsif,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Carapa_procera ;
+        atmVocab:nomGenre dbr:Carapa ;
+        atmVocab:nomPeul "Touloukounou"^^xsd:string ;
+        atmVocab:nomWolof "Touloukounou"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr,
+            "H"@fr .
+
+    atmData:set3_4 atmVocab:indication atmData:Antianemique,
+            atmData:Antibiotique,
+            atmData:Antidiarrheique,
+            atmData:Antihemorroidaire,
+            atmData:Azospermie,
+            atmData:Diuretique,
+            atmData:Laxatif,
+            atmData:Sedatif ;
+        atmVocab:nomBinomial atmData:Abutilon_pannosum ;
+        atmVocab:nomGenre dbr:Abutilon ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Feuillel"@fr,
+            "Plante entiere"@fr .
+
+    atmData:set3_40 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidiabetique,
+            atmData:Antihepatique,
+            atmData:Antiinfectieux,
+            atmData:Antilepreux,
+            atmData:Sterilite,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Capparis_tomentosa ;
+        atmVocab:nomGenre dbr:Capparis ;
+        atmVocab:nomPeul "Goumi balewi"^^xsd:string ;
+        atmVocab:nomWolof "Kharegne"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_41 atmVocab:indication atmData:Antidouleur,
+            atmData:Carminatif,
+            atmData:Decongestionnant,
+            atmData:Digestif,
+            atmData:Febrifuge,
+            atmData:Topique,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial <http://data.krw.d2s.labs.vu.nl/resource/Capsicum_sp.> ;
+        atmVocab:nomGenre dbr:Capsicum ;
+        atmVocab:nomPeul "Kani"^^xsd:string ;
+        atmVocab:nomWolof "Kani"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_42 atmVocab:indication atmData:Antiicterique,
+            atmData:Antipaludeen,
+            atmData:Cicatrisant,
+            atmData:Depuratif,
+            atmData:Digestif,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Carica_papaya ;
+        atmVocab:nomGenre dbr:Carica ;
+        atmVocab:nomPeul "Papaya"^^xsd:string ;
+        atmVocab:nomWolof "Papaya"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr,
+            "Latex"@fr .
+
+    atmData:set3_43 atmVocab:indication atmData:Affections_Urogenitales_Et_Abdominales,
+            atmData:Anticancereux,
+            atmData:Antidiarrheique,
+            atmData:Antiidiabetique,
+            atmData:Diuretique,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Carissa_edulis ;
+        atmVocab:nomGenre dbr:Carissa ;
+        atmVocab:nomPeul "Bussoyi"^^xsd:string ;
+        atmVocab:nomWolof "Dimbaly"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_44 atmVocab:indication atmData:Antifongique,
+            atmData:Antilepreux,
+            atmData:Antiparasitaire,
+            atmData:Cicatrisante,
+            atmData:Depuratif,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Cassia_alata ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Mbanta"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_45 atmVocab:indication atmData:Abortif,
+            atmData:Choleretique,
+            atmData:Infections_Sexuelles,
+            atmData:Purgatif ;
+        atmVocab:nomBinomial atmData:Cassia_italica ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul "Faladiel"^^xsd:string ;
+        atmVocab:nomWolof "Laydour"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_46 atmVocab:indication atmData:Abortif,
+            atmData:Antifongique,
+            atmData:Antipaludeen,
+            atmData:Cholalogue,
+            atmData:Diuretique,
+            atmData:Febrifuge,
+            atmData:Laxatif,
+            atmData:Resolutif,
+            atmData:Sudorifique ;
+        atmVocab:nomBinomial atmData:Cassia_occidentalis ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul "Aldiana"^^xsd:string ;
+        atmVocab:nomWolof "Mbantamare"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_47 atmVocab:indication atmData:Antifongique ;
+        atmVocab:nomBinomial atmData:Cassia_podocarpa ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Naynay"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_48 atmVocab:indication atmData:Bechique_Et_Sudorifique,
+            atmData:Carminatif,
+            atmData:Digestif ;
+        atmVocab:nomBinomial atmData:Cassia_nigricans ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Genou gelem"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_49 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Anurie,
+            atmData:Depuratif,
+            atmData:Diuretique,
+            atmData:Parasitose_Intestinale,
+            atmData:Purgatif,
+            atmData:Stimulant_,
+            atmData:_Infection ;
+        atmVocab:nomBinomial atmData:Cassia_siberiana ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul "Samba sindia"^^xsd:string ;
+        atmVocab:nomWolof "Sindiene"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_5 atmVocab:indication atmData:Antiasthmatique,
+            atmData:Antibiotique,
+            atmData:Antiinfecteiux,
+            atmData:Antilepreux,
+            atmData:Antioedemateux,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Acacia_tortilis ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul "Thilly"^^xsd:string ;
+        atmVocab:nomWolof "Seng"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_50 atmVocab:indication atmData:Antifongique,
+            atmData:Antiviral,
+            atmData:Depuratif,
+            atmData:Febrifuge,
+            atmData:Laxatif ;
+        atmVocab:nomBinomial atmData:Cassia_tora ;
+        atmVocab:nomGenre dbr:Cassia ;
+        atmVocab:nomPeul "Oulo"^^xsd:string ;
+        atmVocab:nomWolof "Ndour"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_51 atmVocab:indication atmData:,
+            atmData:Antidouleur,
+            atmData:Antiseptique ;
+        atmVocab:nomBinomial atmData:Casuarina_equisetifolia ;
+        atmVocab:nomGenre dbr:Casuarina ;
+        atmVocab:nomPeul "Filao"^^xsd:string ;
+        atmVocab:nomWolof "Filao"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_52 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Gingivite,
+            atmData:Ophtalmie,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Ceiba_pendra ;
+        atmVocab:nomGenre dbr:Ceiba ;
+        atmVocab:nomPeul "Bentengewi"^^xsd:string ;
+        atmVocab:nomWolof "Bentegne"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Graines"@fr .
+
+    atmData:set3_53 atmVocab:indication atmData:Antioedemateux,
+            atmData:Antipyretique,
+            atmData:Psychiatrie,
+            atmData:Sterilite,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Celtis_integrifolia ;
+        atmVocab:nomGenre dbr:Celtis ;
+        atmVocab:nomPeul "Bouleyi"^^xsd:string ;
+        atmVocab:nomWolof "Mboul"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_54 atmVocab:indication atmData:Antinfectieux,
+            atmData:Hepatite,
+            atmData:Infctiosn_Urinaires,
+            atmData:Laxatif ;
+        atmVocab:nomBinomial atmData:Centaurea_senegalensis ;
+        atmVocab:nomGenre dbr:Centaurea ;
+        atmVocab:nomPeul "Kode bamdi"^^xsd:string ;
+        atmVocab:nomWolof "Homhom"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_55 atmVocab:indication atmData:Antidouleur,
+            atmData:Antiinfecteiux,
+            atmData:Antiparasiataire,
+            atmData:Cicatrisant ;
+        atmVocab:nomBinomial atmData:Centella_asiatica ;
+        atmVocab:nomGenre dbr:Centella ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_56 atmVocab:indication atmData:Antiallergique,
+            atmData:Antidiarrheique,
+            atmData:Antidouleur,
+            atmData:Antiicterique,
+            atmData:Antinfectieux,
+            atmData:Antipaludeen,
+            atmData:Astringent,
+            atmData:Hemostatique ;
+        atmVocab:nomBinomial atmData:Chromolaena_odorata ;
+        atmVocab:nomGenre dbr:Chromolaena ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_57 atmVocab:indication atmData:Antiinfectieux,
+            atmData:Antioedemateux,
+            atmData:Diabete,
+            atmData:Diarrhee,
+            atmData:Douleur,
+            atmData:Hypertension,
+            atmData:Pediatrie,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Chrozophora_seneglensis ;
+        atmVocab:nomGenre dbr:Chrozophora ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ndiamat"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_58 atmVocab:indication atmData:Abortif,
+            atmData:Antibiotique,
+            atmData:Antilepreux,
+            atmData:Antispasmodique,
+            atmData:Laxatif,
+            atmData:Pediatrique,
+            atmData:Troubles_Menstruels ;
+        atmVocab:nomBinomial atmData:Cisampelos_mucronata ;
+        atmVocab:nomGenre dbr:Cisampelos ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ngolomar"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr,
+            "Racine"@fr .
+
+    atmData:set3_59 atmVocab:indication atmData:Anabolisant,
+            atmData:Antidiabetique,
+            atmData:Antiinfectieux,
+            atmData:Antiinflammtaoire,
+            atmData:Antioxydant,
+            atmData:Gastro-Hepatoprotecteur,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Cissus_quadrangularis ;
+        atmVocab:nomGenre dbr:Cissus ;
+        atmVocab:nomPeul "Kodi gniwa"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Gel"@fr .
+
+    atmData:set3_6 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Antidouelur,
+            atmData:Astringent,
+            atmData:Emollient,
+            atmData:Hemostatique,
+            atmData:Hygiene_Buccodentaire ;
+        atmVocab:nomBinomial atmData:Acacia_senegalenesis ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul "Patouki"^^xsd:string ;
+        atmVocab:nomWolof "Verek"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr,
+            "Feuille"@fr,
+            "Gomme"@fr .
+
+    atmData:set3_60 atmVocab:indication atmData:Antianemique,
+            atmData:Antibiotique,
+            atmData:Antidiabetique,
+            atmData:Bechique,
+            atmData:Reconstituant,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial <http://data.krw.d2s.labs.vu.nl/resource/Citrus_sp.> ;
+        atmVocab:nomGenre dbr:Citrus ;
+        atmVocab:nomPeul "Limon"^^xsd:string ;
+        atmVocab:nomWolof "Limon"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_61 atmVocab:indication atmData:Antiallergique,
+            atmData:Reconstitiant,
+            atmData:Stimulant_Cerebral ;
+        atmVocab:nomBinomial atmData:Cleome_gynandra ;
+        atmVocab:nomGenre dbr:Cleome ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ngor si bidiaw"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_62 atmVocab:indication atmData:Antihepatique,
+            atmData:Constipation,
+            atmData:Hypo-Hypertension,
+            atmData:Ophtalmie ;
+        atmVocab:nomBinomial atmData:Cleome_viscosa ;
+        atmVocab:nomGenre dbr:Cleome ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_63 atmVocab:indication atmData:,
+            atmData:Antiicterique,
+            atmData:Hepato-Protecteur,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Cochlospermum_tinctoria ;
+        atmVocab:nomGenre dbr:Cochlospermum ;
+        atmVocab:nomPeul "Fadiourane"^^xsd:string ;
+        atmVocab:nomWolof "Fayar"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_64 atmVocab:indication atmData:Lepre,
+            atmData:Psychiatrie,
+            atmData:Sterilite,
+            atmData:Toux,
+            atmData:Troubles_Gastrique,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Combretum_aculeatum ;
+        atmVocab:nomGenre dbr:Combretum ;
+        atmVocab:nomPeul "Lewniande"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Racine"@fr .
+
+    atmData:set3_65 atmVocab:indication atmData:Antiicterique,
+            atmData:Antitusif,
+            atmData:Cholalogue,
+            atmData:Digestif,
+            atmData:Diuretique,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Combretum_micranthum ;
+        atmVocab:nomGenre dbr:Combretum ;
+        atmVocab:nomPeul "Tali"^^xsd:string ;
+        atmVocab:nomWolof "Sehew"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Racine"@fr,
+            "f"@fr .
+
+    atmData:set3_66 atmVocab:indication atmData:Diarrhee,
+            atmData:Hemoroides,
+            atmData:Paludisme,
+            atmData:Peditarie,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Combretum_paniculatum ;
+        atmVocab:nomGenre dbr:Combretum ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_67 atmVocab:indication atmData:Antiicterique,
+            atmData:Antiparasitaire,
+            atmData:Cholalogue,
+            atmData:Depuratif,
+            atmData:Diuretique,
+            atmData:Hypotenseur,
+            atmData:Stimulant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Combretum_glutinosum ;
+        atmVocab:nomGenre dbr:Combretum ;
+        atmVocab:nomPeul "Doki"^^xsd:string ;
+        atmVocab:nomWolof "Rate"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_68 atmVocab:indication atmData:Agalactie,
+            atmData:Antiemetique,
+            atmData:Antitussif,
+            atmData:Cicatrisant,
+            atmData:Pediatrique,
+            atmData:Somnifere ;
+        atmVocab:nomBinomial atmData:Commelina_communis ;
+        atmVocab:nomGenre dbr:Commelina ;
+        atmVocab:nomPeul "Walwalde"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_69 atmVocab:indication atmData:Antidiarrheique,
+            atmData:Dermatoses,
+            atmData:Hygiene_Buccodentaire ;
+        atmVocab:nomBinomial atmData:Commiphora_africana ;
+        atmVocab:nomGenre dbr:Commiphora ;
+        atmVocab:nomPeul "Badi"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Gomme"@fr,
+            "Racine"@fr,
+            "ec"@fr,
+            "f"@fr .
+
+    atmData:set3_7 atmVocab:indication atmData:Antidouleur,
+            atmData:Antilepreux,
+            atmData:Antipaludeen,
+            atmData:Emollient,
+            atmData:Hypotenseur,
+            atmData:Odontalgie,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Acacia_albida ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul "Tiaski"^^xsd:string ;
+        atmVocab:nomWolof "Kad"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_70 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidouleur,
+            atmData:Antihepatique,
+            atmData:Antipaludeen,
+            atmData:Pediatrique,
+            atmData:Reconstituant,
+            atmData:Sterilite,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Cordyla_pinata ;
+        atmVocab:nomGenre dbr:Cordyla ;
+        atmVocab:nomPeul "Douki"^^xsd:string ;
+        atmVocab:nomWolof "Dimb"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_71 atmVocab:indication atmData:Antiparasiatire,
+            atmData:Depuratif,
+            atmData:Purgatif,
+            atmData:Tenifuge ;
+        atmVocab:nomBinomial atmData:Cucubita_pepo ;
+        atmVocab:nomGenre dbr:Cucubita ;
+        atmVocab:nomPeul "Nadie"^^xsd:string ;
+        atmVocab:nomWolof "Nadio"^^xsd:string ;
+        atmVocab:partieUtilisee "Graines"@fr .
+
+    atmData:set3_72 atmVocab:indication atmData:Anticancereux,
+            atmData:Antidouleur,
+            atmData:Bactericide,
+            atmData:Digestif,
+            atmData:Febrifuge,
+            atmData:Hypotenseur,
+            atmData:Kyste ;
+        atmVocab:nomBinomial atmData:Crateva_religiosa ;
+        atmVocab:nomGenre dbr:Crateva ;
+        atmVocab:nomPeul "Nayko"^^xsd:string ;
+        atmVocab:nomWolof "Khourel"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Racine"@fr .
+
+    atmData:set3_73 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidote,
+            atmData:Febrifuge,
+            atmData:Nevralgie,
+            atmData:Odontalgie,
+            atmData:Psychiatrie,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Crossopterix_febrifuga ;
+        atmVocab:nomGenre dbr:Crossopterix ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_74 atmVocab:indication atmData:Antidouleur ;
+        atmVocab:nomBinomial atmData:Crotolaria_retusa ;
+        atmVocab:nomGenre dbr:Crotolaria ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_75 atmVocab:indication atmData:Anticoagulant,
+            atmData:Anticonvulsif,
+            atmData:Antidouleur,
+            atmData:Digestif,
+            atmData:Sedatif,
+            atmData:Somnifere ;
+        atmVocab:nomBinomial atmData:Cyperus_articulatus ;
+        atmVocab:nomGenre dbr:Cyperus ;
+        atmVocab:nomPeul "Gowe"^^xsd:string ;
+        atmVocab:nomWolof "Gowe"^^xsd:string ;
+        atmVocab:partieUtilisee "Racine"@fr .
+
+    atmData:set3_76 atmVocab:indication atmData:,
+            atmData:Antidouleur,
+            atmData:Antihemoroidaire,
+            atmData:Digestif,
+            atmData:Laxatif,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Cyperus_esculentus ;
+        atmVocab:nomGenre dbr:Cyperus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ndir"^^xsd:string ;
+        atmVocab:partieUtilisee "rc"@fr .
+
+    atmData:set3_77 atmVocab:indication atmData:Antispasmodique,
+            atmData:Digestif,
+            atmData:Febrifuge,
+            atmData:Insecticide,
+            atmData:Tranquilisant,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Cymbopogon_citratus ;
+        atmVocab:nomGenre dbr:Cymbopogon ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_78 atmVocab:indication atmData:Antiamaril,
+            atmData:Antibiotique,
+            atmData:Febrifuge,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Cymbopogon_giganteus ;
+        atmVocab:nomGenre dbr:Cymbopogon ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_79 atmVocab:indication atmData:Laxatif,
+            atmData:Stimulant,
+            atmData:_Carminatif,
+            atmData:_Hygiene_Buccodentaire ;
+        atmVocab:nomBinomial atmData:Cola_nitida ;
+        atmVocab:nomGenre dbr:Cola ;
+        atmVocab:nomPeul "Taba"^^xsd:string ;
+        atmVocab:nomWolof "Taba"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_8 atmVocab:indication atmData:,
+            atmData:Antidiarrheique,
+            atmData:Antiseptique,
+            atmData:Antvenimeux,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Acacia_dudgeoni ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Ded"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_80 atmVocab:indication atmData:Convulsions,
+            atmData:Ettas_Fabriles,
+            atmData:Pediatrie ;
+        atmVocab:nomBinomial atmData:Dactylectonium_aegyptium ;
+        atmVocab:nomGenre dbr:Dactylectonium ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_81 atmVocab:indication atmData:Antifongique,
+            atmData:Antiinfectieux,
+            atmData:Astringente,
+            atmData:Bactericide,
+            atmData:Decongestionnante,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Dalbergia_melanoxylon ;
+        atmVocab:nomGenre dbr:Dalbergia ;
+        atmVocab:nomPeul "Dialambani"^^xsd:string ;
+        atmVocab:nomWolof "Dialambane"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_82 atmVocab:indication atmData:,
+            atmData:Antiasthmatique,
+            atmData:Stupefiant ;
+        atmVocab:nomBinomial atmData:Datura_metel ;
+        atmVocab:nomGenre dbr:Datura ;
+        atmVocab:nomPeul "Fouyoufaya"^^xsd:string ;
+        atmVocab:nomWolof "Katidianta"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_83 atmVocab:indication atmData:Antspasmodique,
+            atmData:Bechique,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Daniella_olivieri ;
+        atmVocab:nomGenre dbr:Daniella ;
+        atmVocab:nomPeul "Santang"^^xsd:string ;
+        atmVocab:nomWolof "Santang"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr,
+            "Gomme"@fr,
+            "Racine"@fr .
+
+    atmData:set3_84 atmVocab:indication atmData:Antibiotique,
+            atmData:Antimeningite,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Detarium_microcarpum ;
+        atmVocab:nomGenre dbr:Detarium ;
+        atmVocab:nomPeul "Lolle"^^xsd:string ;
+        atmVocab:nomWolof "Dank"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr .
+
+    atmData:set3_85 atmVocab:indication atmData:,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Detarium_senegalensis ;
+        atmVocab:nomGenre dbr:Detarium ;
+        atmVocab:nomPeul "Ditak"^^xsd:string ;
+        atmVocab:nomWolof "Ditakh"^^xsd:string ;
+        atmVocab:partieUtilisee "Fruit"@fr .
+
+    atmData:set3_86 atmVocab:indication atmData:Anticancereux,
+            atmData:Antiinflammatoire,
+            atmData:Bechique,
+            atmData:Reconstituant,
+            atmData:Stmulant ;
+        atmVocab:nomBinomial atmData:Dialium_guineense ;
+        atmVocab:nomGenre dbr:Dialium ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Solom"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_87 atmVocab:indication atmData:Abortif,
+            atmData:Antibiotique,
+            atmData:Antiinfectieux,
+            atmData:Contraceptif,
+            atmData:Hygiene_Buccodentaire,
+            atmData:Laxatif,
+            atmData:Lepre,
+            atmData:Peditarique,
+            atmData:Sedatif,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Dycrostachys_cinerea ;
+        atmVocab:nomGenre dbr:Dycrostachys ;
+        atmVocab:nomPeul "Bourli"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Ecorce"@fr .
+
+    atmData:set3_88 atmVocab:indication atmData:Anticoagulant,
+            atmData:Antidiarrheique,
+            atmData:Antidouleur,
+            atmData:Astringent,
+            atmData:Digestif,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Dodonea_viscosa ;
+        atmVocab:nomGenre dbr:Dodonea ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr .
+
+    atmData:set3_89 atmVocab:indication atmData:Antidouleur,
+            atmData:Antinflammatoire,
+            atmData:Astringent,
+            atmData:Carminatif,
+            atmData:Lepre,
+            atmData:Ophtalmie,
+            atmData:Peditarique,
+            atmData:Psychiatrie ;
+        atmVocab:nomBinomial atmData:Diospyros_mespilliformis ;
+        atmVocab:nomGenre dbr:Diospyros ;
+        atmVocab:nomPeul "Dounoubi"^^xsd:string ;
+        atmVocab:nomWolof "Alom"^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr,
+            "Feuille"@fr .
+
+    atmData:set3_9 atmVocab:indication atmData:Antidouleur,
+            atmData:Antiinfectieux,
+            atmData:Antitussif,
+            atmData:Desinfectant,
+            atmData:Sedative,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Acacia_ataxacantha ;
+        atmVocab:nomGenre dbr:Acacia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Sam"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_90 atmVocab:indication atmData:Antianemique,
+            atmData:Antibiotique,
+            atmData:Antidrepanocytaire,
+            atmData:Antihemorragique,
+            atmData:Antiinfectieux,
+            atmData:Astringent,
+            atmData:Sterilite,
+            atmData:Stimulant_Cerebral ;
+        atmVocab:nomBinomial atmData:Elaeis_guineensis ;
+        atmVocab:nomGenre dbr:Elaeis ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Garab tir"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Fruit"@fr,
+            "H"@fr,
+            "Racine"@fr .
+
+    atmData:set3_91 atmVocab:indication atmData:Antidouleur,
+            atmData:Antitussif,
+            atmData:Emetique,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Entada_africana ;
+        atmVocab:nomGenre dbr:Entada ;
+        atmVocab:nomPeul "Bathiari"^^xsd:string ;
+        atmVocab:nomWolof "Mbatiar"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_92 atmVocab:indication atmData:Cicatrisante,
+            atmData:Dermatoses,
+            atmData:Topique ;
+        atmVocab:nomBinomial atmData:Euphorbia_balsamifera ;
+        atmVocab:nomGenre dbr:Euphorbia ;
+        atmVocab:nomPeul "Bakarewi"^^xsd:string ;
+        atmVocab:nomWolof "Salan"^^xsd:string ;
+        atmVocab:partieUtilisee ""@fr .
+
+    atmData:set3_93 atmVocab:indication atmData:Antiasthmatique,
+            atmData:Antidiarrheique,
+            atmData:Galactogene,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Euphorbia_hirta ;
+        atmVocab:nomGenre dbr:Euphorbia ;
+        atmVocab:nomPeul "Enende"^^xsd:string ;
+        atmVocab:nomWolof "Mbal"^^xsd:string ;
+        atmVocab:partieUtilisee "Plante entiere"@fr .
+
+    atmData:set3_94 atmVocab:indication atmData:Antianemique,
+            atmData:Anticoagulant,
+            atmData:Antidouleur,
+            atmData:Antidrepanocytaire,
+            atmData:Febrifuge,
+            atmData:Hygiene_Buccodentaire,
+            atmData:Vermifuge ;
+        atmVocab:nomBinomial atmData:Fagara_senegalensis ;
+        atmVocab:nomGenre dbr:Fagara ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Denigidek"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr,
+            "Fruit"@fr,
+            "Racine"@fr .
+
+    atmData:set3_95 atmVocab:indication atmData:Antibiotique,
+            atmData:Antidouleur,
+            atmData:Lepre,
+            atmData:Psychiatrie,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Feretia_apodanthera ;
+        atmVocab:nomGenre dbr:Feretia ;
+        atmVocab:nomPeul "Tiombi"^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_96 atmVocab:indication atmData:Antiinfectieux,
+            atmData:Aphte,
+            atmData:Gingivite,
+            atmData:Reconstituant,
+            atmData:Stimulant ;
+        atmVocab:nomBinomial atmData:Fluggea_virosa ;
+        atmVocab:nomGenre dbr:Fluggea ;
+        atmVocab:nomPeul "Tiamble gorel"^^xsd:string ;
+        atmVocab:nomWolof "Keng"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_97 atmVocab:indication atmData:Antibiotique,
+            atmData:Reconstituant ;
+        atmVocab:nomBinomial atmData:Ficus_sp ;
+        atmVocab:nomGenre dbr:Ficus ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof ""^^xsd:string ;
+        atmVocab:partieUtilisee "Ecorce"@fr .
+
+    atmData:set3_98 atmVocab:indication atmData:,
+            atmData:Antibiotique,
+            atmData:Antiinfctieux,
+            atmData:Gynecologique ;
+        atmVocab:nomBinomial atmData:Gardenia_ternifolia ;
+        atmVocab:nomGenre dbr:Gardenia ;
+        atmVocab:nomPeul ""^^xsd:string ;
+        atmVocab:nomWolof "Dibiton"^^xsd:string ;
+        atmVocab:partieUtilisee "Branchette"@fr .
+
+    atmData:set3_99 atmVocab:indication atmData:Abortf,
+            atmData:Astringent,
+            atmData:Galactogene,
+            atmData:Tranquilisant ;
+        atmVocab:nomBinomial atmData:Gossypum_barbadense ;
+        atmVocab:nomGenre dbr:Gossypum ;
+        atmVocab:nomPeul "Khotolo"^^xsd:string ;
+        atmVocab:nomWolof "Witen"^^xsd:string ;
+        atmVocab:partieUtilisee "Feuille"@fr,
+            "Graines"@fr .
+}
+
+{
+    atmData: a atmVocab:indication ;
+        rdfs:label ""@fr .
+
+    atmData:Abortf a atmVocab:indication ;
+        rdfs:label "Abortf"@fr .
+
+    atmData:Abortif a atmVocab:indication ;
+        rdfs:label "Abortif"@fr .
+
+    atmData:Abrus_precatorius a atmVocab:nomBinomial ;
+        rdfs:label "Abrus precatorius"^^xsd:string .
+
+    atmData:Abutilon_pannosum a atmVocab:nomBinomial ;
+        rdfs:label "Abutilon pannosum"^^xsd:string .
+
+    atmData:Acacia_albida a atmVocab:nomBinomial ;
+        rdfs:label "Acacia albida"^^xsd:string .
+
+    atmData:Acacia_ataxacantha a atmVocab:nomBinomial ;
+        rdfs:label "Acacia ataxacantha"^^xsd:string .
+
+    atmData:Acacia_dudgeoni a atmVocab:nomBinomial ;
+        rdfs:label "Acacia dudgeoni"^^xsd:string .
+
+    atmData:Acacia_gourmeansis a atmVocab:nomBinomial ;
+        rdfs:label "Acacia gourmeansis"^^xsd:string .
+
+    atmData:Acacia_nilotica a atmVocab:nomBinomial ;
+        rdfs:label "Acacia nilotica"^^xsd:string .
+
+    atmData:Acacia_senegalenesis a atmVocab:nomBinomial ;
+        rdfs:label "Acacia senegalenesis"^^xsd:string .
+
+    atmData:Acacia_seyal a atmVocab:nomBinomial ;
+        rdfs:label "Acacia seyal"^^xsd:string .
+
+    atmData:Acacia_siberiana a atmVocab:nomBinomial ;
+        rdfs:label "Acacia siberiana"^^xsd:string .
+
+    atmData:Acacia_tortilis a atmVocab:nomBinomial ;
+        rdfs:label "Acacia tortilis"^^xsd:string .
+
+    atmData:Acanthospermum_hispidium a atmVocab:nomBinomial ;
+        rdfs:label "Acanthospermum hispidium"^^xsd:string .
+
+    atmData:Achyrantes_aspera_ a atmVocab:nomBinomial ;
+        rdfs:label "Achyrantes aspera "^^xsd:string .
+
+    atmData:Adansonia_digitata a atmVocab:nomBinomial ;
+        rdfs:label "Adansonia digitata"^^xsd:string .
+
+    atmData:Adenium_obesum a atmVocab:nomBinomial ;
+        rdfs:label "Adenium obesum"^^xsd:string .
+
+    atmData:Affections_Buccales a atmVocab:indication ;
+        rdfs:label "Affections Buccales"@fr .
+
+    atmData:Affections_Buccodentaires a atmVocab:indication ;
+        rdfs:label "Affections Buccodentaires"@fr .
+
+    atmData:Affections_Buccopharyngees a atmVocab:indication ;
+        rdfs:label "Affections Buccopharyngees"@fr .
+
+    atmData:Affections_Pulmonaires a atmVocab:indication ;
+        rdfs:label "Affections Pulmonaires"@fr .
+
+    atmData:Affections_Uro-Genitales a atmVocab:indication ;
+        rdfs:label "Affections Uro-Genitales"@fr .
+
+    atmData:Affections_Urogenitales_Et_Abdominales a atmVocab:indication ;
+        rdfs:label "Affections Urogenitales Et Abdominales"@fr .
+
+    atmData:Afzelia_africana a atmVocab:nomBinomial ;
+        rdfs:label "Afzelia africana"^^xsd:string .
+
+    atmData:Agalactie a atmVocab:indication ;
+        rdfs:label "Agalactie"@fr .
+
+    atmData:Agent_Tinctorial a atmVocab:indication ;
+        rdfs:label "Agent Tinctorial"@fr .
+
+    atmData:Ageratum_conzoides a atmVocab:nomBinomial ;
+        rdfs:label "Ageratum conzoides"^^xsd:string .
+
+    atmData:Alchornea_cordifolia a atmVocab:nomBinomial ;
+        rdfs:label "Alchornea cordifolia"^^xsd:string .
+
+    atmData:Amaranthus_spinosus a atmVocab:nomBinomial ;
+        rdfs:label "Amaranthus spinosus"^^xsd:string .
+
+    atmData:Ambrosia_maritima a atmVocab:nomBinomial ;
+        rdfs:label "Ambrosia maritima"^^xsd:string .
+
+    atmData:Anabolisant a atmVocab:indication ;
+        rdfs:label "Anabolisant"@fr .
+
+    atmData:Anacardium_occidentale a atmVocab:nomBinomial ;
+        rdfs:label "Anacardium occidentale"^^xsd:string .
+
+    atmData:Anemie a atmVocab:indication ;
+        rdfs:label "Anemie"@fr .
+
+    atmData:Annona_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Annona senegalensis"^^xsd:string .
+
+    atmData:Anogeissus_leiocarpus a atmVocab:nomBinomial ;
+        rdfs:label "Anogeissus leiocarpus"^^xsd:string .
+
+    atmData:Anorexie a atmVocab:indication ;
+        rdfs:label "Anorexie"@fr .
+
+    atmData:Antfongique a atmVocab:indication ;
+        rdfs:label "Antfongique"@fr .
+
+    atmData:Antiallergique a atmVocab:indication ;
+        rdfs:label "Antiallergique"@fr .
+
+    atmData:Antiamaril a atmVocab:indication ;
+        rdfs:label "Antiamaril"@fr .
+
+    atmData:Antianemique a atmVocab:indication ;
+        rdfs:label "Antianemique"@fr .
+
+    atmData:Antiarhheique a atmVocab:indication ;
+        rdfs:label "Antiarhheique"@fr .
+
+    atmData:Antiasthenique a atmVocab:indication ;
+        rdfs:label "Antiasthenique"@fr .
+
+    atmData:Antiasthmatique a atmVocab:indication ;
+        rdfs:label "Antiasthmatique"@fr .
+
+    atmData:Antibiotique a atmVocab:indication ;
+        rdfs:label "Antibiotique"@fr .
+
+    atmData:Anticancereux a atmVocab:indication ;
+        rdfs:label "Anticancereux"@fr .
+
+    atmData:Anticoagulant a atmVocab:indication ;
+        rdfs:label "Anticoagulant"@fr .
+
+    atmData:Anticonceptionnel a atmVocab:indication ;
+        rdfs:label "Anticonceptionnel"@fr .
+
+    atmData:Anticonvulsif a atmVocab:indication ;
+        rdfs:label "Anticonvulsif"@fr .
+
+    atmData:Antidiabetique a atmVocab:indication ;
+        rdfs:label "Antidiabetique"@fr .
+
+    atmData:Antidiarhheique a atmVocab:indication ;
+        rdfs:label "Antidiarhheique"@fr .
+
+    atmData:Antidiarrheiqe a atmVocab:indication ;
+        rdfs:label "Antidiarrheiqe"@fr .
+
+    atmData:Antidiarrheique a atmVocab:indication ;
+        rdfs:label "Antidiarrheique"@fr .
+
+    atmData:Antididirrheique a atmVocab:indication ;
+        rdfs:label "Antididirrheique"@fr .
+
+    atmData:Antidote a atmVocab:indication ;
+        rdfs:label "Antidote"@fr .
+
+    atmData:Antidouelur a atmVocab:indication ;
+        rdfs:label "Antidouelur"@fr .
+
+    atmData:Antidouleur a atmVocab:indication ;
+        rdfs:label "Antidouleur"@fr .
+
+    atmData:Antidouleur_ a atmVocab:indication ;
+        rdfs:label "Antidouleur "@fr .
+
+    atmData:Antidrepanocytaire a atmVocab:indication ;
+        rdfs:label "Antidrepanocytaire"@fr .
+
+    atmData:Antiemetique a atmVocab:indication ;
+        rdfs:label "Antiemetique"@fr .
+
+    atmData:Antiepileptique a atmVocab:indication ;
+        rdfs:label "Antiepileptique"@fr .
+
+    atmData:Antifongique a atmVocab:indication ;
+        rdfs:label "Antifongique"@fr .
+
+    atmData:Antiheatique a atmVocab:indication ;
+        rdfs:label "Antiheatique"@fr .
+
+    atmData:Antihemoroidaire a atmVocab:indication ;
+        rdfs:label "Antihemoroidaire"@fr .
+
+    atmData:Antihemorragique a atmVocab:indication ;
+        rdfs:label "Antihemorragique"@fr .
+
+    atmData:Antihemorroidaire a atmVocab:indication ;
+        rdfs:label "Antihemorroidaire"@fr .
+
+    atmData:Antihepatique a atmVocab:indication ;
+        rdfs:label "Antihepatique"@fr .
+
+    atmData:Antihmeorroidaire a atmVocab:indication ;
+        rdfs:label "Antihmeorroidaire"@fr .
+
+    atmData:Antiicterique a atmVocab:indication ;
+        rdfs:label "Antiicterique"@fr .
+
+    atmData:Antiidiabetique a atmVocab:indication ;
+        rdfs:label "Antiidiabetique"@fr .
+
+    atmData:Antiinfctieux a atmVocab:indication ;
+        rdfs:label "Antiinfctieux"@fr .
+
+    atmData:Antiinfecteiux a atmVocab:indication ;
+        rdfs:label "Antiinfecteiux"@fr .
+
+    atmData:Antiinfecteux a atmVocab:indication ;
+        rdfs:label "Antiinfecteux"@fr .
+
+    atmData:Antiinfectieux a atmVocab:indication ;
+        rdfs:label "Antiinfectieux"@fr .
+
+    atmData:Antiinflammatoire a atmVocab:indication ;
+        rdfs:label "Antiinflammatoire"@fr .
+
+    atmData:Antiinflammtaoire a atmVocab:indication ;
+        rdfs:label "Antiinflammtaoire"@fr .
+
+    atmData:Antilepreux a atmVocab:indication ;
+        rdfs:label "Antilepreux"@fr .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Antilã©Preux> a atmVocab:indication ;
+        rdfs:label "Antilã©Preux"@fr .
+
+    atmData:Antimeningite a atmVocab:indication ;
+        rdfs:label "Antimeningite"@fr .
+
+    atmData:Antimeningite_ a atmVocab:indication ;
+        rdfs:label "Antimeningite "@fr .
+
+    atmData:Antimigraineux a atmVocab:indication ;
+        rdfs:label "Antimigraineux"@fr .
+
+    atmData:Antimycotique a atmVocab:indication ;
+        rdfs:label "Antimycotique"@fr .
+
+    atmData:Antinfecteiux a atmVocab:indication ;
+        rdfs:label "Antinfecteiux"@fr .
+
+    atmData:Antinfectieux a atmVocab:indication ;
+        rdfs:label "Antinfectieux"@fr .
+
+    atmData:Antinflammatoire a atmVocab:indication ;
+        rdfs:label "Antinflammatoire"@fr .
+
+    atmData:Antioedemateux a atmVocab:indication ;
+        rdfs:label "Antioedemateux"@fr .
+
+    atmData:Antioxydant a atmVocab:indication ;
+        rdfs:label "Antioxydant"@fr .
+
+    atmData:Antipaludeen a atmVocab:indication ;
+        rdfs:label "Antipaludeen"@fr .
+
+    atmData:Antipaludeenne a atmVocab:indication ;
+        rdfs:label "Antipaludeenne"@fr .
+
+    atmData:Antiparasiataire a atmVocab:indication ;
+        rdfs:label "Antiparasiataire"@fr .
+
+    atmData:Antiparasiatire a atmVocab:indication ;
+        rdfs:label "Antiparasiatire"@fr .
+
+    atmData:Antiparasitaire a atmVocab:indication ;
+        rdfs:label "Antiparasitaire"@fr .
+
+    atmData:Antipludeen a atmVocab:indication ;
+        rdfs:label "Antipludeen"@fr .
+
+    atmData:Antiprasitaire a atmVocab:indication ;
+        rdfs:label "Antiprasitaire"@fr .
+
+    atmData:Antiprurigineux a atmVocab:indication ;
+        rdfs:label "Antiprurigineux"@fr .
+
+    atmData:Antipruriginuse a atmVocab:indication ;
+        rdfs:label "Antipruriginuse"@fr .
+
+    atmData:Antipyretique a atmVocab:indication ;
+        rdfs:label "Antipyretique"@fr .
+
+    atmData:Antirachitique a atmVocab:indication ;
+        rdfs:label "Antirachitique"@fr .
+
+    atmData:Antirhumatismal a atmVocab:indication ;
+        rdfs:label "Antirhumatismal"@fr .
+
+    atmData:Antirhumatsiamal a atmVocab:indication ;
+        rdfs:label "Antirhumatsiamal"@fr .
+
+    atmData:Antiseptique a atmVocab:indication ;
+        rdfs:label "Antiseptique"@fr .
+
+    atmData:Antispasmodique a atmVocab:indication ;
+        rdfs:label "Antispasmodique"@fr .
+
+    atmData:Antistress a atmVocab:indication ;
+        rdfs:label "Antistress"@fr .
+
+    atmData:Antituberculeux a atmVocab:indication ;
+        rdfs:label "Antituberculeux"@fr .
+
+    atmData:Antitumoral a atmVocab:indication ;
+        rdfs:label "Antitumoral"@fr .
+
+    atmData:Antitusif a atmVocab:indication ;
+        rdfs:label "Antitusif"@fr .
+
+    atmData:Antitussif a atmVocab:indication ;
+        rdfs:label "Antitussif"@fr .
+
+    atmData:Antivenimeux a atmVocab:indication ;
+        rdfs:label "Antivenimeux"@fr .
+
+    atmData:Antivenumeux a atmVocab:indication ;
+        rdfs:label "Antivenumeux"@fr .
+
+    atmData:Antiviral a atmVocab:indication ;
+        rdfs:label "Antiviral"@fr .
+
+    atmData:Antspasmodique a atmVocab:indication ;
+        rdfs:label "Antspasmodique"@fr .
+
+    atmData:Antvenimeux a atmVocab:indication ;
+        rdfs:label "Antvenimeux"@fr .
+
+    atmData:Anurie a atmVocab:indication ;
+        rdfs:label "Anurie"@fr .
+
+    atmData:Aphania_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Aphania senegalensis"^^xsd:string .
+
+    atmData:Aphte a atmVocab:indication ;
+        rdfs:label "Aphte"@fr .
+
+    atmData:Arachis_hypogea a atmVocab:nomBinomial ;
+        rdfs:label "Arachis hypogea"^^xsd:string .
+
+    atmData:Asparagus_africanus a atmVocab:nomBinomial ;
+        rdfs:label "Asparagus africanus"^^xsd:string .
+
+    atmData:Astringent a atmVocab:indication ;
+        rdfs:label "Astringent"@fr .
+
+    atmData:Astringente a atmVocab:indication ;
+        rdfs:label "Astringente"@fr .
+
+    atmData:Atonie a atmVocab:indication ;
+        rdfs:label "Atonie"@fr .
+
+    atmData:Atonie_Gastrique a atmVocab:indication ;
+        rdfs:label "Atonie Gastrique"@fr .
+
+    atmData:Azadirachta_indica a atmVocab:nomBinomial ;
+        rdfs:label "Azadirachta indica"^^xsd:string .
+
+    atmData:Azospermie a atmVocab:indication ;
+        rdfs:label "Azospermie"@fr .
+
+    atmData:Bactericide a atmVocab:indication ;
+        rdfs:label "Bactericide"@fr .
+
+    atmData:Balanites_aegyptiaca a atmVocab:nomBinomial ;
+        rdfs:label "Balanites aegyptiaca"^^xsd:string .
+
+    atmData:Bauhinia_rufescens a atmVocab:nomBinomial ;
+        rdfs:label "Bauhinia rufescens"^^xsd:string .
+
+    atmData:Bechique a atmVocab:indication ;
+        rdfs:label "Bechique"@fr .
+
+    atmData:Bechique_Et_Sudorifique a atmVocab:indication ;
+        rdfs:label "Bechique Et Sudorifique"@fr .
+
+    atmData:Boerhavia_diffusa a atmVocab:nomBinomial ;
+        rdfs:label "Boerhavia diffusa"^^xsd:string .
+
+    atmData:Bombax_costatum a atmVocab:nomBinomial ;
+        rdfs:label "Bombax costatum"^^xsd:string .
+
+    atmData:Borassus_eathipium a atmVocab:nomBinomial ;
+        rdfs:label "Borassus eathipium"^^xsd:string .
+
+    atmData:Borreria_verticillata a atmVocab:nomBinomial ;
+        rdfs:label "Borreria verticillata"^^xsd:string .
+
+    atmData:Boscia_angustifolia a atmVocab:nomBinomial ;
+        rdfs:label "Boscia angustifolia"^^xsd:string .
+
+    atmData:Boscia_seneglensis a atmVocab:nomBinomial ;
+        rdfs:label "Boscia seneglensis"^^xsd:string .
+
+    atmData:Butyrospermum_paradoxa a atmVocab:nomBinomial ;
+        rdfs:label "Butyrospermum paradoxa"^^xsd:string .
+
+    atmData:Cadaba_farinosa a atmVocab:nomBinomial ;
+        rdfs:label "Cadaba farinosa"^^xsd:string .
+
+    atmData:Calotropis_procera a atmVocab:nomBinomial ;
+        rdfs:label "Calotropis procera"^^xsd:string .
+
+    atmData:Capparis_tomentosa a atmVocab:nomBinomial ;
+        rdfs:label "Capparis tomentosa"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Capsicum_sp.> a atmVocab:nomBinomial ;
+        rdfs:label "Capsicum sp."^^xsd:string .
+
+    atmData:Carapa_procera a atmVocab:nomBinomial ;
+        rdfs:label "Carapa procera"^^xsd:string .
+
+    atmData:Cardiopathie a atmVocab:indication ;
+        rdfs:label "Cardiopathie"@fr .
+
+    atmData:Cardiopathies a atmVocab:indication ;
+        rdfs:label "Cardiopathies"@fr .
+
+    atmData:Carica_papaya a atmVocab:nomBinomial ;
+        rdfs:label "Carica papaya"^^xsd:string .
+
+    atmData:Carissa_edulis a atmVocab:nomBinomial ;
+        rdfs:label "Carissa edulis"^^xsd:string .
+
+    atmData:Carminatif a atmVocab:indication ;
+        rdfs:label "Carminatif"@fr .
+
+    atmData:Cassia_alata a atmVocab:nomBinomial ;
+        rdfs:label "Cassia alata"^^xsd:string .
+
+    atmData:Cassia_italica a atmVocab:nomBinomial ;
+        rdfs:label "Cassia italica"^^xsd:string .
+
+    atmData:Cassia_nigricans a atmVocab:nomBinomial ;
+        rdfs:label "Cassia nigricans"^^xsd:string .
+
+    atmData:Cassia_occidentalis a atmVocab:nomBinomial ;
+        rdfs:label "Cassia occidentalis"^^xsd:string .
+
+    atmData:Cassia_podocarpa a atmVocab:nomBinomial ;
+        rdfs:label "Cassia podocarpa"^^xsd:string .
+
+    atmData:Cassia_siberiana a atmVocab:nomBinomial ;
+        rdfs:label "Cassia siberiana"^^xsd:string .
+
+    atmData:Cassia_tora a atmVocab:nomBinomial ;
+        rdfs:label "Cassia tora"^^xsd:string .
+
+    atmData:Casuarina_equisetifolia a atmVocab:nomBinomial ;
+        rdfs:label "Casuarina equisetifolia"^^xsd:string .
+
+    atmData:Ceiba_pendra a atmVocab:nomBinomial ;
+        rdfs:label "Ceiba pendra"^^xsd:string .
+
+    atmData:Celtis_integrifolia a atmVocab:nomBinomial ;
+        rdfs:label "Celtis integrifolia"^^xsd:string .
+
+    atmData:Centaurea_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Centaurea senegalensis"^^xsd:string .
+
+    atmData:Centella_asiatica a atmVocab:nomBinomial ;
+        rdfs:label "Centella asiatica"^^xsd:string .
+
+    atmData:Cephalees a atmVocab:indication ;
+        rdfs:label "Cephalees"@fr .
+
+    atmData:Cholagogue a atmVocab:indication ;
+        rdfs:label "Cholagogue"@fr .
+
+    atmData:Cholalogue a atmVocab:indication ;
+        rdfs:label "Cholalogue"@fr .
+
+    atmData:Choleretique a atmVocab:indication ;
+        rdfs:label "Choleretique"@fr .
+
+    atmData:Chromolaena_odorata a atmVocab:nomBinomial ;
+        rdfs:label "Chromolaena odorata"^^xsd:string .
+
+    atmData:Chrozophora_seneglensis a atmVocab:nomBinomial ;
+        rdfs:label "Chrozophora seneglensis"^^xsd:string .
+
+    atmData:Cicatrisant a atmVocab:indication ;
+        rdfs:label "Cicatrisant"@fr .
+
+    atmData:Cicatrisante a atmVocab:indication ;
+        rdfs:label "Cicatrisante"@fr .
+
+    atmData:Cicattrisant a atmVocab:indication ;
+        rdfs:label "Cicattrisant"@fr .
+
+    atmData:Cisampelos_mucronata a atmVocab:nomBinomial ;
+        rdfs:label "Cisampelos mucronata"^^xsd:string .
+
+    atmData:Cissus_quadrangularis a atmVocab:nomBinomial ;
+        rdfs:label "Cissus quadrangularis"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Citrus_sp.> a atmVocab:nomBinomial ;
+        rdfs:label "Citrus sp."^^xsd:string .
+
+    atmData:Cleome_gynandra a atmVocab:nomBinomial ;
+        rdfs:label "Cleome gynandra"^^xsd:string .
+
+    atmData:Cleome_viscosa a atmVocab:nomBinomial ;
+        rdfs:label "Cleome viscosa"^^xsd:string .
+
+    atmData:Cochlospermum_tinctoria a atmVocab:nomBinomial ;
+        rdfs:label "Cochlospermum tinctoria"^^xsd:string .
+
+    atmData:Cola_nitida a atmVocab:nomBinomial ;
+        rdfs:label "Cola nitida"^^xsd:string .
+
+    atmData:Coliques_Nephretiques_Et_Abdominales a atmVocab:indication ;
+        rdfs:label "Coliques Nephretiques Et Abdominales"@fr .
+
+    atmData:Combretum_aculeatum a atmVocab:nomBinomial ;
+        rdfs:label "Combretum aculeatum"^^xsd:string .
+
+    atmData:Combretum_glutinosum a atmVocab:nomBinomial ;
+        rdfs:label "Combretum glutinosum"^^xsd:string .
+
+    atmData:Combretum_micranthum a atmVocab:nomBinomial ;
+        rdfs:label "Combretum micranthum"^^xsd:string .
+
+    atmData:Combretum_paniculatum a atmVocab:nomBinomial ;
+        rdfs:label "Combretum paniculatum"^^xsd:string .
+
+    atmData:Commelina_communis a atmVocab:nomBinomial ;
+        rdfs:label "Commelina communis"^^xsd:string .
+
+    atmData:Commiphora_africana a atmVocab:nomBinomial ;
+        rdfs:label "Commiphora africana"^^xsd:string .
+
+    atmData:Conceptif a atmVocab:indication ;
+        rdfs:label "Conceptif"@fr .
+
+    atmData:Constipation a atmVocab:indication ;
+        rdfs:label "Constipation"@fr .
+
+    atmData:Contraceptif a atmVocab:indication ;
+        rdfs:label "Contraceptif"@fr .
+
+    atmData:Convulsions a atmVocab:indication ;
+        rdfs:label "Convulsions"@fr .
+
+    atmData:Cordyla_pinata a atmVocab:nomBinomial ;
+        rdfs:label "Cordyla pinata"^^xsd:string .
+
+    atmData:Crateva_religiosa a atmVocab:nomBinomial ;
+        rdfs:label "Crateva religiosa"^^xsd:string .
+
+    atmData:Crossopterix_febrifuga a atmVocab:nomBinomial ;
+        rdfs:label "Crossopterix febrifuga"^^xsd:string .
+
+    atmData:Crotolaria_retusa a atmVocab:nomBinomial ;
+        rdfs:label "Crotolaria retusa"^^xsd:string .
+
+    atmData:Cucubita_pepo a atmVocab:nomBinomial ;
+        rdfs:label "Cucubita pepo"^^xsd:string .
+
+    atmData:Cymbopogon_citratus a atmVocab:nomBinomial ;
+        rdfs:label "Cymbopogon citratus"^^xsd:string .
+
+    atmData:Cymbopogon_giganteus a atmVocab:nomBinomial ;
+        rdfs:label "Cymbopogon giganteus"^^xsd:string .
+
+    atmData:Cyperus_articulatus a atmVocab:nomBinomial ;
+        rdfs:label "Cyperus articulatus"^^xsd:string .
+
+    atmData:Cyperus_esculentus a atmVocab:nomBinomial ;
+        rdfs:label "Cyperus esculentus"^^xsd:string .
+
+    atmData:Dactylectonium_aegyptium a atmVocab:nomBinomial ;
+        rdfs:label "Dactylectonium aegyptium"^^xsd:string .
+
+    atmData:Dalbergia_melanoxylon a atmVocab:nomBinomial ;
+        rdfs:label "Dalbergia melanoxylon"^^xsd:string .
+
+    atmData:Daniella_olivieri a atmVocab:nomBinomial ;
+        rdfs:label "Daniella olivieri"^^xsd:string .
+
+    atmData:Datura_metel a atmVocab:nomBinomial ;
+        rdfs:label "Datura metel"^^xsd:string .
+
+    atmData:Decongestionannt a atmVocab:indication ;
+        rdfs:label "Decongestionannt"@fr .
+
+    atmData:Decongestionnant a atmVocab:indication ;
+        rdfs:label "Decongestionnant"@fr .
+
+    atmData:Decongestionnante a atmVocab:indication ;
+        rdfs:label "Decongestionnante"@fr .
+
+    atmData:Depuratif a atmVocab:indication ;
+        rdfs:label "Depuratif"@fr .
+
+    atmData:Dermatoses a atmVocab:indication ;
+        rdfs:label "Dermatoses"@fr .
+
+    atmData:Desaccoutumant a atmVocab:indication ;
+        rdfs:label "Desaccoutumant"@fr .
+
+    atmData:Desacoutumant a atmVocab:indication ;
+        rdfs:label "Desacoutumant"@fr .
+
+    atmData:Desinfectant a atmVocab:indication ;
+        rdfs:label "Desinfectant"@fr .
+
+    atmData:Detarium_microcarpum a atmVocab:nomBinomial ;
+        rdfs:label "Detarium microcarpum"^^xsd:string .
+
+    atmData:Detarium_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Detarium senegalensis"^^xsd:string .
+
+    atmData:Detoxifiant a atmVocab:indication ;
+        rdfs:label "Detoxifiant"@fr .
+
+    atmData:Diabete a atmVocab:indication ;
+        rdfs:label "Diabete"@fr .
+
+    atmData:Dialium_guineense a atmVocab:nomBinomial ;
+        rdfs:label "Dialium guineense"^^xsd:string .
+
+    atmData:Diarrhee a atmVocab:indication ;
+        rdfs:label "Diarrhee"@fr .
+
+    atmData:Digestif a atmVocab:indication ;
+        rdfs:label "Digestif"@fr .
+
+    atmData:Diospyros_mespilliformis a atmVocab:nomBinomial ;
+        rdfs:label "Diospyros mespilliformis"^^xsd:string .
+
+    atmData:Diuetique a atmVocab:indication ;
+        rdfs:label "Diuetique"@fr .
+
+    atmData:Diuretique a atmVocab:indication ;
+        rdfs:label "Diuretique"@fr .
+
+    atmData:Dodonea_viscosa a atmVocab:nomBinomial ;
+        rdfs:label "Dodonea viscosa"^^xsd:string .
+
+    atmData:Dopant a atmVocab:indication ;
+        rdfs:label "Dopant"@fr .
+
+    atmData:Douleur a atmVocab:indication ;
+        rdfs:label "Douleur"@fr .
+
+    atmData:Dycrostachys_cinerea a atmVocab:nomBinomial ;
+        rdfs:label "Dycrostachys cinerea"^^xsd:string .
+
+    atmData:Elaeis_guineensis a atmVocab:nomBinomial ;
+        rdfs:label "Elaeis guineensis"^^xsd:string .
+
+    atmData:Emetique a atmVocab:indication ;
+        rdfs:label "Emetique"@fr .
+
+    atmData:Emmenagogue a atmVocab:indication ;
+        rdfs:label "Emmenagogue"@fr .
+
+    atmData:Emollient a atmVocab:indication ;
+        rdfs:label "Emollient"@fr .
+
+    atmData:Entada_africana a atmVocab:nomBinomial ;
+        rdfs:label "Entada africana"^^xsd:string .
+
+    atmData:Enuresie a atmVocab:indication ;
+        rdfs:label "Enuresie"@fr .
+
+    atmData:Eponge_Vegetale a atmVocab:indication ;
+        rdfs:label "Eponge Vegetale"@fr .
+
+    atmData:Epulsive a atmVocab:indication ;
+        rdfs:label "Epulsive"@fr .
+
+    atmData:Ettas_Fabriles a atmVocab:indication ;
+        rdfs:label "Ettas Fabriles"@fr .
+
+    atmData:Euphorbia_balsamifera a atmVocab:nomBinomial ;
+        rdfs:label "Euphorbia balsamifera"^^xsd:string .
+
+    atmData:Euphorbia_hirta a atmVocab:nomBinomial ;
+        rdfs:label "Euphorbia hirta"^^xsd:string .
+
+    atmData:Expectorant a atmVocab:indication ;
+        rdfs:label "Expectorant"@fr .
+
+    atmData:Expectorante a atmVocab:indication ;
+        rdfs:label "Expectorante"@fr .
+
+    atmData:Fagara_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Fagara senegalensis"^^xsd:string .
+
+    atmData:Febrifuge a atmVocab:indication ;
+        rdfs:label "Febrifuge"@fr .
+
+    atmData:Febrilite a atmVocab:indication ;
+        rdfs:label "Febrilite"@fr .
+
+    atmData:Fecondant_ a atmVocab:indication ;
+        rdfs:label "Fecondant "@fr .
+
+    atmData:Feretia_apodanthera a atmVocab:nomBinomial ;
+        rdfs:label "Feretia apodanthera"^^xsd:string .
+
+    atmData:Ficus_sp a atmVocab:nomBinomial ;
+        rdfs:label "Ficus sp"^^xsd:string .
+
+    atmData:Fievre a atmVocab:indication ;
+        rdfs:label "Fievre"@fr .
+
+    atmData:Fluggea_virosa a atmVocab:nomBinomial ;
+        rdfs:label "Fluggea virosa"^^xsd:string .
+
+    atmData:Frigidite a atmVocab:indication ;
+        rdfs:label "Frigidite"@fr .
+
+    atmData:Furoncle_Et_Bces a atmVocab:indication ;
+        rdfs:label "Furoncle Et Bces"@fr .
+
+    atmData:Galactogene a atmVocab:indication ;
+        rdfs:label "Galactogene"@fr .
+
+    atmData:Gardenia_ternifolia a atmVocab:nomBinomial ;
+        rdfs:label "Gardenia ternifolia"^^xsd:string .
+
+    atmData:Gastro-Hepatoprotecteur a atmVocab:indication ;
+        rdfs:label "Gastro-Hepatoprotecteur"@fr .
+
+    atmData:Gingivite a atmVocab:indication ;
+        rdfs:label "Gingivite"@fr .
+
+    atmData:Gossypum_barbadense a atmVocab:nomBinomial ;
+        rdfs:label "Gossypum barbadense"^^xsd:string .
+
+    atmData:Grewia_barteri a atmVocab:nomBinomial ;
+        rdfs:label "Grewia barteri"^^xsd:string .
+
+    atmData:Grewia_bicolor a atmVocab:nomBinomial ;
+        rdfs:label "Grewia bicolor"^^xsd:string .
+
+    atmData:Grewia_flavescens a atmVocab:nomBinomial ;
+        rdfs:label "Grewia flavescens"^^xsd:string .
+
+    atmData:Grossissement_Des_Seins a atmVocab:indication ;
+        rdfs:label "Grossissement Des Seins"@fr .
+
+    atmData:Guiera_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Guiera senegalensis"^^xsd:string .
+
+    atmData:Gynecologique a atmVocab:indication ;
+        rdfs:label "Gynecologique"@fr .
+
+    atmData:Heeria_insignis a atmVocab:nomBinomial ;
+        rdfs:label "Heeria insignis"^^xsd:string .
+
+    atmData:Hemoroides a atmVocab:indication ;
+        rdfs:label "Hemoroides"@fr .
+
+    atmData:Hemorragie_Intestinale a atmVocab:indication ;
+        rdfs:label "Hemorragie Intestinale"@fr .
+
+    atmData:Hemostatique a atmVocab:indication ;
+        rdfs:label "Hemostatique"@fr .
+
+    atmData:Hepatite a atmVocab:indication ;
+        rdfs:label "Hepatite"@fr .
+
+    atmData:Hepato-Protecteur a atmVocab:indication ;
+        rdfs:label "Hepato-Protecteur"@fr .
+
+    atmData:Hernie a atmVocab:indication ;
+        rdfs:label "Hernie"@fr .
+
+    atmData:Hibiscus_asper a atmVocab:nomBinomial ;
+        rdfs:label "Hibiscus asper"^^xsd:string .
+
+    atmData:Hibiscus_esculentus a atmVocab:nomBinomial ;
+        rdfs:label "Hibiscus esculentus"^^xsd:string .
+
+    atmData:Hibiscus_sabdarifa a atmVocab:nomBinomial ;
+        rdfs:label "Hibiscus sabdarifa"^^xsd:string .
+
+    atmData:Hippocratea_africana a atmVocab:nomBinomial ;
+        rdfs:label "Hippocratea africana"^^xsd:string .
+
+    atmData:Holarrhena_floribounda a atmVocab:nomBinomial ;
+        rdfs:label "Holarrhena floribounda"^^xsd:string .
+
+    atmData:Hoslundia_opposita a atmVocab:nomBinomial ;
+        rdfs:label "Hoslundia opposita"^^xsd:string .
+
+    atmData:Hygiene_Bucco-Dentaire a atmVocab:indication ;
+        rdfs:label "Hygiene Bucco-Dentaire"@fr .
+
+    atmData:Hygiene_Buccodentaire a atmVocab:indication ;
+        rdfs:label "Hygiene Buccodentaire"@fr .
+
+    atmData:Hygiiene_Buccodentaire a atmVocab:indication ;
+        rdfs:label "Hygiiene Buccodentaire"@fr .
+
+    atmData:Hymenocardia_acida a atmVocab:nomBinomial ;
+        rdfs:label "Hymenocardia acida"^^xsd:string .
+
+    atmData:Hypertension a atmVocab:indication ;
+        rdfs:label "Hypertension"@fr .
+
+    atmData:Hypo-Hypertension a atmVocab:indication ;
+        rdfs:label "Hypo-Hypertension"@fr .
+
+    atmData:Hypocholesterolemiant a atmVocab:indication ;
+        rdfs:label "Hypocholesterolemiant"@fr .
+
+    atmData:Hypoglycemiant a atmVocab:indication ;
+        rdfs:label "Hypoglycemiant"@fr .
+
+    atmData:Hypotenseur a atmVocab:indication ;
+        rdfs:label "Hypotenseur"@fr .
+
+    atmData:Hypotensur a atmVocab:indication ;
+        rdfs:label "Hypotensur"@fr .
+
+    atmData:Hyptis_suavolens a atmVocab:nomBinomial ;
+        rdfs:label "Hyptis suavolens"^^xsd:string .
+
+    atmData:Icacina_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Icacina senegalensis"^^xsd:string .
+
+    atmData:Ictere a atmVocab:indication ;
+        rdfs:label "Ictere"@fr .
+
+    atmData:Immunostimulant a atmVocab:indication ;
+        rdfs:label "Immunostimulant"@fr .
+
+    atmData:Indigofera_tinctorium a atmVocab:nomBinomial ;
+        rdfs:label "Indigofera tinctorium"^^xsd:string .
+
+    atmData:Infctiosn_Urinaires a atmVocab:indication ;
+        rdfs:label "Infctiosn Urinaires"@fr .
+
+    atmData:Infections_Sexuelles a atmVocab:indication ;
+        rdfs:label "Infections Sexuelles"@fr .
+
+    atmData:Infections_Urogenitales a atmVocab:indication ;
+        rdfs:label "Infections Urogenitales"@fr .
+
+    atmData:Insecticide a atmVocab:indication ;
+        rdfs:label "Insecticide"@fr .
+
+    atmData:Insomnie a atmVocab:indication ;
+        rdfs:label "Insomnie"@fr .
+
+    atmData:Intolerance_Alimentaire a atmVocab:indication ;
+        rdfs:label "Intolerance Alimentaire"@fr .
+
+    atmData:Ipomea_asarifolia a atmVocab:nomBinomial ;
+        rdfs:label "Ipomea asarifolia"^^xsd:string .
+
+    atmData:Ipomea_batatas a atmVocab:nomBinomial ;
+        rdfs:label "Ipomea batatas"^^xsd:string .
+
+    atmData:Jatropha_curcas a atmVocab:nomBinomial ;
+        rdfs:label "Jatropha curcas"^^xsd:string .
+
+    atmData:Khaya_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Khaya senegalensis"^^xsd:string .
+
+    atmData:Kigelia_africana a atmVocab:nomBinomial ;
+        rdfs:label "Kigelia africana"^^xsd:string .
+
+    atmData:Kyste a atmVocab:indication ;
+        rdfs:label "Kyste"@fr .
+
+    atmData:Landolphia_heudoletti a atmVocab:nomBinomial ;
+        rdfs:label "Landolphia heudoletti"^^xsd:string .
+
+    atmData:Lannea_acida a atmVocab:nomBinomial ;
+        rdfs:label "Lannea acida"^^xsd:string .
+
+    atmData:Lantana_camara a atmVocab:nomBinomial ;
+        rdfs:label "Lantana camara"^^xsd:string .
+
+    atmData:Lawsonia_inermis a atmVocab:nomBinomial ;
+        rdfs:label "Lawsonia inermis"^^xsd:string .
+
+    atmData:Laxatif a atmVocab:indication ;
+        rdfs:label "Laxatif"@fr .
+
+    atmData:Lepre a atmVocab:indication ;
+        rdfs:label "Lepre"@fr .
+
+    atmData:Leptadenia_hastata a atmVocab:nomBinomial ;
+        rdfs:label "Leptadenia hastata"^^xsd:string .
+
+    atmData:Lippia_chevalieri a atmVocab:nomBinomial ;
+        rdfs:label "Lippia chevalieri"^^xsd:string .
+
+    atmData:Luffa_cylindrica a atmVocab:nomBinomial ;
+        rdfs:label "Luffa cylindrica"^^xsd:string .
+
+    atmData:Lycopersicum_esculentum a atmVocab:nomBinomial ;
+        rdfs:label "Lycopersicum esculentum"^^xsd:string .
+
+    atmData:Macrosphyra_longustifolia a atmVocab:nomBinomial ;
+        rdfs:label "Macrosphyra longustifolia"^^xsd:string .
+
+    atmData:Mal_De_Gorge a atmVocab:indication ;
+        rdfs:label "Mal De Gorge"@fr .
+
+    atmData:Mal_De_Ventre a atmVocab:indication ;
+        rdfs:label "Mal De Ventre"@fr .
+
+    atmData:Mangifera_indica a atmVocab:nomBinomial ;
+        rdfs:label "Mangifera indica"^^xsd:string .
+
+    atmData:Manihot_esculenta a atmVocab:nomBinomial ;
+        rdfs:label "Manihot esculenta"^^xsd:string .
+
+    atmData:Maux_De_Ventre a atmVocab:indication ;
+        rdfs:label "Maux De Ventre"@fr .
+
+    atmData:Maytenus_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Maytenus senegalensis"^^xsd:string .
+
+    atmData:Mentha_sp a atmVocab:nomBinomial ;
+        rdfs:label "Mentha sp"^^xsd:string .
+
+    atmData:Metrorragie a atmVocab:indication ;
+        rdfs:label "Metrorragie"@fr .
+
+    atmData:Mimosa_pigra a atmVocab:nomBinomial ;
+        rdfs:label "Mimosa pigra"^^xsd:string .
+
+    atmData:Mitracarpus_scaber a atmVocab:nomBinomial ;
+        rdfs:label "Mitracarpus scaber"^^xsd:string .
+
+    atmData:Mitragyna_inermis a atmVocab:nomBinomial ;
+        rdfs:label "Mitragyna inermis"^^xsd:string .
+
+    atmData:Moghania_faginea a atmVocab:nomBinomial ;
+        rdfs:label "Moghania faginea"^^xsd:string .
+
+    atmData:Momordica_charantia a atmVocab:nomBinomial ;
+        rdfs:label "Momordica charantia"^^xsd:string .
+
+    atmData:Morinda_citrifolia a atmVocab:nomBinomial ;
+        rdfs:label "Morinda citrifolia"^^xsd:string .
+
+    atmData:Morinda_geminata a atmVocab:nomBinomial ;
+        rdfs:label "Morinda geminata"^^xsd:string .
+
+    atmData:Moringa_oleifera a atmVocab:nomBinomial ;
+        rdfs:label "Moringa oleifera"^^xsd:string .
+
+    atmData:Natigastralgique a atmVocab:indication ;
+        rdfs:label "Natigastralgique"@fr .
+
+    atmData:Nauclea_latifolia a atmVocab:nomBinomial ;
+        rdfs:label "Nauclea latifolia"^^xsd:string .
+
+    atmData:Neocarya_macrophylla a atmVocab:nomBinomial ;
+        rdfs:label "Neocarya macrophylla"^^xsd:string .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Nervositã©> a atmVocab:indication ;
+        rdfs:label "Nervositã©"@fr .
+
+    atmData:Neuropathie a atmVocab:indication ;
+        rdfs:label "Neuropathie"@fr .
+
+    atmData:Nevralgie a atmVocab:indication ;
+        rdfs:label "Nevralgie"@fr .
+
+    atmData:Nevrite a atmVocab:indication ;
+        rdfs:label "Nevrite"@fr .
+
+    atmData:Newbouldia_laevis a atmVocab:nomBinomial ;
+        rdfs:label "Newbouldia laevis"^^xsd:string .
+
+    atmData:Nicotiana_rustica a atmVocab:nomBinomial ;
+        rdfs:label "Nicotiana rustica"^^xsd:string .
+
+    atmData:Ocimum_basilicum a atmVocab:nomBinomial ;
+        rdfs:label "Ocimum basilicum"^^xsd:string .
+
+    atmData:Ocimum_gratisimum a atmVocab:nomBinomial ;
+        rdfs:label "Ocimum gratisimum"^^xsd:string .
+
+    atmData:Odontalgie a atmVocab:indication ;
+        rdfs:label "Odontalgie"@fr .
+
+    atmData:Oedeme a atmVocab:indication ;
+        rdfs:label "Oedeme"@fr .
+
+    atmData:Ophtalmie a atmVocab:indication ;
+        rdfs:label "Ophtalmie"@fr .
+
+    atmData:Ophtalmies a atmVocab:indication ;
+        rdfs:label "Ophtalmies"@fr .
+
+    atmData:Opuntia_tuna a atmVocab:nomBinomial ;
+        rdfs:label "Opuntia tuna"^^xsd:string .
+
+    atmData:Orl a atmVocab:indication ;
+        rdfs:label "Orl"@fr .
+
+    atmData:Oxynanthera_abyssinica a atmVocab:nomBinomial ;
+        rdfs:label "Oxynanthera abyssinica"^^xsd:string .
+
+    atmData:Paludisme a atmVocab:indication ;
+        rdfs:label "Paludisme"@fr .
+
+    atmData:Paralysie a atmVocab:indication ;
+        rdfs:label "Paralysie"@fr .
+
+    atmData:Parasitose_Intestinale a atmVocab:indication ;
+        rdfs:label "Parasitose Intestinale"@fr .
+
+    atmData:Parinari_curatellifolia a atmVocab:nomBinomial ;
+        rdfs:label "Parinari curatellifolia"^^xsd:string .
+
+    atmData:Parkia_biglobosa a atmVocab:nomBinomial ;
+        rdfs:label "Parkia biglobosa"^^xsd:string .
+
+    atmData:Parkinsonia_aculeata a atmVocab:nomBinomial ;
+        rdfs:label "Parkinsonia aculeata"^^xsd:string .
+
+    atmData:Passiflora_foetida a atmVocab:nomBinomial ;
+        rdfs:label "Passiflora foetida"^^xsd:string .
+
+    atmData:Pediatrie a atmVocab:indication ;
+        rdfs:label "Pediatrie"@fr .
+
+    atmData:Pediatrique a atmVocab:indication ;
+        rdfs:label "Pediatrique"@fr .
+
+    atmData:Peditarie a atmVocab:indication ;
+        rdfs:label "Peditarie"@fr .
+
+    atmData:Peditarique a atmVocab:indication ;
+        rdfs:label "Peditarique"@fr .
+
+    atmData:Pennisetum_glaucum a atmVocab:nomBinomial ;
+        rdfs:label "Pennisetum glaucum"^^xsd:string .
+
+    atmData:Pergularia_daemia a atmVocab:nomBinomial ;
+        rdfs:label "Pergularia daemia"^^xsd:string .
+
+    atmData:Phillantus_amarus a atmVocab:nomBinomial ;
+        rdfs:label "Phillantus amarus"^^xsd:string .
+
+    atmData:Phillantus_reticulatis a atmVocab:nomBinomial ;
+        rdfs:label "Phillantus reticulatis"^^xsd:string .
+
+    atmData:Piliostigma_reticulatum a atmVocab:nomBinomial ;
+        rdfs:label "Piliostigma reticulatum"^^xsd:string .
+
+    atmData:Prosopis_africana a atmVocab:nomBinomial ;
+        rdfs:label "Prosopis africana"^^xsd:string .
+
+    atmData:Prosopis_chilensis a atmVocab:nomBinomial ;
+        rdfs:label "Prosopis chilensis"^^xsd:string .
+
+    atmData:Psidium_guayava a atmVocab:nomBinomial ;
+        rdfs:label "Psidium guayava"^^xsd:string .
+
+    atmData:Psychiatrie a atmVocab:indication ;
+        rdfs:label "Psychiatrie"@fr .
+
+    atmData:Psychiatrique a atmVocab:indication ;
+        rdfs:label "Psychiatrique"@fr .
+
+    atmData:Pterocarpus_erinaceus a atmVocab:nomBinomial ;
+        rdfs:label "Pterocarpus erinaceus"^^xsd:string .
+
+    atmData:Pupalia_lappacea a atmVocab:nomBinomial ;
+        rdfs:label "Pupalia lappacea"^^xsd:string .
+
+    atmData:Purgatif a atmVocab:indication ;
+        rdfs:label "Purgatif"@fr .
+
+    atmData:Purgative a atmVocab:indication ;
+        rdfs:label "Purgative"@fr .
+
+    atmData:Raphia_sudanica a atmVocab:nomBinomial ;
+        rdfs:label "Raphia sudanica"^^xsd:string .
+
+    atmData:Rauwolfia_vomitoria a atmVocab:nomBinomial ;
+        rdfs:label "Rauwolfia vomitoria"^^xsd:string .
+
+    atmData:Reconstitiant a atmVocab:indication ;
+        rdfs:label "Reconstitiant"@fr .
+
+    atmData:Reconstituant a atmVocab:indication ;
+        rdfs:label "Reconstituant"@fr .
+
+    atmData:Reconstitunt a atmVocab:indication ;
+        rdfs:label "Reconstitunt"@fr .
+
+    atmData:Regulateur_D_Etension a atmVocab:indication ;
+        rdfs:label "Regulateur D Etension"@fr .
+
+    atmData:Relaxant a atmVocab:indication ;
+        rdfs:label "Relaxant"@fr .
+
+    atmData:Remineralisant a atmVocab:indication ;
+        rdfs:label "Remineralisant"@fr .
+
+    atmData:Reonstituant a atmVocab:indication ;
+        rdfs:label "Reonstituant"@fr .
+
+    atmData:Repulsif a atmVocab:indication ;
+        rdfs:label "Repulsif"@fr .
+
+    atmData:Repulsif_Reptile a atmVocab:indication ;
+        rdfs:label "Repulsif Reptile"@fr .
+
+    atmData:Resolutif a atmVocab:indication ;
+        rdfs:label "Resolutif"@fr .
+
+    atmData:Rougeole a atmVocab:indication ;
+        rdfs:label "Rougeole"@fr .
+
+    atmData:Rsolutif a atmVocab:indication ;
+        rdfs:label "Rsolutif"@fr .
+
+    atmData:Saba_senegalensis a atmVocab:nomBinomial ;
+        rdfs:label "Saba senegalensis"^^xsd:string .
+
+    atmData:Sapindus_mukorosi a atmVocab:nomBinomial ;
+        rdfs:label "Sapindus mukorosi"^^xsd:string .
+
+    atmData:Sclerocarya_birrea a atmVocab:nomBinomial ;
+        rdfs:label "Sclerocarya birrea"^^xsd:string .
+
+    atmData:Scoparia_dulcis a atmVocab:nomBinomial ;
+        rdfs:label "Scoparia dulcis"^^xsd:string .
+
+    atmData:Securidaca_longepedunculata a atmVocab:nomBinomial ;
+        rdfs:label "Securidaca longepedunculata"^^xsd:string .
+
+    atmData:Sedatif a atmVocab:indication ;
+        rdfs:label "Sedatif"@fr .
+
+    atmData:Sedatif_Digestif a atmVocab:indication ;
+        rdfs:label "Sedatif Digestif"@fr .
+
+    atmData:Sedative a atmVocab:indication ;
+        rdfs:label "Sedative"@fr .
+
+    atmData:Sesamum_radiatum a atmVocab:nomBinomial ;
+        rdfs:label "Sesamum radiatum"^^xsd:string .
+
+    atmData:Sinusite a atmVocab:indication ;
+        rdfs:label "Sinusite"@fr .
+
+    atmData:Somnifere a atmVocab:indication ;
+        rdfs:label "Somnifere"@fr .
+
+    atmData:Sorghum_vulgare a atmVocab:nomBinomial ;
+        rdfs:label "Sorghum vulgare"^^xsd:string .
+
+    atmData:Sterculia_setigera a atmVocab:nomBinomial ;
+        rdfs:label "Sterculia setigera"^^xsd:string .
+
+    atmData:Stereospermum_kunthianum a atmVocab:nomBinomial ;
+        rdfs:label "Stereospermum kunthianum"^^xsd:string .
+
+    atmData:Sterilite a atmVocab:indication ;
+        rdfs:label "Sterilite"@fr .
+
+    <http://data.krw.d2s.labs.vu.nl/resource/Sterilitã©> a atmVocab:indication ;
+        rdfs:label "Sterilitã©"@fr .
+
+    atmData:Stimulant a atmVocab:indication ;
+        rdfs:label "Stimulant"@fr .
+
+    atmData:Stimulant_ a atmVocab:indication ;
+        rdfs:label "Stimulant "@fr .
+
+    atmData:Stimulant_Cerebral a atmVocab:indication ;
+        rdfs:label "Stimulant Cerebral"@fr .
+
+    atmData:Stimulant_Gastrointestinal a atmVocab:indication ;
+        rdfs:label "Stimulant Gastrointestinal"@fr .
+
+    atmData:Stimulant_Nerveux a atmVocab:indication ;
+        rdfs:label "Stimulant Nerveux"@fr .
+
+    atmData:Stmulant a atmVocab:indication ;
+        rdfs:label "Stmulant"@fr .
+
+    atmData:Stomachique a atmVocab:indication ;
+        rdfs:label "Stomachique"@fr .
+
+    atmData:Strophantus_sarmentosus a atmVocab:nomBinomial ;
+        rdfs:label "Strophantus sarmentosus"^^xsd:string .
+
+    atmData:Strychnos_sinosa a atmVocab:nomBinomial ;
+        rdfs:label "Strychnos sinosa"^^xsd:string .
+
+    atmData:Stupefiant a atmVocab:indication ;
+        rdfs:label "Stupefiant"@fr .
+
+    atmData:Sudorifique a atmVocab:indication ;
+        rdfs:label "Sudorifique"@fr .
+
+    atmData:Sygizium_guineense a atmVocab:nomBinomial ;
+        rdfs:label "Sygizium guineense"^^xsd:string .
+
+    atmData:Tachycardie a atmVocab:indication ;
+        rdfs:label "Tachycardie"@fr .
+
+    atmData:Tamarindus_indica a atmVocab:nomBinomial ;
+        rdfs:label "Tamarindus indica"^^xsd:string .
+
+    atmData:Tenifuge a atmVocab:indication ;
+        rdfs:label "Tenifuge"@fr .
+
+    atmData:Terminalia_avicenoides a atmVocab:nomBinomial ;
+        rdfs:label "Terminalia avicenoides"^^xsd:string .
+
+    atmData:Terminalia_catapa a atmVocab:nomBinomial ;
+        rdfs:label "Terminalia catapa"^^xsd:string .
+
+    atmData:Terminalia_macroptera a atmVocab:nomBinomial ;
+        rdfs:label "Terminalia macroptera"^^xsd:string .
+
+    atmData:Tinospora_bakis a atmVocab:nomBinomial ;
+        rdfs:label "Tinospora bakis"^^xsd:string .
+
+    atmData:Tonicardiaque a atmVocab:indication ;
+        rdfs:label "Tonicardiaque"@fr .
+
+    atmData:Tonifiant_De_La_Voix a atmVocab:indication ;
+        rdfs:label "Tonifiant De La Voix"@fr .
+
+    atmData:Tonique a atmVocab:indication ;
+        rdfs:label "Tonique"@fr .
+
+    atmData:Topique a atmVocab:indication ;
+        rdfs:label "Topique"@fr .
+
+    atmData:Toux a atmVocab:indication ;
+        rdfs:label "Toux"@fr .
+
+    atmData:Tracheite a atmVocab:indication ;
+        rdfs:label "Tracheite"@fr .
+
+    atmData:Tranquilisant a atmVocab:indication ;
+        rdfs:label "Tranquilisant"@fr .
+
+    atmData:Trema_guineense a atmVocab:nomBinomial ;
+        rdfs:label "Trema guineense"^^xsd:string .
+
+    atmData:Tribulus_terrestris a atmVocab:nomBinomial ;
+        rdfs:label "Tribulus terrestris"^^xsd:string .
+
+    atmData:Trichillia_emetica a atmVocab:nomBinomial ;
+        rdfs:label "Trichillia emetica"^^xsd:string .
+
+    atmData:Troubles_Digestifs a atmVocab:indication ;
+        rdfs:label "Troubles Digestifs"@fr .
+
+    atmData:Troubles_Gastrique a atmVocab:indication ;
+        rdfs:label "Troubles Gastrique"@fr .
+
+    atmData:Troubles_Gastrqiues a atmVocab:indication ;
+        rdfs:label "Troubles Gastrqiues"@fr .
+
+    atmData:Troubles_Menstruels a atmVocab:indication ;
+        rdfs:label "Troubles Menstruels"@fr .
+
+    atmData:Ulcere_Gastrique a atmVocab:indication ;
+        rdfs:label "Ulcere Gastrique"@fr .
+
+    atmData:Ulceres_Phagedeniques a atmVocab:indication ;
+        rdfs:label "Ulceres Phagedeniques"@fr .
+
+    atmData:Vermicide a atmVocab:indication ;
+        rdfs:label "Vermicide"@fr .
+
+    atmData:Vermifuge a atmVocab:indication ;
+        rdfs:label "Vermifuge"@fr .
+
+    atmData:Vernonia_amygdalina a atmVocab:nomBinomial ;
+        rdfs:label "Vernonia amygdalina"^^xsd:string .
+
+    atmData:Vernonia_colorata a atmVocab:nomBinomial ;
+        rdfs:label "Vernonia colorata"^^xsd:string .
+
+    atmData:Vernonia_kotschyana a atmVocab:nomBinomial ;
+        rdfs:label "Vernonia kotschyana"^^xsd:string .
+
+    atmData:Vernonia_nigritiana a atmVocab:nomBinomial ;
+        rdfs:label "Vernonia nigritiana"^^xsd:string .
+
+    atmData:Vers_Intestinaux a atmVocab:indication ;
+        rdfs:label "Vers Intestinaux"@fr .
+
+    atmData:Vertige a atmVocab:indication ;
+        rdfs:label "Vertige"@fr .
+
+    atmData:Vertiges a atmVocab:indication ;
+        rdfs:label "Vertiges"@fr .
+
+    atmData:Vetiveria_nigritiana a atmVocab:nomBinomial ;
+        rdfs:label "Vetiveria nigritiana"^^xsd:string .
+
+    atmData:Vigna_ungulata a atmVocab:nomBinomial ;
+        rdfs:label "Vigna ungulata"^^xsd:string .
+
+    atmData:Vitex_doniana a atmVocab:nomBinomial ;
+        rdfs:label "Vitex doniana"^^xsd:string .
+
+    atmData:Voir_Boscia_Seneglensis a atmVocab:indication ;
+        rdfs:label "Voir Boscia Seneglensis"@fr .
+
+    atmData:Vricelle a atmVocab:indication ;
+        rdfs:label "Vricelle"@fr .
+
+    atmData:Vulneraire a atmVocab:indication ;
+        rdfs:label "Vulneraire"@fr .
+
+    atmData:Waltheria_indica a atmVocab:nomBinomial ;
+        rdfs:label "Waltheria indica"^^xsd:string .
+
+    atmData:Ximenia_americana a atmVocab:nomBinomial ;
+        rdfs:label "Ximenia americana"^^xsd:string .
+
+    atmData:Xylopia_aethiopica a atmVocab:nomBinomial ;
+        rdfs:label "Xylopia aethiopica"^^xsd:string .
+
+    atmData:Zea_mais a atmVocab:nomBinomial ;
+        rdfs:label "Zea mais"^^xsd:string .
+
+    atmData:Ziziphus_lotus a atmVocab:nomBinomial ;
+        rdfs:label "Ziziphus lotus"^^xsd:string .
+
+    atmData:Ziziphus_mauritiana a atmVocab:nomBinomial ;
+        rdfs:label "Ziziphus mauritiana"^^xsd:string .
+
+    atmData:Ziziphus_mucronata a atmVocab:nomBinomial ;
+        rdfs:label "Ziziphus mucronata"^^xsd:string .
+
+    atmData:_Affections_Bronchopulmonaires a atmVocab:indication ;
+        rdfs:label " Affections Bronchopulmonaires"@fr .
+
+    atmData:_Antiepileptque a atmVocab:indication ;
+        rdfs:label " Antiepileptque"@fr .
+
+    atmData:_Antiicterique a atmVocab:indication ;
+        rdfs:label " Antiicterique"@fr .
+
+    atmData:_Carminatif a atmVocab:indication ;
+        rdfs:label " Carminatif"@fr .
+
+    atmData:_Fecondant a atmVocab:indication ;
+        rdfs:label " Fecondant"@fr .
+
+    atmData:_Hygiene_Buccodentaire a atmVocab:indication ;
+        rdfs:label " Hygiene Buccodentaire"@fr .
+
+    atmData:_Infection a atmVocab:indication ;
+        rdfs:label " Infection"@fr .
+
+    atmData:_Laxatif a atmVocab:indication ;
+        rdfs:label " Laxatif"@fr .
+
+    atmData:_Restaure_La_Flore_Gastrique a atmVocab:indication ;
+        rdfs:label " Restaure La Flore Gastrique"@fr .
+
+    atmData:set3_1 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_1"^^xsd:string .
+
+    atmData:set3_10 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_10"^^xsd:string .
+
+    atmData:set3_100 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_100"^^xsd:string .
+
+    atmData:set3_101 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_101"^^xsd:string .
+
+    atmData:set3_102 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_102"^^xsd:string .
+
+    atmData:set3_103 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_103"^^xsd:string .
+
+    atmData:set3_104 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_104"^^xsd:string .
+
+    atmData:set3_105 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_105"^^xsd:string .
+
+    atmData:set3_106 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_106"^^xsd:string .
+
+    atmData:set3_107 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_107"^^xsd:string .
+
+    atmData:set3_108 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_108"^^xsd:string .
+
+    atmData:set3_109 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_109"^^xsd:string .
+
+    atmData:set3_11 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_11"^^xsd:string .
+
+    atmData:set3_110 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_110"^^xsd:string .
+
+    atmData:set3_111 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_111"^^xsd:string .
+
+    atmData:set3_112 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_112"^^xsd:string .
+
+    atmData:set3_113 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_113"^^xsd:string .
+
+    atmData:set3_114 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_114"^^xsd:string .
+
+    atmData:set3_115 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_115"^^xsd:string .
+
+    atmData:set3_116 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_116"^^xsd:string .
+
+    atmData:set3_117 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_117"^^xsd:string .
+
+    atmData:set3_118 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_118"^^xsd:string .
+
+    atmData:set3_119 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_119"^^xsd:string .
+
+    atmData:set3_12 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_12"^^xsd:string .
+
+    atmData:set3_120 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_120"^^xsd:string .
+
+    atmData:set3_121 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_121"^^xsd:string .
+
+    atmData:set3_122 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_122"^^xsd:string .
+
+    atmData:set3_123 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_123"^^xsd:string .
+
+    atmData:set3_124 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_124"^^xsd:string .
+
+    atmData:set3_125 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_125"^^xsd:string .
+
+    atmData:set3_126 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_126"^^xsd:string .
+
+    atmData:set3_127 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_127"^^xsd:string .
+
+    atmData:set3_128 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_128"^^xsd:string .
+
+    atmData:set3_129 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_129"^^xsd:string .
+
+    atmData:set3_13 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_13"^^xsd:string .
+
+    atmData:set3_130 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_130"^^xsd:string .
+
+    atmData:set3_131 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_131"^^xsd:string .
+
+    atmData:set3_132 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_132"^^xsd:string .
+
+    atmData:set3_133 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_133"^^xsd:string .
+
+    atmData:set3_134 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_134"^^xsd:string .
+
+    atmData:set3_135 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_135"^^xsd:string .
+
+    atmData:set3_136 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_136"^^xsd:string .
+
+    atmData:set3_137 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_137"^^xsd:string .
+
+    atmData:set3_138 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_138"^^xsd:string .
+
+    atmData:set3_139 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_139"^^xsd:string .
+
+    atmData:set3_14 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_14"^^xsd:string .
+
+    atmData:set3_140 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_140"^^xsd:string .
+
+    atmData:set3_141 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_141"^^xsd:string .
+
+    atmData:set3_142 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_142"^^xsd:string .
+
+    atmData:set3_143 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_143"^^xsd:string .
+
+    atmData:set3_144 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_144"^^xsd:string .
+
+    atmData:set3_145 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_145"^^xsd:string .
+
+    atmData:set3_146 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_146"^^xsd:string .
+
+    atmData:set3_147 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_147"^^xsd:string .
+
+    atmData:set3_148 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_148"^^xsd:string .
+
+    atmData:set3_149 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_149"^^xsd:string .
+
+    atmData:set3_15 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_15"^^xsd:string .
+
+    atmData:set3_150 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_150"^^xsd:string .
+
+    atmData:set3_151 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_151"^^xsd:string .
+
+    atmData:set3_152 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_152"^^xsd:string .
+
+    atmData:set3_153 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_153"^^xsd:string .
+
+    atmData:set3_154 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_154"^^xsd:string .
+
+    atmData:set3_155 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_155"^^xsd:string .
+
+    atmData:set3_156 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_156"^^xsd:string .
+
+    atmData:set3_157 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_157"^^xsd:string .
+
+    atmData:set3_158 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_158"^^xsd:string .
+
+    atmData:set3_159 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_159"^^xsd:string .
+
+    atmData:set3_16 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_16"^^xsd:string .
+
+    atmData:set3_160 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_160"^^xsd:string .
+
+    atmData:set3_161 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_161"^^xsd:string .
+
+    atmData:set3_162 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_162"^^xsd:string .
+
+    atmData:set3_163 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_163"^^xsd:string .
+
+    atmData:set3_164 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_164"^^xsd:string .
+
+    atmData:set3_165 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_165"^^xsd:string .
+
+    atmData:set3_166 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_166"^^xsd:string .
+
+    atmData:set3_167 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_167"^^xsd:string .
+
+    atmData:set3_168 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_168"^^xsd:string .
+
+    atmData:set3_169 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_169"^^xsd:string .
+
+    atmData:set3_17 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_17"^^xsd:string .
+
+    atmData:set3_170 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_170"^^xsd:string .
+
+    atmData:set3_171 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_171"^^xsd:string .
+
+    atmData:set3_172 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_172"^^xsd:string .
+
+    atmData:set3_173 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_173"^^xsd:string .
+
+    atmData:set3_174 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_174"^^xsd:string .
+
+    atmData:set3_175 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_175"^^xsd:string .
+
+    atmData:set3_176 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_176"^^xsd:string .
+
+    atmData:set3_177 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_177"^^xsd:string .
+
+    atmData:set3_178 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_178"^^xsd:string .
+
+    atmData:set3_179 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_179"^^xsd:string .
+
+    atmData:set3_18 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_18"^^xsd:string .
+
+    atmData:set3_180 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_180"^^xsd:string .
+
+    atmData:set3_181 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_181"^^xsd:string .
+
+    atmData:set3_182 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_182"^^xsd:string .
+
+    atmData:set3_183 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_183"^^xsd:string .
+
+    atmData:set3_184 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_184"^^xsd:string .
+
+    atmData:set3_185 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_185"^^xsd:string .
+
+    atmData:set3_186 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_186"^^xsd:string .
+
+    atmData:set3_187 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_187"^^xsd:string .
+
+    atmData:set3_188 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_188"^^xsd:string .
+
+    atmData:set3_189 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_189"^^xsd:string .
+
+    atmData:set3_19 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_19"^^xsd:string .
+
+    atmData:set3_190 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_190"^^xsd:string .
+
+    atmData:set3_191 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_191"^^xsd:string .
+
+    atmData:set3_192 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_192"^^xsd:string .
+
+    atmData:set3_193 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_193"^^xsd:string .
+
+    atmData:set3_194 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_194"^^xsd:string .
+
+    atmData:set3_195 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_195"^^xsd:string .
+
+    atmData:set3_196 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_196"^^xsd:string .
+
+    atmData:set3_197 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_197"^^xsd:string .
+
+    atmData:set3_198 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_198"^^xsd:string .
+
+    atmData:set3_2 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_2"^^xsd:string .
+
+    atmData:set3_20 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_20"^^xsd:string .
+
+    atmData:set3_21 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_21"^^xsd:string .
+
+    atmData:set3_22 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_22"^^xsd:string .
+
+    atmData:set3_23 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_23"^^xsd:string .
+
+    atmData:set3_24 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_24"^^xsd:string .
+
+    atmData:set3_25 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_25"^^xsd:string .
+
+    atmData:set3_26 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_26"^^xsd:string .
+
+    atmData:set3_27 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_27"^^xsd:string .
+
+    atmData:set3_28 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_28"^^xsd:string .
+
+    atmData:set3_29 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_29"^^xsd:string .
+
+    atmData:set3_3 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_3"^^xsd:string .
+
+    atmData:set3_30 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_30"^^xsd:string .
+
+    atmData:set3_31 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_31"^^xsd:string .
+
+    atmData:set3_32 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_32"^^xsd:string .
+
+    atmData:set3_33 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_33"^^xsd:string .
+
+    atmData:set3_34 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_34"^^xsd:string .
+
+    atmData:set3_35 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_35"^^xsd:string .
+
+    atmData:set3_36 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_36"^^xsd:string .
+
+    atmData:set3_37 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_37"^^xsd:string .
+
+    atmData:set3_38 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_38"^^xsd:string .
+
+    atmData:set3_39 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_39"^^xsd:string .
+
+    atmData:set3_4 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_4"^^xsd:string .
+
+    atmData:set3_40 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_40"^^xsd:string .
+
+    atmData:set3_41 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_41"^^xsd:string .
+
+    atmData:set3_42 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_42"^^xsd:string .
+
+    atmData:set3_43 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_43"^^xsd:string .
+
+    atmData:set3_44 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_44"^^xsd:string .
+
+    atmData:set3_45 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_45"^^xsd:string .
+
+    atmData:set3_46 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_46"^^xsd:string .
+
+    atmData:set3_47 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_47"^^xsd:string .
+
+    atmData:set3_48 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_48"^^xsd:string .
+
+    atmData:set3_49 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_49"^^xsd:string .
+
+    atmData:set3_5 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_5"^^xsd:string .
+
+    atmData:set3_50 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_50"^^xsd:string .
+
+    atmData:set3_51 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_51"^^xsd:string .
+
+    atmData:set3_52 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_52"^^xsd:string .
+
+    atmData:set3_53 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_53"^^xsd:string .
+
+    atmData:set3_54 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_54"^^xsd:string .
+
+    atmData:set3_55 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_55"^^xsd:string .
+
+    atmData:set3_56 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_56"^^xsd:string .
+
+    atmData:set3_57 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_57"^^xsd:string .
+
+    atmData:set3_58 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_58"^^xsd:string .
+
+    atmData:set3_59 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_59"^^xsd:string .
+
+    atmData:set3_6 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_6"^^xsd:string .
+
+    atmData:set3_60 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_60"^^xsd:string .
+
+    atmData:set3_61 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_61"^^xsd:string .
+
+    atmData:set3_62 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_62"^^xsd:string .
+
+    atmData:set3_63 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_63"^^xsd:string .
+
+    atmData:set3_64 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_64"^^xsd:string .
+
+    atmData:set3_65 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_65"^^xsd:string .
+
+    atmData:set3_66 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_66"^^xsd:string .
+
+    atmData:set3_67 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_67"^^xsd:string .
+
+    atmData:set3_68 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_68"^^xsd:string .
+
+    atmData:set3_69 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_69"^^xsd:string .
+
+    atmData:set3_7 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_7"^^xsd:string .
+
+    atmData:set3_70 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_70"^^xsd:string .
+
+    atmData:set3_71 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_71"^^xsd:string .
+
+    atmData:set3_72 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_72"^^xsd:string .
+
+    atmData:set3_73 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_73"^^xsd:string .
+
+    atmData:set3_74 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_74"^^xsd:string .
+
+    atmData:set3_75 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_75"^^xsd:string .
+
+    atmData:set3_76 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_76"^^xsd:string .
+
+    atmData:set3_77 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_77"^^xsd:string .
+
+    atmData:set3_78 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_78"^^xsd:string .
+
+    atmData:set3_79 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_79"^^xsd:string .
+
+    atmData:set3_8 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_8"^^xsd:string .
+
+    atmData:set3_80 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_80"^^xsd:string .
+
+    atmData:set3_81 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_81"^^xsd:string .
+
+    atmData:set3_82 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_82"^^xsd:string .
+
+    atmData:set3_83 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_83"^^xsd:string .
+
+    atmData:set3_84 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_84"^^xsd:string .
+
+    atmData:set3_85 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_85"^^xsd:string .
+
+    atmData:set3_86 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_86"^^xsd:string .
+
+    atmData:set3_87 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_87"^^xsd:string .
+
+    atmData:set3_88 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_88"^^xsd:string .
+
+    atmData:set3_89 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_89"^^xsd:string .
+
+    atmData:set3_9 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_9"^^xsd:string .
+
+    atmData:set3_90 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_90"^^xsd:string .
+
+    atmData:set3_91 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_91"^^xsd:string .
+
+    atmData:set3_92 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_92"^^xsd:string .
+
+    atmData:set3_93 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_93"^^xsd:string .
+
+    atmData:set3_94 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_94"^^xsd:string .
+
+    atmData:set3_95 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_95"^^xsd:string .
+
+    atmData:set3_96 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_96"^^xsd:string .
+
+    atmData:set3_97 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_97"^^xsd:string .
+
+    atmData:set3_98 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_98"^^xsd:string .
+
+    atmData:set3_99 rdfs:label "http://data.krw.d2s.labs.vu.nl/resource/set3_99"^^xsd:string .
+
+    dbr:Abrus a atmVocab:nomGenre ;
+        rdfs:label "Abrus"^^xsd:string .
+
+    dbr:Abutilon a atmVocab:nomGenre ;
+        rdfs:label "Abutilon"^^xsd:string .
+
+    dbr:Acacia a atmVocab:nomGenre ;
+        rdfs:label "Acacia"^^xsd:string .
+
+    dbr:Acanthospermum a atmVocab:nomGenre ;
+        rdfs:label "Acanthospermum"^^xsd:string .
+
+    dbr:Achyrantes a atmVocab:nomGenre ;
+        rdfs:label "Achyrantes"^^xsd:string .
+
+    dbr:Adansonia a atmVocab:nomGenre ;
+        rdfs:label "Adansonia"^^xsd:string .
+
+    dbr:Adenium a atmVocab:nomGenre ;
+        rdfs:label "Adenium"^^xsd:string .
+
+    dbr:Afzelia a atmVocab:nomGenre ;
+        rdfs:label "Afzelia"^^xsd:string .
+
+    dbr:Ageratum a atmVocab:nomGenre ;
+        rdfs:label "Ageratum"^^xsd:string .
+
+    dbr:Alchornea a atmVocab:nomGenre ;
+        rdfs:label "Alchornea"^^xsd:string .
+
+    dbr:Amaranthus a atmVocab:nomGenre ;
+        rdfs:label "Amaranthus"^^xsd:string .
+
+    dbr:Ambrosia a atmVocab:nomGenre ;
+        rdfs:label "Ambrosia"^^xsd:string .
+
+    dbr:Anacardium a atmVocab:nomGenre ;
+        rdfs:label "Anacardium"^^xsd:string .
+
+    dbr:Annona a atmVocab:nomGenre ;
+        rdfs:label "Annona"^^xsd:string .
+
+    dbr:Anogeissus a atmVocab:nomGenre ;
+        rdfs:label "Anogeissus"^^xsd:string .
+
+    dbr:Aphania a atmVocab:nomGenre ;
+        rdfs:label "Aphania"^^xsd:string .
+
+    dbr:Arachis a atmVocab:nomGenre ;
+        rdfs:label "Arachis"^^xsd:string .
+
+    dbr:Asparagus a atmVocab:nomGenre ;
+        rdfs:label "Asparagus"^^xsd:string .
+
+    dbr:Azadirachta a atmVocab:nomGenre ;
+        rdfs:label "Azadirachta"^^xsd:string .
+
+    dbr:Balanites a atmVocab:nomGenre ;
+        rdfs:label "Balanites"^^xsd:string .
+
+    dbr:Bauhinia a atmVocab:nomGenre ;
+        rdfs:label "Bauhinia"^^xsd:string .
+
+    dbr:Boerhavia a atmVocab:nomGenre ;
+        rdfs:label "Boerhavia"^^xsd:string .
+
+    dbr:Bombax a atmVocab:nomGenre ;
+        rdfs:label "Bombax"^^xsd:string .
+
+    dbr:Borassus a atmVocab:nomGenre ;
+        rdfs:label "Borassus"^^xsd:string .
+
+    dbr:Borreria a atmVocab:nomGenre ;
+        rdfs:label "Borreria"^^xsd:string .
+
+    dbr:Boscia a atmVocab:nomGenre ;
+        rdfs:label "Boscia"^^xsd:string .
+
+    dbr:Butyrospermum a atmVocab:nomGenre ;
+        rdfs:label "Butyrospermum"^^xsd:string .
+
+    dbr:Cadaba a atmVocab:nomGenre ;
+        rdfs:label "Cadaba"^^xsd:string .
+
+    dbr:Calotropis a atmVocab:nomGenre ;
+        rdfs:label "Calotropis"^^xsd:string .
+
+    dbr:Capparis a atmVocab:nomGenre ;
+        rdfs:label "Capparis"^^xsd:string .
+
+    dbr:Capsicum a atmVocab:nomGenre ;
+        rdfs:label "Capsicum"^^xsd:string .
+
+    dbr:Carapa a atmVocab:nomGenre ;
+        rdfs:label "Carapa"^^xsd:string .
+
+    dbr:Carica a atmVocab:nomGenre ;
+        rdfs:label "Carica"^^xsd:string .
+
+    dbr:Carissa a atmVocab:nomGenre ;
+        rdfs:label "Carissa"^^xsd:string .
+
+    dbr:Cassia a atmVocab:nomGenre ;
+        rdfs:label "Cassia"^^xsd:string .
+
+    dbr:Casuarina a atmVocab:nomGenre ;
+        rdfs:label "Casuarina"^^xsd:string .
+
+    dbr:Ceiba a atmVocab:nomGenre ;
+        rdfs:label "Ceiba"^^xsd:string .
+
+    dbr:Celtis a atmVocab:nomGenre ;
+        rdfs:label "Celtis"^^xsd:string .
+
+    dbr:Centaurea a atmVocab:nomGenre ;
+        rdfs:label "Centaurea"^^xsd:string .
+
+    dbr:Centella a atmVocab:nomGenre ;
+        rdfs:label "Centella"^^xsd:string .
+
+    dbr:Chromolaena a atmVocab:nomGenre ;
+        rdfs:label "Chromolaena"^^xsd:string .
+
+    dbr:Chrozophora a atmVocab:nomGenre ;
+        rdfs:label "Chrozophora"^^xsd:string .
+
+    dbr:Cisampelos a atmVocab:nomGenre ;
+        rdfs:label "Cisampelos"^^xsd:string .
+
+    dbr:Cissus a atmVocab:nomGenre ;
+        rdfs:label "Cissus"^^xsd:string .
+
+    dbr:Citrus a atmVocab:nomGenre ;
+        rdfs:label "Citrus"^^xsd:string .
+
+    dbr:Cleome a atmVocab:nomGenre ;
+        rdfs:label "Cleome"^^xsd:string .
+
+    dbr:Cochlospermum a atmVocab:nomGenre ;
+        rdfs:label "Cochlospermum"^^xsd:string .
+
+    dbr:Cola a atmVocab:nomGenre ;
+        rdfs:label "Cola"^^xsd:string .
+
+    dbr:Combretum a atmVocab:nomGenre ;
+        rdfs:label "Combretum"^^xsd:string .
+
+    dbr:Commelina a atmVocab:nomGenre ;
+        rdfs:label "Commelina"^^xsd:string .
+
+    dbr:Commiphora a atmVocab:nomGenre ;
+        rdfs:label "Commiphora"^^xsd:string .
+
+    dbr:Cordyla a atmVocab:nomGenre ;
+        rdfs:label "Cordyla"^^xsd:string .
+
+    dbr:Crateva a atmVocab:nomGenre ;
+        rdfs:label "Crateva"^^xsd:string .
+
+    dbr:Crossopterix a atmVocab:nomGenre ;
+        rdfs:label "Crossopterix"^^xsd:string .
+
+    dbr:Crotolaria a atmVocab:nomGenre ;
+        rdfs:label "Crotolaria"^^xsd:string .
+
+    dbr:Cucubita a atmVocab:nomGenre ;
+        rdfs:label "Cucubita"^^xsd:string .
+
+    dbr:Cymbopogon a atmVocab:nomGenre ;
+        rdfs:label "Cymbopogon"^^xsd:string .
+
+    dbr:Cyperus a atmVocab:nomGenre ;
+        rdfs:label "Cyperus"^^xsd:string .
+
+    dbr:Dactylectonium a atmVocab:nomGenre ;
+        rdfs:label "Dactylectonium"^^xsd:string .
+
+    dbr:Dalbergia a atmVocab:nomGenre ;
+        rdfs:label "Dalbergia"^^xsd:string .
+
+    dbr:Daniella a atmVocab:nomGenre ;
+        rdfs:label "Daniella"^^xsd:string .
+
+    dbr:Datura a atmVocab:nomGenre ;
+        rdfs:label "Datura"^^xsd:string .
+
+    dbr:Detarium a atmVocab:nomGenre ;
+        rdfs:label "Detarium"^^xsd:string .
+
+    dbr:Dialium a atmVocab:nomGenre ;
+        rdfs:label "Dialium"^^xsd:string .
+
+    dbr:Diospyros a atmVocab:nomGenre ;
+        rdfs:label "Diospyros"^^xsd:string .
+
+    dbr:Dodonea a atmVocab:nomGenre ;
+        rdfs:label "Dodonea"^^xsd:string .
+
+    dbr:Dycrostachys a atmVocab:nomGenre ;
+        rdfs:label "Dycrostachys"^^xsd:string .
+
+    dbr:Elaeis a atmVocab:nomGenre ;
+        rdfs:label "Elaeis"^^xsd:string .
+
+    dbr:Entada a atmVocab:nomGenre ;
+        rdfs:label "Entada"^^xsd:string .
+
+    dbr:Euphorbia a atmVocab:nomGenre ;
+        rdfs:label "Euphorbia"^^xsd:string .
+
+    dbr:Fagara a atmVocab:nomGenre ;
+        rdfs:label "Fagara"^^xsd:string .
+
+    dbr:Feretia a atmVocab:nomGenre ;
+        rdfs:label "Feretia"^^xsd:string .
+
+    dbr:Ficus a atmVocab:nomGenre ;
+        rdfs:label "Ficus"^^xsd:string .
+
+    dbr:Fluggea a atmVocab:nomGenre ;
+        rdfs:label "Fluggea"^^xsd:string .
+
+    dbr:Gardenia a atmVocab:nomGenre ;
+        rdfs:label "Gardenia"^^xsd:string .
+
+    dbr:Gossypum a atmVocab:nomGenre ;
+        rdfs:label "Gossypum"^^xsd:string .
+
+    dbr:Grewia a atmVocab:nomGenre ;
+        rdfs:label "Grewia"^^xsd:string .
+
+    dbr:Guiera a atmVocab:nomGenre ;
+        rdfs:label "Guiera"^^xsd:string .
+
+    dbr:Heeria a atmVocab:nomGenre ;
+        rdfs:label "Heeria"^^xsd:string .
+
+    dbr:Hibiscus a atmVocab:nomGenre ;
+        rdfs:label "Hibiscus"^^xsd:string .
+
+    dbr:Hippocratea a atmVocab:nomGenre ;
+        rdfs:label "Hippocratea"^^xsd:string .
+
+    dbr:Holarrhena a atmVocab:nomGenre ;
+        rdfs:label "Holarrhena"^^xsd:string .
+
+    dbr:Hoslundia a atmVocab:nomGenre ;
+        rdfs:label "Hoslundia"^^xsd:string .
+
+    dbr:Hymenocardia a atmVocab:nomGenre ;
+        rdfs:label "Hymenocardia"^^xsd:string .
+
+    dbr:Hyptis a atmVocab:nomGenre ;
+        rdfs:label "Hyptis"^^xsd:string .
+
+    dbr:Icacina a atmVocab:nomGenre ;
+        rdfs:label "Icacina"^^xsd:string .
+
+    dbr:Indigofera a atmVocab:nomGenre ;
+        rdfs:label "Indigofera"^^xsd:string .
+
+    dbr:Ipomea a atmVocab:nomGenre ;
+        rdfs:label "Ipomea"^^xsd:string .
+
+    dbr:Jatropha a atmVocab:nomGenre ;
+        rdfs:label "Jatropha"^^xsd:string .
+
+    dbr:Khaya a atmVocab:nomGenre ;
+        rdfs:label "Khaya"^^xsd:string .
+
+    dbr:Kigelia a atmVocab:nomGenre ;
+        rdfs:label "Kigelia"^^xsd:string .
+
+    dbr:Landolphia a atmVocab:nomGenre ;
+        rdfs:label "Landolphia"^^xsd:string .
+
+    dbr:Lannea a atmVocab:nomGenre ;
+        rdfs:label "Lannea"^^xsd:string .
+
+    dbr:Lantana a atmVocab:nomGenre ;
+        rdfs:label "Lantana"^^xsd:string .
+
+    dbr:Lawsonia a atmVocab:nomGenre ;
+        rdfs:label "Lawsonia"^^xsd:string .
+
+    dbr:Leptadenia a atmVocab:nomGenre ;
+        rdfs:label "Leptadenia"^^xsd:string .
+
+    dbr:Lippia a atmVocab:nomGenre ;
+        rdfs:label "Lippia"^^xsd:string .
+
+    dbr:Luffa a atmVocab:nomGenre ;
+        rdfs:label "Luffa"^^xsd:string .
+
+    dbr:Lycopersicum a atmVocab:nomGenre ;
+        rdfs:label "Lycopersicum"^^xsd:string .
+
+    dbr:Macrosphyra a atmVocab:nomGenre ;
+        rdfs:label "Macrosphyra"^^xsd:string .
+
+    dbr:Mangifera a atmVocab:nomGenre ;
+        rdfs:label "Mangifera"^^xsd:string .
+
+    dbr:Manihot a atmVocab:nomGenre ;
+        rdfs:label "Manihot"^^xsd:string .
+
+    dbr:Maytenus a atmVocab:nomGenre ;
+        rdfs:label "Maytenus"^^xsd:string .
+
+    dbr:Mentha a atmVocab:nomGenre ;
+        rdfs:label "Mentha"^^xsd:string .
+
+    dbr:Mimosa a atmVocab:nomGenre ;
+        rdfs:label "Mimosa"^^xsd:string .
+
+    dbr:Mitracarpus a atmVocab:nomGenre ;
+        rdfs:label "Mitracarpus"^^xsd:string .
+
+    dbr:Mitragyna a atmVocab:nomGenre ;
+        rdfs:label "Mitragyna"^^xsd:string .
+
+    dbr:Moghania a atmVocab:nomGenre ;
+        rdfs:label "Moghania"^^xsd:string .
+
+    dbr:Momordica a atmVocab:nomGenre ;
+        rdfs:label "Momordica"^^xsd:string .
+
+    dbr:Morinda a atmVocab:nomGenre ;
+        rdfs:label "Morinda"^^xsd:string .
+
+    dbr:Moringa a atmVocab:nomGenre ;
+        rdfs:label "Moringa"^^xsd:string .
+
+    dbr:Nauclea a atmVocab:nomGenre ;
+        rdfs:label "Nauclea"^^xsd:string .
+
+    dbr:Neocarya a atmVocab:nomGenre ;
+        rdfs:label "Neocarya"^^xsd:string .
+
+    dbr:Newbouldia a atmVocab:nomGenre ;
+        rdfs:label "Newbouldia"^^xsd:string .
+
+    dbr:Nicotiana a atmVocab:nomGenre ;
+        rdfs:label "Nicotiana"^^xsd:string .
+
+    dbr:Ocimum a atmVocab:nomGenre ;
+        rdfs:label "Ocimum"^^xsd:string .
+
+    dbr:Opuntia a atmVocab:nomGenre ;
+        rdfs:label "Opuntia"^^xsd:string .
+
+    dbr:Oxynanthera a atmVocab:nomGenre ;
+        rdfs:label "Oxynanthera"^^xsd:string .
+
+    dbr:Parinari a atmVocab:nomGenre ;
+        rdfs:label "Parinari"^^xsd:string .
+
+    dbr:Parkia a atmVocab:nomGenre ;
+        rdfs:label "Parkia"^^xsd:string .
+
+    dbr:Parkinsonia a atmVocab:nomGenre ;
+        rdfs:label "Parkinsonia"^^xsd:string .
+
+    dbr:Passiflora a atmVocab:nomGenre ;
+        rdfs:label "Passiflora"^^xsd:string .
+
+    dbr:Pennisetum a atmVocab:nomGenre ;
+        rdfs:label "Pennisetum"^^xsd:string .
+
+    dbr:Pergularia a atmVocab:nomGenre ;
+        rdfs:label "Pergularia"^^xsd:string .
+
+    dbr:Phillantus a atmVocab:nomGenre ;
+        rdfs:label "Phillantus"^^xsd:string .
+
+    dbr:Piliostigma a atmVocab:nomGenre ;
+        rdfs:label "Piliostigma"^^xsd:string .
+
+    dbr:Prosopis a atmVocab:nomGenre ;
+        rdfs:label "Prosopis"^^xsd:string .
+
+    dbr:Psidium a atmVocab:nomGenre ;
+        rdfs:label "Psidium"^^xsd:string .
+
+    dbr:Pterocarpus a atmVocab:nomGenre ;
+        rdfs:label "Pterocarpus"^^xsd:string .
+
+    dbr:Pupalia a atmVocab:nomGenre ;
+        rdfs:label "Pupalia"^^xsd:string .
+
+    dbr:Raphia a atmVocab:nomGenre ;
+        rdfs:label "Raphia"^^xsd:string .
+
+    dbr:Rauwolfia a atmVocab:nomGenre ;
+        rdfs:label "Rauwolfia"^^xsd:string .
+
+    dbr:Saba a atmVocab:nomGenre ;
+        rdfs:label "Saba"^^xsd:string .
+
+    dbr:Sapindus a atmVocab:nomGenre ;
+        rdfs:label "Sapindus"^^xsd:string .
+
+    dbr:Sclerocarya a atmVocab:nomGenre ;
+        rdfs:label "Sclerocarya"^^xsd:string .
+
+    dbr:Scoparia a atmVocab:nomGenre ;
+        rdfs:label "Scoparia"^^xsd:string .
+
+    dbr:Securidaca a atmVocab:nomGenre ;
+        rdfs:label "Securidaca"^^xsd:string .
+
+    dbr:Sesamum a atmVocab:nomGenre ;
+        rdfs:label "Sesamum"^^xsd:string .
+
+    dbr:Sorghum a atmVocab:nomGenre ;
+        rdfs:label "Sorghum"^^xsd:string .
+
+    dbr:Sterculia a atmVocab:nomGenre ;
+        rdfs:label "Sterculia"^^xsd:string .
+
+    dbr:Stereospermum a atmVocab:nomGenre ;
+        rdfs:label "Stereospermum"^^xsd:string .
+
+    dbr:Strophantus a atmVocab:nomGenre ;
+        rdfs:label "Strophantus"^^xsd:string .
+
+    dbr:Strychnos a atmVocab:nomGenre ;
+        rdfs:label "Strychnos"^^xsd:string .
+
+    dbr:Sygizium a atmVocab:nomGenre ;
+        rdfs:label "Sygizium"^^xsd:string .
+
+    dbr:Tamarindus a atmVocab:nomGenre ;
+        rdfs:label "Tamarindus"^^xsd:string .
+
+    dbr:Terminalia a atmVocab:nomGenre ;
+        rdfs:label "Terminalia"^^xsd:string .
+
+    dbr:Tinospora a atmVocab:nomGenre ;
+        rdfs:label "Tinospora"^^xsd:string .
+
+    dbr:Trema a atmVocab:nomGenre ;
+        rdfs:label "Trema"^^xsd:string .
+
+    dbr:Tribulus a atmVocab:nomGenre ;
+        rdfs:label "Tribulus"^^xsd:string .
+
+    dbr:Trichillia a atmVocab:nomGenre ;
+        rdfs:label "Trichillia"^^xsd:string .
+
+    dbr:Vernonia a atmVocab:nomGenre ;
+        rdfs:label "Vernonia"^^xsd:string .
+
+    dbr:Vetiveria a atmVocab:nomGenre ;
+        rdfs:label "Vetiveria"^^xsd:string .
+
+    dbr:Vigna a atmVocab:nomGenre ;
+        rdfs:label "Vigna"^^xsd:string .
+
+    dbr:Vitex a atmVocab:nomGenre ;
+        rdfs:label "Vitex"^^xsd:string .
+
+    dbr:Waltheria a atmVocab:nomGenre ;
+        rdfs:label "Waltheria"^^xsd:string .
+
+    dbr:Ximenia a atmVocab:nomGenre ;
+        rdfs:label "Ximenia"^^xsd:string .
+
+    dbr:Xylopia a atmVocab:nomGenre ;
+        rdfs:label "Xylopia"^^xsd:string .
+
+    dbr:Zea a atmVocab:nomGenre ;
+        rdfs:label "Zea"^^xsd:string .
+
+    dbr:Ziziphus a atmVocab:nomGenre ;
+        rdfs:label "Ziziphus"^^xsd:string .
+}
+
